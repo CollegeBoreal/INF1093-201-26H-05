@@ -4,16 +4,14 @@ INF1093 (201) - Programmation 2
 
 
 
-Déroulement du cours
+## 📜 Déroulement du cours
+
 Le déroulement peut être modifié au besoin. La personne étudiante sera avisée.
-Semaines Activités / Thèmes
-Ressources /
-module
-1
-Notation Big O
-Mesurer l’efficacité d’un algorithme
-Notes de cours en
-ligne
+
+| Semaines | Activités/Thèmes | Ressources/module |
+|-|-|-|
+| 1 | **Notation Big O** Mesurer l’efficacité d’un algorithme | Notes de cours en ligne |
+
 2
 Entrée/sortie
 Traitement entrée/sortie sur fichiers
