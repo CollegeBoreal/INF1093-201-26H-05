@@ -10,20 +10,11 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 
 | Smnes | Activités/Thèmes | Ressources/module |
 |-|-|-|
-| 1️⃣ | **Notation Big O** - Mesurer l’efficacité d’un algorithme | Notes de cours en ligne |
-| 2️⃣ | **Entrée/sortie** - Traitement entrée/sortie sur fichiers _Travail_ | Notes de cours en ligne |
+| 1️⃣ | **Notation Big O** - Mesurer l’efficacité d’un algorithme                | Notes de cours en ligne |
+| 2️⃣ | **Entrée/sortie** - Traitement entrée/sortie sur fichiers _Travail_      | Notes de cours en ligne |
 | 3️⃣ | **Tris variés (insertion, shell, quick)** - Algorithmes de tri _Travail_ | Notes de cours en ligne |
-4
-Remise des travaux
-Évaluation sommative
-Notes de cours en
-ligne
-5
-Hashing, Dictionnaires
-Hashing
-Travail
-Notes de cours en
-ligne
+| 4️⃣ | Remise des travaux - _Évaluation sommative_                              | Notes de cours en ligne |
+| 5️⃣ | **Hashing, Dictionnaires** - Hashing _Travail_                           | Notes de cours en ligne |
 6
 Programmation OOP
 Programmation Orientée-Objet
