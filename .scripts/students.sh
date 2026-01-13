@@ -53,7 +53,7 @@ iba-kane   # 300155488
 octocat   # 300155504
 octocat   # 300155606
 rougaiyatoudiallo   # 300156627
-hamdan   # 300157287
+cheikau   # 300157287
 octocat   # 300157301
 octocat   # 300157330
 octocat   # 300157374
