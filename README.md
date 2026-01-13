@@ -57,5 +57,5 @@ ligne
 
 # :books: References
 
-- [INF1039 18A](https://github.com/CollegeBoreal/INF1039-202-18A-01
-- [INF1039 17A](https://github.com/CollegeBoreal/INF1039-201-17A-02
+- [INF1039 18A](https://github.com/CollegeBoreal/INF1039-202-18A-01)
+- [INF1039 17A](https://github.com/CollegeBoreal/INF1039-201-17A-02)
