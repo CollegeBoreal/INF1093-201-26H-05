@@ -8,25 +8,11 @@ INF1093 (201) - Programmation 2
 
 Le déroulement peut être modifié au besoin. La personne étudiante sera avisée.
 
-| Semaines | Activités/Thèmes | Ressources/module |
+| Smnes | Activités/Thèmes | Ressources/module |
 |-|-|-|
-| :one: | **Notation Big O** - Mesurer l’efficacité d’un algorithme | Notes de cours en ligne |
-
-2
-Entrée/sortie
-Traitement entrée/sortie sur fichiers
-Travail
-Notes de cours en
-ligne
-3
-Tris variés (insertion, shell, quick)
-Algorithmes de tri
-Travail
-Notes de cours en
-ligne
-Semaines Activités / Thèmes
-Ressources /
-module
+| 1️⃣ | **Notation Big O** - Mesurer l’efficacité d’un algorithme | Notes de cours en ligne |
+| 2️⃣ | **Entrée/sortie** - Traitement entrée/sortie sur fichiers _Travail_ | Notes de cours en ligne |
+| 3️⃣ | **Tris variés (insertion, shell, quick)** - Algorithmes de tri _Travail_ | Notes de cours en ligne |
 4
 Remise des travaux
 Évaluation sommative
