@@ -10,7 +10,7 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 
 | Semaines | Activités/Thèmes | Ressources/module |
 |-|-|-|
-| 1 | **Notation Big O** Mesurer l’efficacité d’un algorithme | Notes de cours en ligne |
+| :one: | **Notation Big O** - Mesurer l’efficacité d’un algorithme | Notes de cours en ligne |
 
 2
 Entrée/sortie
