@@ -21,15 +21,9 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 |  9️⃣  | Évaluation sommative                                                                         | Notes de cours en ligne |
 | 1️⃣0️⃣ | **Divers styles de graph** - Structure de données complexes                                  | Notes de cours en ligne |
 | 1️⃣1️⃣ | **Recherche en largeur, profondeur, Dijkstra** - Algorithmes appliqués aux graphes _Travail_ | Notes de cours en ligne |
-
-12 Programmation dynamique
-Travail
-Notes de cours en
-ligne
-13 Remise de travaux
-Notes de cours en
-ligne
-14 Évaluation sommative
+| 1️⃣2️⃣ | **Programmation dynamique** _Travail_                                                        | Notes de cours en ligne |
+| 1️⃣3️⃣ | Remise des travaux - _Révision_                                                              | Notes de cours en ligne |
+| 1️⃣4️⃣ | Évaluation sommative                                                                         | Notes de cours en ligne |
 
 # :books: References
 
