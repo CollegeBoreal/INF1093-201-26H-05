@@ -9,43 +9,19 @@ INF1093 (201) - Programmation 2
 Le déroulement peut être modifié au besoin. La personne étudiante sera avisée.
 
 | Smnes | Activités/Thèmes | Ressources/module |
-|-|-|-|
-| 1️⃣ | **Notation Big O** - Mesurer l’efficacité d’un algorithme                | Notes de cours en ligne |
-| 2️⃣ | **Entrée/sortie** - Traitement entrée/sortie sur fichiers _Travail_      | Notes de cours en ligne |
-| 3️⃣ | **Tris variés (insertion, shell, quick)** - Algorithmes de tri _Travail_ | Notes de cours en ligne |
-| 4️⃣ | Remise des travaux - _Évaluation sommative_                              | Notes de cours en ligne |
-| 5️⃣ | **Hashing, Dictionnaires** - Hashing _Travail_                           | Notes de cours en ligne |
-6
-Programmation OOP
-Programmation Orientée-Objet
-Travail
-Notes de cours en
-ligne
-7
-Deque, etc
-Structures de données
-Travail
-Notes de cours en
-ligne
-8
-Remise des travaux
-Révision
-Notes de cours en
-ligne
-9 Évaluation sommative
-Notes de cours en
-ligne
-10
-Divers styles de graph
-Structure de données complexes
-Notes de cours en
-ligne
-11
-Recherche en largeur, profondeur, Dijkstra
-Algorithmes appliqués aux graphes
-Travail
-Notes de cours en
-ligne
+|-:|-|-|
+|  1️⃣  | **Notation Big O** - Mesurer l’efficacité d’un algorithme                                    | Notes de cours en ligne |
+|  2️⃣  | **Entrée/sortie** - Traitement entrée/sortie sur fichiers _Travail_                          | Notes de cours en ligne |
+|  3️⃣  | **Tris variés (insertion, shell, quick)** - Algorithmes de tri _Travail_                     | Notes de cours en ligne |
+|  4️⃣  | Remise des travaux - _Évaluation sommative_                                                  | Notes de cours en ligne |
+|  5️⃣  | **Hashing, Dictionnaires** - Hashing _Travail_                                               | Notes de cours en ligne |
+|  6️⃣  | **Programmation OOP** - Programmation Orientée-Objet _Travail_                               | Notes de cours en ligne |
+|  7️⃣  | **Deque, etc** - Structures de données _Travail_                                             | Notes de cours en ligne |
+|  8️⃣  | Remise des travaux - _Révision_                                                              | Notes de cours en ligne |
+|  9️⃣  | Évaluation sommative                                                                         | Notes de cours en ligne |
+| 1️⃣0️⃣ | **Divers styles de graph** - Structure de données complexes                                  | Notes de cours en ligne |
+| 1️⃣1️⃣ | **Recherche en largeur, profondeur, Dijkstra** - Algorithmes appliqués aux graphes _Travail_ | Notes de cours en ligne |
+
 12 Programmation dynamique
 Travail
 Notes de cours en
