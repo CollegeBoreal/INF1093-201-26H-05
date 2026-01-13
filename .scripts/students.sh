@@ -34,6 +34,39 @@ ETUDIANTS=(
 )
 
 IDS=(
+wassimbnr # 300150564
+octocat   # 300151262
+octocat   # 300151505
+octocat   # 300151545
+octocat   # 300151588
+octocat   # 300151589
+octocat   # 300151781
+octocat   # 300151835
+octocat   # 300151838
+octocat   # 300153417
+octocat   # 300153676
+octocat   # 300153710
+octocat   # 300154142
+chouaibait # 300155045
+maimounadiallo   # 300155187
+iba-kane   # 300155488
+octocat   # 300155504
+octocat   # 300155606
+rougaiyatoudiallo   # 300156627
+hamdan   # 300157287
+octocat   # 300157301
+octocat   # 300157330
+octocat   # 300157374
+octocat   # 300157424
+kadermessalif-coder   # 300157734
+djemadimelissa2004-cyber   # 300158035
+octocat   # 300158058
+octocat   # 300158185
+octocat   # 300158486
+octocat   # 300159189
+)
+
+IDS1=(
 yourten06
 azzed98
 ibkourouma
