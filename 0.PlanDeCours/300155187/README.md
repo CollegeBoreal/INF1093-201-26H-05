@@ -3,4 +3,4 @@
 
 
 
-<img src="WhatsApp Image 2026-01-08 at 17.46.10.jpeg" alt="BELLA" width='100%' height='50%'>
+<img src="WhatsApp Image 2026-01-08 at 17.46.10.jpeg" alt="BELLA" width='50%' height='20%'>
