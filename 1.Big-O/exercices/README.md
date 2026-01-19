@@ -25,6 +25,24 @@ logn  | .
       +--------------------------------→ n
 ```
 
+```mermaid
+graph LR
+    O1["O(1) ⚡ Constant"]
+    Olog["O(log n) 📈 Logarithmique"]
+    On["O(n) 🟢 Linéaire"]
+    Onlog["O(n log n) 🔵 Quasi-linéaire"]
+    On2["O(n²) 🔶 Quadratique"]
+    O2n["O(2ⁿ) 🚨 Exponentielle"]
+    Onf["O(n!) 💥 Factorielle"]
+
+    O1 --> Olog
+    Olog --> On
+    On --> Onlog
+    Onlog --> On2
+    On2 --> O2n
+    O2n --> Onf
+```
+
 👉 Plus une courbe monte vite, **moins l’algorithme est scalable**.
 
 ---
