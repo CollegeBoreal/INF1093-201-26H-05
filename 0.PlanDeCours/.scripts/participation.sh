@@ -40,7 +40,7 @@ for entry in "${ETUDIANTS[@]}"; do
 
    IFS='|' read -r id github avatar <<< "$entry"
 
-   URL="[${id}](https://github.com/${github}) <image src='https://avatars0.githubusercontent.com/u/${avatar}?s=460&v=4' width=20 height=20></image>"
+   URL="[${github}](https://github.com/${github}) <image src='https://avatars0.githubusercontent.com/u/${avatar}?s=460&v=4' width=20 height=20></image>"
 
    FILE=${id}/README.md
    FOLDER=${id}/images
