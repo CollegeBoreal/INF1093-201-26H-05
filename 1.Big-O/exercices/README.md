@@ -75,12 +75,25 @@ flowchart TB
 ```
 
 ```mermaid
-xyChart-beta
-    title "Croissance des algorithmes (Big-O)"
-    x-axis [1, 2, 3, 4, 5, 6, 7]
-    y-axis "Temps / Complexité" 0 --> 100
-    line [5, 10, 20, 35, 60, 85, 100]
-    labels ["O(1) ⚡", "O(log n) 📈", "O(n) 🟢", "O(n log n) 🔵", "O(n²) 🔶", "O(2ⁿ) 🚨", "O(n!) 💥"]
+graph LR
+    style X fill:none,stroke:none
+    style Y fill:none,stroke:none
+
+    X["Taille des données →"]:::axis
+    Y["Temps / Complexité ↑"]:::axis
+
+    O1["⚡ O(1)"]:::point
+    Olog["📈 O(log n)"]:::point
+    On["🟢 O(n)"]:::point
+    Onlog["🔵 O(n log n)"]:::point
+    On2["🔶 O(n²)"]:::point
+    O2n["🚨 O(2ⁿ)"]:::point
+    Onf["💥 O(n!)"]:::point
+
+    X --> O1 --> Olog --> On --> Onlog --> On2 --> O2n --> Onf
+
+    classDef axis fill:none,stroke:none,font-weight:bold;
+    classDef point fill:#f0f8ff,stroke:#333,stroke-width:1px,font-weight:bold;
 ```
 
 👉 Plus une courbe monte vite, **moins l’algorithme est scalable**.
