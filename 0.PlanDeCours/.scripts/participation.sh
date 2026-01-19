@@ -36,9 +36,12 @@ echo "|------|----------------------------|--------------|--------|"
 i=0
 s=0
 
-for id in "${ETUDIANTS[@]}"
-do
-   URL="[${IDS[${i}]}](https://github.com/${IDS[${i}]}) <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image>"
+for entry in "${ETUDIANTS[@]}"; do
+
+   IFS='|' read -r id github avatar <<< "$entry"
+
+   URL="[${id}](https://github.com/${github}) <image src='https://avatars0.githubusercontent.com/u/${avatar}?s=460&v=4' width=20 height=20></image>"
+
    FILE=${id}/README.md
    FOLDER=${id}/images
    OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :x: |"
