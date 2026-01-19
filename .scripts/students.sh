@@ -11,7 +11,7 @@ ETUDIANTS=(
    "300151835|benhammoucheliza928-eng|255944310"
    "300151838|rymabenhamouche3-coder|231501651"
    "300153417|akramrmh|231500599"
-   "300153676|octocat|583231"
+   "300153676|lyes-ik|255968971"
    "300153710|octocat|583231"
    "300154142|maouchimedchafik-lgtm|236670216"
    "300155045|chouaibait|232956639"
