@@ -1,4 +1,4 @@
-# Participation au 19-01-2026 20:53
+# Participation au 19-01-2026 20:55
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -44,6 +44,6 @@
 | 25 | [300158035](../300158035/README.md) :point_right: [djemadimelissa2004-cyber](https://github.com/djemadimelissa2004-cyber) <image src='https://avatars0.githubusercontent.com/u/236510494?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 26 | [300158058](../300158058/README.md) :point_right: [rabah-ik](https://github.com/rabah-ik) <image src='https://avatars0.githubusercontent.com/u/255966334?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 27 | [300158185](../300158185/README.md) :point_right: [octocat](https://github.com/octocat) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| 28 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :x: | :x: |
+| 28 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 29 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | :abacus: |  $\frac{8}{30}$  =  26% | $\displaystyle\sum_{i=1}^{30} s_i$ = 8 |
