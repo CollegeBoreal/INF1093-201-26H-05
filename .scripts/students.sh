@@ -15,7 +15,7 @@ ETUDIANTS=(
    "300153710|octocat|583231"
    "300154142|octocat|583231"
    "300155045|chouaibait|232956639"
-   "300155187|maimounadiallo|74478154"
+   "300155187|MaimounaBella|231571253"
    "300155488|iba-kane|122100786"
    "300155504|octocat|583231"
    "300155606|octocat|583231"
