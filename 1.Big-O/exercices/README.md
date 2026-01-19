@@ -74,6 +74,30 @@ flowchart TB
     classDef point fill:#f0f8ff,stroke:#333,stroke-width:1px,font-weight:bold;
 ```
 
+```mermaid
+%% Mermaid XY Chart Beta - Complexité Big-O
+%% Axe X = taille des données (n)
+%% Axe Y = temps / complexité
+%% Les valeurs sont symboliques pour montrer la tendance
+
+xychart-beta
+    title "Croissance des algorithmes (Big-O)"
+    x-axis [1, 2, 3, 4, 5, 6, 7]  %% tailles de données symboliques
+    y-axis "Temps / Complexité" 0 --> 100
+
+    line [
+        5,   %% O(1) ⚡
+        10,  %% O(log n) 📈
+        20,  %% O(n) 🟢
+        35,  %% O(n log n) 🔵
+        60,  %% O(n²) 🔶
+        85,  %% O(2ⁿ) 🚨
+        100   %% O(n!) 💥
+    ]
+    markers ["⚡", "📈", "🟢", "🔵", "🔶", "🚨", "💥"]
+
+```
+
 👉 Plus une courbe monte vite, **moins l’algorithme est scalable**.
 
 ---
