@@ -76,7 +76,7 @@ with open("entree.txt", "r") as f_in, open("sortie.txt", "w") as f_out:
 
 ### Contexte
 
-Vous recevez un fichier `etudiants.txt` contenant une liste d’étudiant.e.s et leurs notes.
+Vous créez un fichier `etudiants.txt` contenant une liste d’étudiant.e.s et leurs notes.
 
 **Exemple :**
 
@@ -100,7 +100,7 @@ Charlie 91
 
 * Utilisation de **Python** pour le traitement
 * Utilisation de **PowerShell** pour les redirections et tests de flux
-* Script exécutable (`.py`)
+* Script exécutable (`IO.py`)
 
 ---
 
