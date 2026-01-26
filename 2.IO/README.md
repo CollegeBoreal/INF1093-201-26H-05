@@ -1,6 +1,17 @@
 # 2️⃣ I/O (Input/Output)
 
-## Traitement des entrées/sorties sur fichiers – Travail pratique (PowerShell + Python)
+[:tada: Participation](.scripts/Participation.md)
+
+## :a: Devoir
+
+:round_pushpin: Créer une page 
+
+- [ ] créer un répertoire avec son :id: et ajouter le fichier `README.md`
+- [ ] créer un répertoire dans son répertoire :id:, ajouter le répertoire `images` et ajouter le fichier `.gitkeep`
+- [ ] Ajouter des images dans le répertoire `images`
+- [ ] Ajouter les images au fichier `README.md`
+
+## :b: Traitement des entrées/sorties sur fichiers – Travail pratique (PowerShell + Python)
 
 ### Objectifs pédagogiques
 
