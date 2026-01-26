@@ -6,6 +6,7 @@
 
 - [ ] créer un répertoire avec son :id: et ajouter le fichier `README.md`
 - [ ] créer un répertoire dans son répertoire :id:, ajouter le répertoire `images` et ajouter le fichier `.gitkeep`
+- [ ] suivre les étapes ci-dessous dans votre répertoire :id:
 
 ## :a: Traitement des entrées/sorties sur fichiers – Travail pratique (PowerShell + Python)
 
