@@ -47,7 +47,7 @@ Get-Process -Name NomInexistant 2> erreurs.txt
 ### 2.2 Pipes
 
 ```powershell
-Get-Content fichier.txt | Select-String "ERROR" | Measure-Object
+Get-Content erreurs.txt | Select-String "Cannot" | Measure-Object
 ```
 
 ---
