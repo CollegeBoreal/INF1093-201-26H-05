@@ -46,10 +46,10 @@
 
 ```powershell
 # Écriture dans un fichier (remplace le contenu existant)
-Get-Process > sortie.txt
+Get-Process > fichier.txt
 
 # Ajout à un fichier existant
-Get-Process >> sortie.txt
+Get-Process >> fichier.txt
 
 # Redirection des erreurs
 Get-Process -Name NomInexistant 2> erreurs.txt
@@ -75,6 +75,9 @@ with open("fichier.txt", "r") as f:
 
 ### 3.2 Lecture et écriture
 
+- [ ] prenez l'exemple du contenu du ficher `etudiants.txt` ci-dessous et mettez le dans le fichier `entree.txt`
+- [ ] exécuter ce code ci-dessous dans 🐍 `Python`
+
 ```python
 with open("entree.txt", "r") as f_in, open("sortie.txt", "w") as f_out:
     for ligne in f_in:
@@ -89,7 +92,7 @@ with open("entree.txt", "r") as f_in, open("sortie.txt", "w") as f_out:
 
 Vous créez un fichier `etudiants.txt` contenant une liste d’étudiant.e.s et leurs notes.
 
-**Exemple :**
+**Exemple :** (Utilisez votre propre contenu)
 
 ```
 Alice 85
