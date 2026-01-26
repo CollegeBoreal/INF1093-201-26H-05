@@ -25,6 +25,21 @@ jobs:
           cd 0.PlanDeCours
           bash .scripts/run.sh
           cd ..
+          ##
+          ## Evaluating chapter P.Programmation/1.IDE
+          ## 
+          echo "Evaluating chapter P.Programmation/1.IDE Participation"
+          cd P.Programmation/1.IDE
+          bash .scripts/run.sh
+          cd ..
+          ##
+          ## Evaluating chapter P.Programmation/2.Jupyter
+          ##
+          echo "Evaluating chapter P.Programmation/2.Jupyter Participation"
+          cd P.Programmation/2.Jupyter
+          bash .scripts/run.sh
+          cd ..
+
 
 
       - name: Commit files
