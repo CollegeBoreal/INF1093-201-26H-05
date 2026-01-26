@@ -2,16 +2,7 @@
 
 [:tada: Participation](.scripts/Participation.md)
 
-## :a: Devoir
-
-:round_pushpin: Créer une page 
-
-- [ ] créer un répertoire avec son :id: et ajouter le fichier `README.md`
-- [ ] créer un répertoire dans son répertoire :id:, ajouter le répertoire `images` et ajouter le fichier `.gitkeep`
-- [ ] Ajouter des images dans le répertoire `images`
-- [ ] Ajouter les images au fichier `README.md`
-
-## :b: Traitement des entrées/sorties sur fichiers – Travail pratique (PowerShell + Python)
+## :a: Traitement des entrées/sorties sur fichiers – Travail pratique (PowerShell + Python)
 
 ### Objectifs pédagogiques
 
@@ -118,12 +109,20 @@ Charlie 91
 
 ---
 
-## 5. Remise
+## :a: Devoir
 
-* Script Python (`IO.py`) et Notebook (`RAPPORT.ipynb`)
-* Fichiers d’entrée `etudiants.txt` et de sortie `resultats.txt`
-* Court `README.md` expliquant le fonctionnement
-* Afficher un diagramme des notes dans Jupyter Notebook
+:round_pushpin: Créer une page 
+
+- [ ] créer un répertoire avec son :id: et ajouter le fichier `README.md`
+- [ ] créer un répertoire dans son répertoire :id:, ajouter le répertoire `images` et ajouter le fichier `.gitkeep`
+
+--- 
+
+- [ ] Script Python (`IO.py`) et Jupyter Notebook (`RAPPORT.ipynb`)
+- [ ] Fichiers d’entrée `etudiants.txt` et de sortie `resultats.txt`
+- [ ] Ajouter des images dans le répertoire `images` si nécessaire
+- [ ] Court `README.md` expliquant le fonctionnement
+- [ ] Afficher un diagramme des notes dans Jupyter Notebook
 
   <img src=images/moyenne.png width='50%' height='50%' > </img>
 
