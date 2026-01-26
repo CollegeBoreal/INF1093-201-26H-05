@@ -120,9 +120,12 @@ Charlie 91
 
 ## 5. Remise
 
-* Script Python (`IO.py`)
+* Script Python (`IO.py`) et Notebook (`RAPPORT.ipynb`)
 * Fichiers d’entrée `etudiants.txt` et de sortie `resultats.txt`
 * Court `README.md` expliquant le fonctionnement
+* Afficher un diagramme des notes dans Jupyter Notebook
+
+  <img src=images/moyenne.png width='50%' height='50%' > </img>
 
 ---
 
