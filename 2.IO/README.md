@@ -2,6 +2,11 @@
 
 [:tada: Participation](.scripts/Participation.md)
 
+:round_pushpin: Créer une page 
+
+- [ ] créer un répertoire avec son :id: et ajouter le fichier `README.md`
+- [ ] créer un répertoire dans son répertoire :id:, ajouter le répertoire `images` et ajouter le fichier `.gitkeep`
+
 ## :a: Traitement des entrées/sorties sur fichiers – Travail pratique (PowerShell + Python)
 
 ### Objectifs pédagogiques
@@ -110,13 +115,6 @@ Charlie 91
 ---
 
 ## :a: Devoir
-
-:round_pushpin: Créer une page 
-
-- [ ] créer un répertoire avec son :id: et ajouter le fichier `README.md`
-- [ ] créer un répertoire dans son répertoire :id:, ajouter le répertoire `images` et ajouter le fichier `.gitkeep`
-
---- 
 
 - [ ] Script Python (`IO.py`) et Jupyter Notebook (`RAPPORT.ipynb`)
 - [ ] Fichiers d’entrée `etudiants.txt` et de sortie `resultats.txt`
