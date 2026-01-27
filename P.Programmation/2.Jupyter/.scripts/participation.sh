@@ -30,8 +30,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | :id:/README.md    | :rocket: |"
-echo "|------|----------------------------|-------------------|----------|"
+echo "|:hash:| Boréal :id:                | :receipt: :id:/RAPPORT.ipynb  |"
+echo "|------|----------------------------|-------------------------------|"
 
 i=0
 s=0
@@ -42,17 +42,12 @@ for entry in "${ETUDIANTS[@]}"; do
 
    URL="[${github}](https://github.com/${github}) <image src='https://avatars0.githubusercontent.com/u/${avatar}?s=460&v=4' width=20 height=20></image>"
 
-   FILE=${id}/README.md
-   OK="| ${i} | [${id}](../${FILE}) ${URL} | :heavy_check_mark: | :heavy_check_mark: |"
-   KO_WEB="| ${i} | [${id}](../${FILE}) ${URL} | :heavy_check_mark: | :x: |"
-   KO="| ${i} | [${id}](../${FILE}) ${URL} | :x: | :x: |"
+   FILE=${id}/RAPPORT.ipynb
+   OK="| ${i} | [${id}](../${FILE}) ${URL} | :heavy_check_mark: |"
+   KO="| ${i} | [${id}](../${FILE}) ${URL} | :x: |"
    if [ -f "$FILE" ]; then
-       if git log --format=fuller -- ${FILE} | grep Author | grep -q "noreply"; then
-           echo ${KO_WEB}
-       else
-           echo ${OK}
-           let "s++"
-       fi
+       echo ${OK}
+       let "s++"
    else
        echo ${KO}
    fi
