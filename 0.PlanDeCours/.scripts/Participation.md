@@ -1,4 +1,4 @@
-# Participation au 29-01-2026 17:55
+# Participation au 30-01-2026 02:32
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -22,7 +22,7 @@
 | 3 | [300151545](../300151545/README.md) :point_right: [merselmohamed2003-star](https://github.com/merselmohamed2003-star) <image src='https://avatars0.githubusercontent.com/u/255948584?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 4 | [300151588](../300151588/README.md) :point_right: [belhAmine](https://github.com/belhAmine) <image src='https://avatars0.githubusercontent.com/u/58528251?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 5 | [300151589](../300151589/README.md) :point_right: [walidwolf31](https://github.com/walidwolf31) <image src='https://avatars0.githubusercontent.com/u/231501417?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 6 | [300151781](../300151781/README.md) :point_right: [lounesallouti](https://github.com/lounesallouti) <image src='https://avatars0.githubusercontent.com/u/257377074?s=460&v=4' width=20 height=20></image> | :x: | :x: |
+| 6 | [300151781](../300151781/README.md) :point_right: [lounesallouti](https://github.com/lounesallouti) <image src='https://avatars0.githubusercontent.com/u/257377074?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 7 | [300151835](../300151835/README.md) :point_right: [benhammoucheliza928-eng](https://github.com/benhammoucheliza928-eng) <image src='https://avatars0.githubusercontent.com/u/255944310?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 8 | [300151838](../300151838/README.md) :point_right: [rymabenhamouche3-coder](https://github.com/rymabenhamouche3-coder) <image src='https://avatars0.githubusercontent.com/u/231501651?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 9 | [300153417](../300153417/README.md) :point_right: [akramrmh](https://github.com/akramrmh) <image src='https://avatars0.githubusercontent.com/u/231500599?s=460&v=4' width=20 height=20></image> | :x: | :x: |
@@ -46,4 +46,4 @@
 | 27 | [300158185](../300158185/README.md) :point_right: [mohammed-mati](https://github.com/mohammed-mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 28 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 29 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| :abacus: |  $\frac{14}{30}$  =  46% | $\displaystyle\sum_{i=1}^{30} s_i$ = 14 |
+| :abacus: |  $\frac{15}{30}$  =  50% | $\displaystyle\sum_{i=1}^{30} s_i$ = 15 |
