@@ -15,7 +15,7 @@ Password: 4288450904
 
 One tap mobile
 8339581164,,82266112181# Canada Toll-free
-8557038985,,82266112181# Canada Toll-free
+8557038985,,82266112181# Canada Toll-fre
 
 Dial by your location
         833 958 1164 Canada Toll-free
