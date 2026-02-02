@@ -1,1 +1,14 @@
+Étudiants ayant une note ≥ 60 :
+Amine 78.0
+Sarah 92.0
+Lina 66.0
+Karim 81.0
+Omar 73.0
+Ines 88.0
+Hajar 64.0
+Sofiane 90.0
+Meriem 71.0
+Adel 60.0
+Rania 84.0
 
+Moyenne du groupe : 71.07
