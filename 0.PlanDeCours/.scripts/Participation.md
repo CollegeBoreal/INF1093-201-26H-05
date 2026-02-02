@@ -1,4 +1,4 @@
-# Participation au 02-02-2026 17:42
+# Participation au 02-02-2026 18:13
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -45,5 +45,5 @@
 | 26 | [300158058](../300158058/README.md) :point_right: [rabah-ik](https://github.com/rabah-ik) <image src='https://avatars0.githubusercontent.com/u/255966334?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 27 | [300158185](../300158185/README.md) :point_right: [mohammed-mati](https://github.com/mohammed-mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 28 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 29 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :x: | :x: |
+| 29 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | :abacus: |  $\frac{16}{30}$  =  53% | $\displaystyle\sum_{i=1}^{30} s_i$ = 16 |
