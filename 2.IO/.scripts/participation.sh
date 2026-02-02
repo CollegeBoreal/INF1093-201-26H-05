@@ -30,8 +30,9 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | README.md    | images |"
-echo "|------|----------------------------|--------------|--------|"
+echo "|:hash:| Boréal :id:                | README.md    | images | IO.py | RAPPORT.ipynb | etudiants.txt | resultats.txt |"
+echo "|------|----------------------------|--------------|--------|-------|---------------|---------------|---------------|"
+
 
 i=0
 s=0
@@ -44,24 +45,32 @@ for entry in "${ETUDIANTS[@]}"; do
 
    FILE=${id}/README.md
    FOLDER=${id}/images
-   OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :x: |"
-   FULL_OK="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :heavy_check_mark: | :heavy_check_mark: | "
-   KO="| ${i} | [${id}](../${FILE}) :point_right: ${URL} | :x: | :x: |"
-   if [ -f "$FILE" ]; then
-    ACTUAL_NAME="$(basename "$(realpath "$FILE")")"
-    if [[ "$ACTUAL_NAME" == "README.md" ]]; then
-        if [ -d "$FOLDER" ]; then
-                echo ${FULL_OK}
-                let "s++"
-        else
-            echo ${OK}
-        fi
-    else
-       echo ${KO}
-    fi
-   else
-       echo ${KO}
+   PY=${id}/IO.py
+   NB=${id}/RAPPORT.ipynb
+   IN=${id}/etudiants.txt
+   OUT=${id}/resultats.txt
+
+   check_file () {
+       [ -f "$1" ] && echo ":heavy_check_mark:" || echo ":x:"
+   }
+
+   check_dir () {
+       [ -d "$1" ] && echo ":heavy_check_mark:" || echo ":x:"
+   }
+
+   README_OK=$(check_file "$FILE")
+   IMG_OK=$(check_dir "$FOLDER")
+   PY_OK=$(check_file "$PY")
+   NB_OK=$(check_file "$NB")
+   IN_OK=$(check_file "$IN")
+   OUT_OK=$(check_file "$OUT")
+
+   echo "| ${i} | [${id}](../${FILE}) :point_right: ${URL} | ${README_OK} | ${IMG_OK} | ${PY_OK} | ${NB_OK} | ${IN_OK} | ${OUT_OK} |"
+
+   if [ "$README_OK$IMG_OK$PY_OK$NB_OK$IN_OK$OUT_OK" = ":heavy_check_mark::heavy_check_mark::heavy_check_mark::heavy_check_mark::heavy_check_mark::heavy_check_mark:" ]; then
+       let "s++"
    fi
+
    let "i++"
    COUNT="\$\\frac{${s}}{${i}}$"
    STATS=$(echo "$s*100/$i" | bc)
