@@ -1,4 +1,4 @@
-# Participation au 02-02-2026 18:17
+# Participation au 02-02-2026 18:18
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -17,7 +17,7 @@
 |:hash:| Boréal :id:                | :id:.md    | :rocket: |
 |------|----------------------------|------------|----------|
 | 0 | [300150564](../300150564.md) [wassimbnr](https://github.com/wassimbnr) <image src='https://avatars0.githubusercontent.com/u/102555452?s=460&v=4' width=20 height=20></image> | :x: |
-| 1 | [300151262](../300151262.md) [rifwil5-tech](https://github.com/rifwil5-tech) <image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image> | :x: |
+| 1 | [300151262](../300151262.md) [rifwil5-tech](https://github.com/rifwil5-tech) <image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 2 | [300151505](../300151505.md) [octocat](https://github.com/octocat) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: |
 | 3 | [300151545](../300151545.md) [merselmohamed2003-star](https://github.com/merselmohamed2003-star) <image src='https://avatars0.githubusercontent.com/u/255948584?s=460&v=4' width=20 height=20></image> | :x: |
 | 4 | [300151588](../300151588.md) [belhAmine](https://github.com/belhAmine) <image src='https://avatars0.githubusercontent.com/u/58528251?s=460&v=4' width=20 height=20></image> | :x: |
@@ -46,4 +46,4 @@
 | 27 | [300158185](../300158185.md) [mohammed-mati](https://github.com/mohammed-mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :x: |
 | 28 | [300158486](../300158486.md) [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :x: |
 | 29 | [300159189](../300159189.md) [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :x: |
-| :abacus: |  $\frac{0}{30}$  =  0% | $\displaystyle\sum_{i=1}^{30} s_i$ = 0 |
+| :abacus: |  $\frac{1}{30}$  =  3% | $\displaystyle\sum_{i=1}^{30} s_i$ = 1 |
