@@ -65,7 +65,7 @@ for entry in "${ETUDIANTS[@]}"; do
    IN_OK=$(check_file "$IN")
    OUT_OK=$(check_file "$OUT")
 
-   echo "| ${i} | [${id}](../${FILE}) :point_right: ${URL} | ${README_OK} | ${IMG_OK} | ${PY_OK} | ${NB_OK} | ${IN_OK} | ${OUT_OK} |"
+   echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_OK} | ${IMG_OK} | ${PY_OK} | [${NB_OK}](../${NB}) | ${IN_OK} | ${OUT_OK} |"
 
    if [ "$README_OK$IMG_OK$PY_OK$NB_OK$IN_OK$OUT_OK" = ":heavy_check_mark::heavy_check_mark::heavy_check_mark::heavy_check_mark::heavy_check_mark::heavy_check_mark:" ]; then
        let "s++"
