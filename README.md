@@ -38,7 +38,7 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 | 19-Jan | 2️⃣ | [Présentation de l'environnement de travail de **Programmation**](P.Programmation)
 | 26-Jan | 3️⃣ | [**Notation Big O** - Mesurer l’efficacité d’un algorithme ](1.Big-O)
 
-#### ✅ Souhaité
+#### 🟣 Affiché
 
 | Smnes | Activités/Thèmes | Ressources/module |
 |-:|-|-|
