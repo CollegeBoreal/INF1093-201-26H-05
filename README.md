@@ -27,7 +27,19 @@ Find your local number: https://collegeboreal.zoom.us/u/kc3E096E9I
 
 ## 📜 Déroulement du cours
 
+
 Le déroulement peut être modifié au besoin. La personne étudiante sera avisée.
+
+#### ✅ Actuel
+
+| Période | Smnes | Activités/Thèmes | Commentaires |
+|-|-:|-|-|
+| 12-Jan | 1️⃣ | [Présentation du **Plan De Cours**](0.PlanDeCours) 
+| 19-Jan | 2️⃣ | [Présentation de l'environnement de travail de **Programmation**](P.Programmation)
+| 26-Jan | 3️⃣ | [**Notation Big O** - Mesurer l’efficacité d’un algorithme ](1.Big-O)
+|  2-Fev | 4️⃣ | [**Entrée/sortie** - Traitement entrée/sortie sur fichiers](2.IO)
+
+#### 🟣 Affiché
 
 | Smnes | Activités/Thèmes | Ressources/module |
 |-:|-|-|
