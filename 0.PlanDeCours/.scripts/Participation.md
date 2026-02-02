@@ -1,4 +1,4 @@
-# Participation au 02-02-2026 20:26
+# Participation au 02-02-2026 20:28
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -39,7 +39,7 @@
 | 20 | [300156627](../300156627/README.md) :point_right: [rougaiyatoudiallo](https://github.com/rougaiyatoudiallo) <image src='https://avatars0.githubusercontent.com/u/118176543?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 21 | [300157287](../300157287/README.md) :point_right: [cheikau](https://github.com/cheikau) <image src='https://avatars0.githubusercontent.com/u/231501940?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 22 | [300157301](../300157301/README.md) :point_right: [amhn25](https://github.com/amhn25) <image src='https://avatars0.githubusercontent.com/u/258898045?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| 23 | [300157330](../300157330/README.md) :point_right: [toufikmekbel](https://github.com/toufikmekbel) <image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
+| 23 | [300157330](../300157330/README.md) :point_right: [toufikmekbel](https://github.com/toufikmekbel) <image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 24 | [300157374](../300157374/README.md) :point_right: [yanisna](https://github.com/yanisna) <image src='https://avatars0.githubusercontent.com/u/255961683?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 25 | [300157424](../300157424/README.md) :point_right: [ma-jid-06](https://github.com/ma-jid-06) <image src='https://avatars0.githubusercontent.com/u/258873685?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 26 | [300157734](../300157734/README.md) :point_right: [kadermessalif-coder](https://github.com/kadermessalif-coder) <image src='https://avatars0.githubusercontent.com/u/254766183?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
@@ -48,4 +48,4 @@
 | 29 | [300158185](../300158185/README.md) :point_right: [mohammed-mati](https://github.com/mohammed-mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 30 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 31 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| :abacus: |  $\frac{21}{32}$  =  65% | $\displaystyle\sum_{i=1}^{32} s_i$ = 21 |
+| :abacus: |  $\frac{22}{32}$  =  68% | $\displaystyle\sum_{i=1}^{32} s_i$ = 22 |
