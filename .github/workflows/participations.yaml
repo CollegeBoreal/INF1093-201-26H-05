@@ -39,6 +39,13 @@ jobs:
           cd P.Programmation/2.Jupyter
           bash .scripts/run.sh
           cd ../..
+          ##
+          ## Evaluating chapter 2.IO
+          ## 
+          echo "Evaluating chapter 2.IO Participation"
+          cd 2.IO
+          bash .scripts/run.sh
+          cd ../..
 
 
 
