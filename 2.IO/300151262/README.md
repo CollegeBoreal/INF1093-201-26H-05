@@ -1,10 +1,4 @@
 # Devoir Python – Gestion des notes
-"\n",
-    "|     |                     |\n",
-    "| --- | ------------------- |\n",
-    "| **Nom** | *Ahmed BERGUI* |\n",
-    "| **🆔**  | *300151262* |\n",
-    "\n",
 
 Ce projet lit un fichier contenant des étudiants et leurs notes,
 calcule la moyenne du groupe et génère un fichier de résultats.
@@ -21,6 +15,7 @@ calcule la moyenne du groupe et génère un fichier de résultats.
 ## Exécution
 ```bash
 python IO.py
+
 
 
 
