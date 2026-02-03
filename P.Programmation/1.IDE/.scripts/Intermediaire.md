@@ -1,4 +1,4 @@
-# Participation au 03-02-2026 18:29
+# Participation au 03-02-2026 18:44
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -46,6 +46,6 @@
 | 27 | [300158035](../300158035.md) [djemadimelissa2004-cyber](https://github.com/djemadimelissa2004-cyber) <image src='https://avatars0.githubusercontent.com/u/236510494?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 28 | [300158058](../300158058.md) [rabah-ik](https://github.com/rabah-ik) <image src='https://avatars0.githubusercontent.com/u/255966334?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 29 | [300158185](../300158185.md) [mohammed-mati](https://github.com/mohammed-mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 30 | [300158486](../300158486.md) [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :x: |
+| 30 | [300158486](../300158486.md) [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 31 | [300159189](../300159189.md) [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| :abacus: |  $\frac{11}{32}$  =  34% | $\displaystyle\sum_{i=1}^{32} s_i$ = 11 |
+| :abacus: |  $\frac{12}{32}$  =  37% | $\displaystyle\sum_{i=1}^{32} s_i$ = 12 |
