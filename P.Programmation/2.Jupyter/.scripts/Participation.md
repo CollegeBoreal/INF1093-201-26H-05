@@ -1,4 +1,4 @@
-# Participation au 03-02-2026 04:24
+# Participation au 03-02-2026 05:00
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -31,7 +31,7 @@
 | 12 | [300153710](../300153710/RAPPORT.ipynb) [samyzahir120-wq](https://github.com/samyzahir120-wq) <image src='https://avatars0.githubusercontent.com/u/231508348?s=460&v=4' width=20 height=20></image> | :x: |
 | 13 | [300154142](../300154142/RAPPORT.ipynb) [maouchimedchafik-lgtm](https://github.com/maouchimedchafik-lgtm) <image src='https://avatars0.githubusercontent.com/u/236670216?s=460&v=4' width=20 height=20></image> | :x: |
 | 14 | [300155045](../300155045/RAPPORT.ipynb) [chouaibait](https://github.com/chouaibait) <image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image> | :x: |
-| 15 | [300155187](../300155187/RAPPORT.ipynb) [MaimounaBella](https://github.com/MaimounaBella) <image src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width=20 height=20></image> | :x: |
+| 15 | [300155187](../300155187/RAPPORT.ipynb) [MaimounaBella](https://github.com/MaimounaBella) <image src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 16 | [300155488](../300155488/RAPPORT.ipynb) [iba-kane](https://github.com/iba-kane) <image src='https://avatars0.githubusercontent.com/u/122100786?s=460&v=4' width=20 height=20></image> | :x: |
 | 17 | [300155504](../300155504/RAPPORT.ipynb) [BADReddine223](https://github.com/BADReddine223) <image src='https://avatars0.githubusercontent.com/u/231570213?s=460&v=4' width=20 height=20></image> | :x: |
 | 18 | [300155606](../300155606/RAPPORT.ipynb) [Djelloulmsili](https://github.com/Djelloulmsili) <image src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width=20 height=20></image> | :x: |
@@ -48,4 +48,4 @@
 | 29 | [300158185](../300158185/RAPPORT.ipynb) [mohammed-mati](https://github.com/mohammed-mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 30 | [300158486](../300158486/RAPPORT.ipynb) [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :x: |
 | 31 | [300159189](../300159189/RAPPORT.ipynb) [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :x: |
-| :abacus: |  $\frac{5}{32}$  =  15% | $\displaystyle\sum_{i=1}^{32} s_i$ = 5 |
+| :abacus: |  $\frac{6}{32}$  =  18% | $\displaystyle\sum_{i=1}^{32} s_i$ = 6 |
