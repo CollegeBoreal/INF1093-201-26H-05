@@ -1,0 +1,9 @@
+Etudiant.e.s admis (>= 60)
+Melissa 91
+Toufik 70
+Kader 60
+Lounes 81
+Mersel 100
+
+Moyenne du groupe : 58.52
+
