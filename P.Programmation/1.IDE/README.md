@@ -192,8 +192,8 @@ git pull --no-edit
 :checkered_flag: Finalement,
 
 - [ ] avec le nom de répertoire :id: (votre identifiant boreal)
-- [ ] dans votre répertoire ajouter le fichier `README.md`
-  - [ ] `nano `README.md
+- [ ] dans votre répertoire :id: ajouter le fichier `README.md`
+  - [ ] `nano `:id:/README.md
 - [ ] envoyer vers le serveur `git`
   - [ ] `git add `:id:/README.md
   - [ ] `git commit -m "mon fichier ..."` :id:/README.md
