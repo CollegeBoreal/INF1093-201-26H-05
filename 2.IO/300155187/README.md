@@ -49,6 +49,7 @@ plt.show()
 ### d) Gestion des fichiers et erreurs
 
 **Rediriger les erreurs lors de l’exécution :**
+
 ```powershell
 python IO.py 2> erreurs.txt
 
@@ -56,5 +57,6 @@ python IO.py 2> erreurs.txt
 **Vérifier le contenu des erreurs :**
 ```powershell
 Get-Content erreurs.txt
+
 
 
