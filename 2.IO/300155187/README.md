@@ -34,3 +34,27 @@ with open("etudiants.txt", "r") as f:
             notes.append(float(note))
         except ValueError:
             print("Ligne invalide :", ligne)
+
+### c) Création d’un diagramme
+
+```python
+import matplotlib.pyplot as plt
+
+plt.bar(noms, notes)
+plt.xlabel("Étudiant.e.s")
+plt.ylabel("Notes")
+plt.title("Diagramme des notes")
+plt.show()
+
+### d) Gestion des fichiers et erreurs
+
+**Rediriger les erreurs lors de l’exécution :**
+```powershell
+python IO.py 2> erreurs.txt
+
+
+**Vérifier le contenu des erreurs :**
+```powershell
+Get-Content erreurs.txt
+
+
