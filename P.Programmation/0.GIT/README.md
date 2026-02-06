@@ -253,11 +253,11 @@ Git est parfait pour :
 
 ## 10. Check-list “je suis opérationnel” ✅
 
-✔ cloner un repo
-✔ modifier un fichier
-✔ commit clair
-✔ push sans casser
-✔ comprendre l’historique
+- ✔ cloner un repo
+- ✔ modifier un fichier
+- ✔ commit clair
+- ✔ push sans casser
+- ✔ comprendre l’historique
 
 Si oui → **tu sais utiliser Git**
 
