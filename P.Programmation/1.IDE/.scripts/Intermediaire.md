@@ -1,4 +1,4 @@
-# Participation au 06-02-2026 17:05
+# Participation au 06-02-2026 17:09
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -22,7 +22,7 @@
 | 3 | [300151505](../300151505.md) [300151505](https://github.com/300151505) <image src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width=20 height=20></image> | :x: |
 | 4 | [300151545](../300151545.md) [merselmohamed2003-star](https://github.com/merselmohamed2003-star) <image src='https://avatars0.githubusercontent.com/u/255948584?s=460&v=4' width=20 height=20></image> | :x: |
 | 5 | [300151588](../300151588.md) [belhAmine](https://github.com/belhAmine) <image src='https://avatars0.githubusercontent.com/u/58528251?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 6 | [300151589](../300151589.md) [walidwolf31](https://github.com/walidwolf31) <image src='https://avatars0.githubusercontent.com/u/231501417?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
+| 6 | [300151589](../300151589.md) [walidwolf31](https://github.com/walidwolf31) <image src='https://avatars0.githubusercontent.com/u/231501417?s=460&v=4' width=20 height=20></image> | :x: |
 | 7 | [300151781](../300151781.md) [lounesallouti](https://github.com/lounesallouti) <image src='https://avatars0.githubusercontent.com/u/257377074?s=460&v=4' width=20 height=20></image> | :x: |
 | 8 | [300151835](../300151835.md) [benhammoucheliza928-eng](https://github.com/benhammoucheliza928-eng) <image src='https://avatars0.githubusercontent.com/u/255944310?s=460&v=4' width=20 height=20></image> | :x: |
 | 9 | [300151838](../300151838.md) [rymabenhamouche3-coder](https://github.com/rymabenhamouche3-coder) <image src='https://avatars0.githubusercontent.com/u/231501651?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
@@ -48,4 +48,4 @@
 | 29 | [300158185](../300158185.md) [mohammed-mati](https://github.com/mohammed-mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 30 | [300158486](../300158486.md) [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 31 | [300159189](../300159189.md) [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| :abacus: |  $\frac{13}{32}$  =  40% | $\displaystyle\sum_{i=1}^{32} s_i$ = 13 |
+| :abacus: |  $\frac{12}{32}$  =  37% | $\displaystyle\sum_{i=1}^{32} s_i$ = 12 |
