@@ -49,14 +49,19 @@ with open("entree_insertion.txt", "r") as f:
 ## 🧑‍💻 Algorithme
 
 ```python
-def tri_insertion(tab):
-    for i in range(1, len(tab)):
-        cle = tab[i]
-        j = i - 1
-        while j >= 0 and tab[j] > cle:
-            tab[j + 1] = tab[j]
-            j -= 1
-        tab[j + 1] = cle
+PROCÉDURE tri_insertion(tab)
+    POUR i ← 1 JUSQU’À longueur(tab) − 1 FAIRE
+        clé ← tab[i]
+        j ← i − 1
+
+        TANT QUE j ≥ 0 ET tab[j] > clé FAIRE
+            tab[j + 1] ← tab[j]
+            j ← j − 1
+        FIN TANT QUE
+
+        tab[j + 1] ← clé
+    FIN POUR
+FIN PROCÉDURE
 ```
 
 ---
