@@ -1,5 +1,14 @@
 # 📘 Algorithmes de tri – Tris variés (avec fichiers d’entrée)
 
+[:tada: Participation](.scripts/Participation.md)
+
+📍 Créer une page
+
+ créer un répertoire avec son 🆔 et ajouter le fichier README.md
+ créer un répertoire dans son répertoire 🆔, ajouter le répertoire images et ajouter le fichier .gitkeep
+ suivre les étapes ci-dessous dans votre répertoire 🆔
+
+ ---
 
 Les **tris classiques comme Insertion, Shell et Quick** sont **pensés pour des tableaux** (ou des structures à accès direct) pour plusieurs raisons :
 
