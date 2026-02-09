@@ -270,8 +270,7 @@ Résultat : [2, 5, 7, 7, 23, 32, 32, 34, 62]
 > exactement comme dans un vrai programme professionnel.
 
 
-Parfait ! On va créer une **structure de répertoire claire** pour tes trois exercices de tri et fournir **les fichiers Python et fichiers d’entrée** pour chaque exercice.
-Je vais te montrer la structure complète et les scripts prêts à utiliser.
+On va créer une **structure de répertoire claire** pour tes trois exercices de tri et fournir **les fichiers Python et fichiers d’entrée** pour chaque exercice.
 
 ---
 
