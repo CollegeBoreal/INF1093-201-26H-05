@@ -1,4 +1,4 @@
-# Participation au 09-02-2026 18:46
+# Participation au 09-02-2026 19:19
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -33,7 +33,7 @@
 | 14 | [300155045](../300155045/README.md) :point_right: [chouaibait](https://github.com/chouaibait) <image src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 15 | [300155187](../300155187/README.md) :point_right: [MaimounaBella](https://github.com/MaimounaBella) <image src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 16 | [300155488](../300155488/README.md) :point_right: [iba-kane](https://github.com/iba-kane) <image src='https://avatars0.githubusercontent.com/u/122100786?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 17 | [300155504](../300155504/README.md) :point_right: [BADReddine223](https://github.com/BADReddine223) <image src='https://avatars0.githubusercontent.com/u/231570213?s=460&v=4' width=20 height=20></image> | :x: | :x: |
+| 17 | [300155504](../300155504/README.md) :point_right: [BADReddine223](https://github.com/BADReddine223) <image src='https://avatars0.githubusercontent.com/u/231570213?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 18 | [300155606](../300155606/README.md) :point_right: [Djelloulmsili](https://github.com/Djelloulmsili) <image src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 19 | [300155934](../300155934/README.md) :point_right: [aymenbouchemal](https://github.com/aymenbouchemal) <image src='https://avatars0.githubusercontent.com/u/231498992?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 20 | [300156627](../300156627/README.md) :point_right: [rougaiyatoudiallo](https://github.com/rougaiyatoudiallo) <image src='https://avatars0.githubusercontent.com/u/118176543?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
@@ -48,4 +48,4 @@
 | 29 | [300158185](../300158185/README.md) :point_right: [mohammed-mati](https://github.com/mohammed-mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 30 | [300158486](../300158486/README.md) :point_right: [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 31 | [300159189](../300159189/README.md) :point_right: [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| :abacus: |  $\frac{23}{32}$  =  71% | $\displaystyle\sum_{i=1}^{32} s_i$ = 23 |
+| :abacus: |  $\frac{24}{32}$  =  75% | $\displaystyle\sum_{i=1}^{32} s_i$ = 24 |
