@@ -1,3 +1,7 @@
+# -----------------
+# Author: Maimouna
+# -----------------
+
 import sys
 
 def traiter_notes(fichier_entree, fichier_sortie):
