@@ -189,17 +189,6 @@ Résultat : [2, 5, 7, 7, 23, 32, 32, 34, 62]
 
 ---
 
-# 🧪 Extension (option TP)
-
-👉 Modifier les fichiers pour tester :
-
-* liste déjà triée
-* liste inversée
-* très grande liste (1000 nombres)
-* doublons nombreux
-
----
-
 # 📌 Conclusion pédagogique
 
 > Le **fichier d’entrée permet de séparer les données de l’algorithme**,
