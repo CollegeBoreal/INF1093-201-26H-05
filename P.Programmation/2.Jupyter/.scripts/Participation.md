@@ -1,4 +1,4 @@
-# Participation au 09-02-2026 19:50
+# Participation au 09-02-2026 20:09
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -43,9 +43,9 @@
 | 24 | [300157374](../300157374/RAPPORT.ipynb) [yanisna](https://github.com/yanisna) <image src='https://avatars0.githubusercontent.com/u/255961683?s=460&v=4' width=20 height=20></image> | :x: |
 | 25 | [300157424](../300157424/RAPPORT.ipynb) [ma-jid-06](https://github.com/ma-jid-06) <image src='https://avatars0.githubusercontent.com/u/258873685?s=460&v=4' width=20 height=20></image> | :x: |
 | 26 | [300157734](../300157734/RAPPORT.ipynb) [kadermessalif-coder](https://github.com/kadermessalif-coder) <image src='https://avatars0.githubusercontent.com/u/254766183?s=460&v=4' width=20 height=20></image> | :x: |
-| 27 | [300158035](../300158035/RAPPORT.ipynb) [djemadimelissa2004-cyber](https://github.com/djemadimelissa2004-cyber) <image src='https://avatars0.githubusercontent.com/u/236510494?s=460&v=4' width=20 height=20></image> | :x: |
+| 27 | [300158035](../300158035/RAPPORT.ipynb) [djemadimelissa2004-cyber](https://github.com/djemadimelissa2004-cyber) <image src='https://avatars0.githubusercontent.com/u/236510494?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 28 | [300158058](../300158058/RAPPORT.ipynb) [rabah-ik](https://github.com/rabah-ik) <image src='https://avatars0.githubusercontent.com/u/255966334?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 29 | [300158185](../300158185/RAPPORT.ipynb) [mohammed-mati](https://github.com/mohammed-mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 30 | [300158486](../300158486/RAPPORT.ipynb) [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 31 | [300159189](../300159189/RAPPORT.ipynb) [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
-| :abacus: |  $\frac{10}{32}$  =  31% | $\displaystyle\sum_{i=1}^{32} s_i$ = 10 |
+| :abacus: |  $\frac{11}{32}$  =  34% | $\displaystyle\sum_{i=1}^{32} s_i$ = 11 |
