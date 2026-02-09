@@ -1,3 +1,4 @@
+# commentaire 
 with open("entree_quick.txt", "r") as f:
     tab = list(map(int, f.read().split()))
 
