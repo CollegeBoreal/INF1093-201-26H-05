@@ -1,294 +1,66 @@
-# 📘 Algorithmes de tri – Tris variés (avec fichiers d’entrée)
+# INF1093-201-26H-05
 
-[:tada: Participation](.scripts/Participation.md)
+INF1093 (201) - Programmation 2
 
-📍 Créer une page
+```lua
+Professor is inviting you to a scheduled Zoom meeting.
 
- créer un répertoire avec son 🆔 et ajouter le fichier README.md
- créer un répertoire dans son répertoire 🆔, ajouter le répertoire images et ajouter le fichier .gitkeep
- suivre les étapes ci-dessous dans votre répertoire 🆔
+Topic: CBCR INF1093/201/5/Programmation 2/26H
+Time: This is a recurring meeting Meet anytime
 
- ---
+Join Zoom Meeting
+https://collegeboreal.zoom.us/j/82266112181?pwd=LstPcZFcWVD1Byq3RsMVVae6G5FzGC.1
 
-Les **tris classiques comme Insertion, Shell et Quick** sont **pensés pour des tableaux** (ou des structures à accès direct) pour plusieurs raisons :
+Password: 4288450904
 
----
+One tap mobile
+8339581164,,82266112181# Canada Toll-free
+8557038985,,82266112181# Canada Toll-free
 
-## 🔹 1. Tri par insertion
-
-* Besoin de **déplacer les éléments pour insérer une valeur**
-* Avec un **tableau**, on peut accéder directement aux indices et décaler les éléments (`tab[j+1] = tab[j]`)
-* Avec une **liste chaînée**, on pourrait faire l’insertion facilement, mais **le parcours pour trouver la bonne position devient séquentiel** → moins efficace
-
----
-
-## 🔹 2. Tri de Shell
-
-* Nécessite de **comparer et échanger des éléments espacés** à distance `écart`
-* Accès direct indispensable (`tab[i - écart]`) → **tableau parfait pour ça**
-* Liste chaînée → accès à un nœud éloigné = O(n) → beaucoup trop lent
-
----
-
-## 🔹 3. Tri rapide (Quick Sort)
-
-* Sépare le tableau en sous-parties autour d’un **pivot**
-* Besoin d’**accès direct pour partitionner** les éléments
-* Avec une liste chaînée, on peut l’adapter, mais la version tableau est beaucoup plus simple et rapide
-
----
-
-## 🔹 Conclusion
-
-| Algorithme | Structure recommandée | Pourquoi                                       |
-| ---------- | --------------------- | ---------------------------------------------- |
-| Insertion  | Tableau               | Déplacement rapide par indices                 |
-| Shell      | Tableau               | Comparaisons espacées nécessitent accès direct |
-| Quick      | Tableau               | Partition rapide via indices                   |
-
-> **En pratique**, presque tous les cours utilisent **tableaux** pour ces tris classiques.
-> Les listes chaînées sont plutôt utilisées pour des **inserts/suppressions rapides** ou des **structures dynamiques** (piles, files).
-
-## 🎯 Objectif du travail
-
-* Lire des données depuis un **fichier texte**
-* Appliquer un **algorithme de tri**
-* Afficher / vérifier le résultat
-
----
-
-## 📂 Format commun des fichiers d’entrée
-
-👉 Tous les fichiers auront **une liste d’entiers séparés par des espaces**
-
-Exemple général :
-
-```
-8 3 5 2 9 1
+Dial by your location
+        833 958 1164 Canada Toll-free
+        855 703 8985 Canada Toll-free
+        833 955 1088 Canada Toll-free
+Meeting ID: 822 6611 2181
+Find your local number: https://collegeboreal.zoom.us/u/kc3E096E9I
 ```
 
----
-
-# 🔹 1. Tri par insertion
-
-## 📁 Fichier d’entrée
-
-**`entree_insertion.txt`**
-
-```
-8 3 5 2 9 1
-```
-
----
-
-## 🧑‍💻 Lecture du fichier
-
-```python
-with open("entree_insertion.txt", "r") as f:
-    tab = list(map(int, f.read().split()))
-```
-
----
-
-## 🧑‍💻 Algorithme
-
-```python
-PROCÉDURE tri_insertion(tab)
-    POUR i ← 1 JUSQU’À longueur(tab) − 1 FAIRE
-        clé ← tab[i]
-        j ← i − 1
-
-        TANT QUE j ≥ 0 ET tab[j] > clé FAIRE
-            tab[j + 1] ← tab[j]
-            j ← j − 1
-        FIN TANT QUE
-
-        tab[j + 1] ← clé
-    FIN POUR
-FIN PROCÉDURE
-```
-
----
-
-## ▶️ Programme principal
-
-```python
-tri_insertion(tab)
-print("Résultat :", tab)
-```
-
----
-
-## 📌 Résultat attendu
-
-```
-Résultat : [1, 2, 3, 5, 8, 9]
-```
-
----
-
-# 🔹 2. Tri de Shell
-
-## 📁 Fichier d’entrée
-
-**`entree_shell.txt`**
-
-```
-45 23 11 89 77 98 4 28 65 43
-```
-
----
-
-## 🧑‍💻 Lecture du fichier
-
-```python
-with open("entree_shell.txt", "r") as f:
-    tab = list(map(int, f.read().split()))
-```
-
----
-
-## 🧑‍💻 Algorithme
-
-```python
-PROCÉDURE tri_shell(tab)
-    n ← longueur(tab)
-    écart ← n ÷ 2
-
-    TANT QUE écart > 0 FAIRE
-        POUR i ← écart JUSQU’À n − 1 FAIRE
-            temp ← tab[i]
-            j ← i
-
-            TANT QUE j ≥ écart ET tab[j − écart] > temp FAIRE
-                tab[j] ← tab[j − écart]
-                j ← j − écart
-            FIN TANT QUE
-
-            tab[j] ← temp
-        FIN POUR
-
-        écart ← écart ÷ 2
-    FIN TANT QUE
-FIN PROCÉDURE
-```
-
----
-
-## ▶️ Programme principal
-
-```python
-tri_shell(tab)
-print("Résultat :", tab)
-```
-
----
-
-## 📌 Résultat attendu
-
-```
-Résultat : [4, 11, 23, 28, 43, 45, 65, 77, 89, 98]
-```
-
----
-
-# 🔹 3. Tri rapide (Quick Sort)
-
-## 📁 Fichier d’entrée
-
-**`entree_quick.txt`**
-
-```
-34 7 23 32 5 62 32 2 7
-```
-
----
-
-## 🧑‍💻 Lecture du fichier
-
-```python
-with open("entree_quick.txt", "r") as f:
-    tab = list(map(int, f.read().split()))
-```
-
----
-
-## 🧑‍💻 Algorithme
-
-```python
-PROCÉDURE tri_rapide(tab)
-    SI longueur(tab) ≤ 1 ALORS
-        RETOURNER tab
-    FIN SI
-
-    pivot ← tab[longueur(tab) ÷ 2]
-
-    gauche ← liste vide
-    milieu ← liste vide
-    droite ← liste vide
-
-    POUR chaque élément x DANS tab FAIRE
-        SI x < pivot ALORS
-            ajouter x à gauche
-        SINON SI x = pivot ALORS
-            ajouter x à milieu
-        SINON
-            ajouter x à droite
-        FIN SI
-    FIN POUR
-
-    RETOURNER concaténer(
-        tri_rapide(gauche),
-        milieu,
-        tri_rapide(droite)
-    )
-FIN PROCÉDURE
-```
-
----
-
-## ▶️ Programme principal
-
-```python
-tab_trie = tri_rapide(tab)
-print("Résultat :", tab_trie)
-```
-
----
-
-## 📌 Résultat attendu
-
-```
-Résultat : [2, 5, 7, 7, 23, 32, 32, 34, 62]
-```
-
----
-
-# 📌 Conclusion pédagogique
-
-> Le **fichier d’entrée permet de séparer les données de l’algorithme**,
-> exactement comme dans un vrai programme professionnel.
-
-
-On va créer une **structure de répertoire claire** pour tes trois exercices de tri et fournir **les fichiers Python et fichiers d’entrée** pour chaque exercice.
-
----
-
-## 📂 Structure de répertoires
-
-```
-ID/
-│
-├─ insertion/
-│   ├─ main.py
-│   └─ entree_insertion.txt
-│
-├─ shell/
-│   ├─ main.py
-│   └─ entree_shell.txt
-│
-└─ quick/
-    ├─ main.py
-    └─ entree_quick.txt
-```
-
+## 📜 Déroulement du cours
+
+
+Le déroulement peut être modifié au besoin. La personne étudiante sera avisée.
+
+#### ✅ Actuel
+
+| Période | Smnes | Activités/Thèmes | Commentaires |
+|-|-:|-|-|
+| 12-Jan | 1️⃣ | [Présentation du **Plan De Cours**](0.PlanDeCours) 
+| 19-Jan | 2️⃣ | [Présentation de l'environnement de travail de **Programmation**](P.Programmation)
+| 26-Jan | 3️⃣ | [**Notation Big O** - Mesurer l’efficacité d’un algorithme ](1.Big-O)
+|  2-Fev | 4️⃣ | [**Entrée/sortie** - Traitement entrée/sortie sur fichiers](2.IO)
+|  9-Fev | 5️⃣ | [**Tris variés** (insertion, shell, quick)](3.Tris)
+
+#### 🟣 Affiché
+
+| Smnes | Activités/Thèmes | Ressources/module |
+|-:|-|-|
+|  1️⃣  | **Notation Big O** - Mesurer l’efficacité d’un algorithme                                    | Notes de cours en ligne |
+|  2️⃣  | **Entrée/sortie** - Traitement entrée/sortie sur fichiers _Travail_                          | Notes de cours en ligne |
+|  3️⃣  | **Tris variés (insertion, shell, quick)** - Algorithmes de tri _Travail_                     | Notes de cours en ligne |
+|  4️⃣  | Remise des travaux - _Évaluation sommative_                                                  | Notes de cours en ligne |
+|  5️⃣  | **Hashing, Dictionnaires** - Hashing _Travail_                                               | Notes de cours en ligne |
+|  6️⃣  | **Programmation OOP** - Programmation Orientée-Objet _Travail_                               | Notes de cours en ligne |
+|  7️⃣  | **Deque, etc** - Structures de données _Travail_                                             | Notes de cours en ligne |
+|  8️⃣  | Remise des travaux - _Révision_                                                              | Notes de cours en ligne |
+|  9️⃣  | Évaluation sommative                                                                         | Notes de cours en ligne |
+| 1️⃣0️⃣ | **Divers styles de graph** - Structure de données complexes                                  | Notes de cours en ligne |
+| 1️⃣1️⃣ | **Recherche en largeur, profondeur, Dijkstra**                                               | Notes de cours en ligne |
+|     |                            Algorithmes appliqués aux graphes _Travail_                       | Notes de cours en ligne |
+| 1️⃣2️⃣ | **Programmation dynamique** _Travail_                                                        | Notes de cours en ligne |
+| 1️⃣3️⃣ | Remise des travaux - _Révision_                                                              | Notes de cours en ligne |
+| 1️⃣4️⃣ | Évaluation sommative                                                                         | Notes de cours en ligne |
+
+# :books: References
+
+- [INF1039 18A](https://github.com/CollegeBoreal/INF1039-202-18A-01)
+- [INF1039 17A](https://github.com/CollegeBoreal/INF1039-201-17A-02)
