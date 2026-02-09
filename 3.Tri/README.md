@@ -1,8 +1,3 @@
-Parfait 👍
-Je reprends **la leçon sur les tris (Insertion, Shell, Quick)** en ajoutant **pour CHAQUE algorithme un fichier d’entrée** clair et réaliste, comme demandé pour un **travail pratique Python**.
-
----
-
 # 📘 Algorithmes de tri – Tris variés (avec fichiers d’entrée)
 
 ## 🎯 Objectif du travail
