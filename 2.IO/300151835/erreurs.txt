@@ -1,1 +1,12 @@
+﻿python : Erreur : 'charmap' codec can't encode character '\u2265' in position 20: character 
+maps to <undefined>
+At line:1 char:1
++ python IO.py 2> erreurs.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Erreur : 'charm... to <undefined>:String) [],  
+   RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+
 
