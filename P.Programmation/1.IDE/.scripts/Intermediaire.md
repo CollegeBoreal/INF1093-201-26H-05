@@ -1,4 +1,4 @@
-# Participation au 13-02-2026 14:40
+# Participation au 14-02-2026 14:46
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -37,7 +37,7 @@
 | 18 | [300155606](../300155606.md) [Djelloulmsili](https://github.com/Djelloulmsili) <image src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width=20 height=20></image> | :x: |
 | 19 | [300155934](../300155934.md) [aymenbouchemal](https://github.com/aymenbouchemal) <image src='https://avatars0.githubusercontent.com/u/231498992?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 20 | [300156627](../300156627.md) [rougaiyatoudiallo](https://github.com/rougaiyatoudiallo) <image src='https://avatars0.githubusercontent.com/u/118176543?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| 21 | [300157287](../300157287.md) [cheikau](https://github.com/cheikau) <image src='https://avatars0.githubusercontent.com/u/231501940?s=460&v=4' width=20 height=20></image> | :x: |
+| 21 | [300157287](../300157287.md) [cheikau](https://github.com/cheikau) <image src='https://avatars0.githubusercontent.com/u/231501940?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 22 | [300157301](../300157301.md) [amhn25](https://github.com/amhn25) <image src='https://avatars0.githubusercontent.com/u/258898045?s=460&v=4' width=20 height=20></image> | :x: |
 | 23 | [300157330](../300157330.md) [toufikmekbel](https://github.com/toufikmekbel) <image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image> | :x: |
 | 24 | [300157374](../300157374.md) [yanisna](https://github.com/yanisna) <image src='https://avatars0.githubusercontent.com/u/255961683?s=460&v=4' width=20 height=20></image> | :x: |
@@ -48,4 +48,4 @@
 | 29 | [300158185](../300158185.md) [mohammed-mati](https://github.com/mohammed-mati) <image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 30 | [300158486](../300158486.md) [lyes158](https://github.com/lyes158) <image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 31 | [300159189](../300159189.md) [fateh98](https://github.com/fateh98) <image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
-| :abacus: |  $\frac{14}{32}$  =  43% | $\displaystyle\sum_{i=1}^{32} s_i$ = 14 |
+| :abacus: |  $\frac{15}{32}$  =  46% | $\displaystyle\sum_{i=1}^{32} s_i$ = 15 |
