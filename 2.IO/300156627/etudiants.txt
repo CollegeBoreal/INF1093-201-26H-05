@@ -1,5 +1,0 @@
-Alice 85
-Bob 62
-Charlie 91
-Diane 55
-

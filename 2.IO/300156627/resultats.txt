@@ -1,6 +1,0 @@
-Étudiants admis (>=60):
-Alice 85.0
-Bob 62.0
-Charlie 91.0
-
-Moyenne du groupe : 73.25
