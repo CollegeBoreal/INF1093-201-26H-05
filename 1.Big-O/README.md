@@ -32,7 +32,7 @@ Il existe une constante *C > 0* et *n₀* telle que pour tout *n ≥ n₀* :
 f(n) ≤ C × g(n)
 ```
 
-Cela veut dire que *g(n)* est une **borne supérieure** (up-to-a-constant) de *f(n)* pour de grandes entrées. ([Grokipedia][3])
+Cela veut dire que *g(n)* est une **borne supérieure** (up-to-a-constant) de *f(n)* pour de grandes entrées. ([Big O][3])
 
 ---
 
@@ -98,7 +98,7 @@ La Big-O sert à :
 
 ---
 
-[1]: https://en.wikipedia.org/wiki/Big_O_notation?utm_source=chatgpt.com "Big O notation"
-[2]: https://gist.github.com/sunil-bagde/2b5c7ac60515514dc996038a23a6483b?utm_source=chatgpt.com "Grokking-Algorithms · GitHub"
-[3]: https://grokipedia.com/page/Big_O_notation?utm_source=chatgpt.com "Big O notation"
+[1]: https://en.wikipedia.org/wiki/Big_O_notation "Big O notation"
+[2]: https://gist.github.com/sunil-bagde/2b5c7ac60515514dc996038a23a6483b "Grokking-Algorithms · GitHub"
+[3]: https://fr.wikipedia.org/wiki/Comparaison_asymptotique "Big O notation"
 
