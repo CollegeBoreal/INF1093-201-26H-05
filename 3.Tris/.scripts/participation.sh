@@ -38,7 +38,7 @@ check_structure() {
 
 # ---------- En-tête du rapport ----------
 
-echo "# Participation au \`date +\"%d-%m-%Y %H:%M\" \`"
+echo "# Participations"
 echo ""
 
 echo "| Table des matières                      | Description                                             |"
@@ -105,7 +105,6 @@ done
 
 # ---------- Statistiques ----------
 
-echo ""
 COUNT="\$\\frac{${s}}{${i}}$"
 if (( i > 0 )); then
     STATS=$(echo "scale=0; (${s}*100)/${i}" | bc)

@@ -1,4 +1,4 @@
-# Participation au `date +"%d-%m-%Y %H:%M" `
+# Participations
 
 | Table des matières                      | Description                                             |
 |-----------------------------------------|---------------------------------------------------------|
@@ -50,7 +50,6 @@
 | 29 | [300158185](../300158185/README.md) [mohammed-mati](https://github.com/mohammed-mati) <img src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 30 | [300158486](../300158486/README.md) [lyes158](https://github.com/lyes158) <img src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 31 | [300159189](../300159189/README.md) [fateh98](https://github.com/fateh98) <img src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
-
 | :abacus: | $\frac{2}{32}$ = 6% | $\displaystyle\sum_{i=1}^{32} s_i$ = 2 |
 
 ## :b: Précision
