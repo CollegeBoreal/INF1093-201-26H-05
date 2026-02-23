@@ -91,12 +91,14 @@ La Big-O sert à :
 
 <img src=images/c1-p2.png width='50%' height='50%' > </img>
 
-* O(1) → constante
-* O(log n) → logarithmique
-* O(n) → linéaire
-* O(n log n) → quasilinéaire
-* O(n²), O(n³) → polynomiale
-* O(cⁿ) ou O(n!) → exponentielle ou pire ([Gist][2])
+- [ ] Du plus rapide au plus lent
+
+  1. O(1) → constante
+  1. O(log n) → logarithmique
+  1. O(n) → linéaire
+  1. O(n log n) → quasilinéaire
+  1. O(n²), O(n³) → polynomiale
+  1. O(cⁿ) ou O(n!) → exponentielle ou pire ([Gist][2])
 
 ---
 
