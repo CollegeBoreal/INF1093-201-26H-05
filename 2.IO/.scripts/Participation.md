@@ -22,7 +22,7 @@
 |:hash:| Boréal :id: | README.md | images | :rocket: IO.py | :receipt: RAPPORT | :writing_hand: Sgn | :framed_picture: Figures | etudiants.txt | resultats.txt | :boom: Erreurs |
 |------|-------------|-----------|--------|----------------|-------------------|--------------------|-------------------------|---------------|---------------|----------------|
 | 0 | [300141685](../300141685/README.md) [<image src='https://avatars0.githubusercontent.com/u/157196575?s=460&v=4' width=20 height=20></image>](https://github.com/soulemanebry) | :x: | :x: | :x: | [:x:](../300141685/RAPPORT.ipynb) | :x: | :zero: | :x: | :x: | :x: |
-| 1 | [300150564](../300150564/README.md) [<image src='https://avatars0.githubusercontent.com/u/102555452?s=460&v=4' width=20 height=20></image>](https://github.com/wassimbnr) | :heavy_check_mark: | :heavy_check_mark: | :x: | [:receipt:](../300150564/RAPPORT.ipynb) | :writing_hand: | :one: | :heavy_check_mark: | :heavy_check_mark: |  |
+| 1 | [300150564](../300150564/README.md) [<image src='https://avatars0.githubusercontent.com/u/102555452?s=460&v=4' width=20 height=20></image>](https://github.com/wassimbnr) | :heavy_check_mark: | :heavy_check_mark: | :rocket: | [:receipt:](../300150564/RAPPORT.ipynb) | :writing_hand: | :one: | :heavy_check_mark: | :heavy_check_mark: |  |
 | 2 | [300151262](../300151262/README.md) [<image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image>](https://github.com/rifwil5-tech) | :heavy_check_mark: | :heavy_check_mark: | :x: | [:receipt:](../300151262/RAPPORT.ipynb) | :writing_hand: | :one: | :heavy_check_mark: | :heavy_check_mark: |  |
 | 3 | [300151505](../300151505/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width=20 height=20></image>](https://github.com/300151505) | :heavy_check_mark: | :x: | :x: | [:x:](../300151505/RAPPORT.ipynb) | :x: | :zero: | :x: | :x: | :x: |
 | 4 | [300151545](../300151545/README.md) [<image src='https://avatars0.githubusercontent.com/u/255948584?s=460&v=4' width=20 height=20></image>](https://github.com/merselmohamed2003-star) | :x: | :x: | :x: | [:x:](../300151545/RAPPORT.ipynb) | :x: | :zero: | :x: | :x: | :x: |
@@ -55,4 +55,4 @@
 | 31 | [300159189](../300159189/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :x: | :x: | :x: | [:x:](../300159189/RAPPORT.ipynb) | :x: | :zero: | :x: | :x: | :x: |
 | :abacus: | $\frac{13}{32}$ = 40% | | | | | | | $\displaystyle\sum_{i=1}^{32} e_i$ = 11 | | | |
 
-> Rappel (tout OK) : 8/32
+> Rappel (tout OK) : 9/32
