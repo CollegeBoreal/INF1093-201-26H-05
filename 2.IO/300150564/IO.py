@@ -1,5 +1,8 @@
-INPUT_FILE = "etudiants.txt"
-OUTPUT_FILE = "resultats.txt"
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+INPUT_FILE = BASE_DIR / "etudiants.txt"
+OUTPUT_FILE = BASE_DIR / "resultats.txt"
 PASSING = 60
 
 
@@ -9,8 +12,6 @@ def parse_line(line: str, line_no: int):
         return None
 
     parts = line.split()
-
-    # On accepte "Nom 85" ou "Nom Composé 85"
     if len(parts) < 2:
         raise ValueError(f"Ligne {line_no}: format invalide (ex: Alice 85) -> {line!r}")
 
@@ -42,9 +43,10 @@ def main():
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
         out.write("Étudiant(e)s ayant >= 60:\n")
-        for nom, note in admis:
-            out.write(f"- {nom} {note}\n")
-        if not admis:
+        if admis:
+            for nom, note in admis:
+                out.write(f"- {nom} {note}\n")
+        else:
             out.write("- Aucun\n")
 
         out.write(f"\nMoyenne du groupe: {moyenne:.2f}\n")
