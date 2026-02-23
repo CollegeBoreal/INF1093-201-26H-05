@@ -174,6 +174,10 @@ notes = [("INF1042", 89), ("INF1103", 92)]
 
 Si tu veux trouver `"INF1103"`, tu dois regarder chaque élément → lent.
 
+```python
+for c, v in notes: print(c, v, "→ trouvé" if c == "INF1103" else "")
+```
+
 ### Dictionnaire
 
 ```python
