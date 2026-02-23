@@ -89,6 +89,8 @@ La Big-O sert à :
 
 ## 📌 **Résumé visuel**
 
+<img src=images/c1-p2.png width='50%' height='50%' > </img>
+
 * O(1) → constante
 * O(log n) → logarithmique
 * O(n) → linéaire
