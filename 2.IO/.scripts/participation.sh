@@ -2,18 +2,16 @@
 
 # --------------------------------------
 # Participation report generator (v2)
-# - Basé sur votre 2e script, enrichi avec les idées du 1er
+# - Version nettoyée (colonne req supprimée)
 # --------------------------------------
 
 set -e
 
-# Charge la liste des étudiants : ETUDIANTS=("id|github|avatar" "...")
-# shellcheck disable=SC1091
+# Charge la liste des étudiants : ETUDIANTS=("id|github|avatar" ...)
 source ../.scripts/students.sh --source-only
 
 # --- Utilitaires ---
 
-# Convertit 0..9 -> emoji, sinon :keycap_ten:
 num_to_emoji() {
     case "$1" in
         0) echo ":zero:" ;;
@@ -45,7 +43,7 @@ echo ""
 echo "| Table des matières            | Description                                             |"
 echo "|-------------------------------|---------------------------------------------------------|"
 echo "| :a: [Présence](#a-présence)   | L'étudiant.e a fait son travail    :heavy_check_mark:   |"
-echo "| :b: [Précision](#b-précision) | L'étudiant.e a réussi son travail  :tada:               |"
+echo "| :b: #b-précision | L'étudiant.e a réussi son travail  :tada:               |"
 echo ""
 echo "## Légende"
 echo ""
@@ -53,7 +51,6 @@ echo "| Signe              | Signification                        |"
 echo "|--------------------|--------------------------------------|"
 echo "| :heavy_check_mark: | Prêt à être corrigé                  |"
 echo "| :x:                | Projet inexistant                    |"
-echo "| :page_facing_up:   | requirements.txt présent             |"
 echo "| :rocket:           | Script Python IO.py exécutable       |"
 echo "| :receipt:          | Notebook présent                     |"
 echo "| :writing_hand:     | Signature (ID) trouvée dans le .ipynb|"
@@ -63,84 +60,64 @@ echo ""
 
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id: | README.md | images | :page_facing_up: req | :rocket: IO.py | :receipt: RAPPORT | :writing_hand: Sgn | :framed_picture: Figures | etudiants.txt | resultats.txt | :boom: Erreurs |"
-echo "|------|-------------|-----------|--------|----------------------|----------------|-------------------|--------------------|-------------------------|---------------|---------------|----------------|"
+echo "|:hash:| Boréal :id: | README.md | images | :rocket: IO.py | :receipt: RAPPORT | :writing_hand: Sgn | :framed_picture: Figures | etudiants.txt | resultats.txt | :boom: Erreurs |"
+echo "|------|-------------|-----------|--------|----------------|-------------------|--------------------|-------------------------|---------------|---------------|----------------|"
 
 # --- Boucle étudiants ---
 
-i=0                # total d'étudiants parcourus
-s=0                # critère minimal atteint (README + images + RAPPORT)
-total_figures=0    # somme des figures dans les notebooks
-ok_full=0          # nombre d'étudiants avec tout OK (pour rappel de votre 2e script)
+i=0
+s=0
+total_figures=0
+ok_full=0
 
 for entry in "${ETUDIANTS[@]}"; do
+
     IFS='|' read -r id github avatar <<EOF
 $entry
 EOF
 
-    URL="[<img src='https://avatars0.githubusercontent.com/u/${avatar}?s=460&amp;v=4' width=20 height=20></img>](https://github.com/${github})"
+    URL="[<img src='https://avatars0.githubusercontent.com/u/${avatar}?s=460&v=4' width=20 height=20></img>](https://github.com/${github})"
 
     FILE="${id}/README.md"
     FOLDER="${id}/images"
-    REQUIRE="${id}/requirements.txt"
     PY="${id}/IO.py"
     NB="${id}/RAPPORT.ipynb"
     IN="${id}/etudiants.txt"
     OUT="${id}/resultats.txt"
 
-    # Icônes par défaut
-    README_ICON=":x:"
-    IMAGES_ICON=":x:"
-    REQUIRE_ICON=":x:"
+    README_ICON=$(check_file "$FILE")
+    IMAGES_ICON=$(check_dir "$FOLDER")
+    IN_ICON=$(check_file "$IN")
+    OUT_ICON=$(check_file "$OUT")
+
+    # — Test IO.py —
     EXEC_PY_ICON=":x:"
-    RAPPORT_ICON=":x:"
-    SIGN_ICON=":x:"
-    FIGURES_ICON=":zero:"
-    ERROR_ICON=":x:"
-    IN_ICON=":x:"
-    OUT_ICON=":x:"
-
-    # Fichiers / Dossiers simples
-    [ -f "$FILE" ]    && README_ICON=":heavy_check_mark:"
-    [ -d "$FOLDER" ]  && IMAGES_ICON=":heavy_check_mark:"
-    [ -f "$REQUIRE" ] && REQUIRE_ICON=":page_facing_up:"
-    [ -f "$IN" ]      && IN_ICON=":heavy_check_mark:"
-    [ -f "$OUT" ]     && OUT_ICON=":heavy_check_mark:"
-
-    # Test d'exécution silencieuse de IO.py (compile/exécute)
     if [ -f "$PY" ]; then
-        # Redirection stdout+stderr -> /dev/null
         if python3 "$PY" >/dev/null 2>&1; then
             EXEC_PY_ICON=":rocket:"
-        else
-            EXEC_PY_ICON=":x:"
         fi
     fi
 
-    # Notebook : présence + analyse via jq
+    # — Notebook —
+    RAPPORT_ICON=":x:"
+    ERROR_ICON=":x:"
+    SIGN_ICON=":x:"
+    FIGURES_ICON=":zero:"
+
     if [ -f "$NB" ]; then
         RAPPORT_ICON=":receipt:"
 
-        # 1) Comptage des erreurs
-        ERROR_COUNT=$(jq '
-            [.cells[].outputs[]? | select(.output_type=="error")] | length
-        ' "$NB" 2>/dev/null)
-
-        # Si jq échoue, considérer comme erreurs
-        if [ -z "$ERROR_COUNT" ]; then
-            ERROR_COUNT=1
-        fi
+        ERROR_COUNT=$(jq '[.cells[].outputs[]? | select(.output_type=="error")] | length' "$NB" 2>/dev/null)
+        [ -z "$ERROR_COUNT" ] && ERROR_COUNT=1
 
         if [ "$ERROR_COUNT" -eq 0 ]; then
             ERROR_ICON=""
-            # 2) Comptage des figures (heuristique “Figure” dans text/plain)
             FIGURES_COUNT=$(jq '
                 [.cells[].outputs[]?
-                 | select(.output_type=="display_data")
-                 | .data."text/plain"?
-                 | arrays
-                 | .[]
-                 | select(test("Figure"))
+                    | select(.output_type=="display_data")
+                    | .data."text/plain"?
+                    | arrays | .[]
+                    | select(test("Figure"))
                 ] | length
             ' "$NB" 2>/dev/null)
 
@@ -149,30 +126,26 @@ EOF
             total_figures=$((total_figures + FIGURES_COUNT))
         else
             ERROR_ICON=":boom:"
-            FIGURES_ICON=":zero:"
         fi
 
-        # 3) Signature (ID dans une cellule markdown)
         ID_PRESENT=$(jq -r --arg id "$id" '
-            .cells[]
-            | select(.cell_type=="markdown")
-            | .source[]? 
-            | select(test($id))
+            .cells[] | select(.cell_type=="markdown")
+            | .source[]? | select(test($id))
         ' "$NB" 2>/dev/null)
 
         [ -n "$ID_PRESENT" ] && SIGN_ICON=":writing_hand:"
     fi
 
-    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | ${REQUIRE_ICON} | ${EXEC_PY_ICON} | [${RAPPORT_ICON}](../${NB}) | ${SIGN_ICON} | ${FIGURES_ICON} | ${IN_ICON} | ${OUT_ICON} | ${ERROR_ICON} |"
+    echo "| ${i} | ../${FILE} ${URL} | ${README_ICON} | ${IMAGES_ICON} | ${EXEC_PY_ICON} | ${RAPPORT_ICON} | ${SIGN_ICON} | ${FIGURES_ICON} | ${IN_ICON} | ${OUT_ICON} | ${ERROR_ICON} |"
 
-    # Critère minimal (comme demandé) : README + images + RAPPORT
-    if [ "$README_ICON" = ":heavy_check_mark:" ] && \
-       [ "$IMAGES_ICON" = ":heavy_check_mark:" ] && \
+    # Critère minimal
+    if [ "$README_ICON" = ":heavy_check_mark:" ] &&
+       [ "$IMAGES_ICON" = ":heavy_check_mark:" ] &&
        [ "$RAPPORT_ICON" = ":receipt:" ]; then
         s=$((s+1))
     fi
 
-    # Critère "tout OK" comme votre 2e script (6/6)
+    # Critère « tout OK »
     if [ "$README_ICON$IMAGES_ICON$EXEC_PY_ICON$RAPPORT_ICON$IN_ICON$OUT_ICON" = ":heavy_check_mark::heavy_check_mark::rocket::receipt::heavy_check_mark::heavy_check_mark:" ]; then
         ok_full=$((ok_full+1))
     fi
@@ -181,10 +154,11 @@ EOF
 done
 
 # --- Résumé ---
+
 COUNT="\$\\frac{${s}}{${i}}$"
 STATS=$(echo "$s*100/$i" | bc)
 SUM_EXEC="\$\displaystyle\sum_{i=1}^{${i}} e_i$"
 
 echo "| :abacus: | ${COUNT} = ${STATS}% | | | | | | | ${SUM_EXEC} = ${total_figures} | | | |"
 echo ""
-echo "> Rappel (tout OK façon script 2) : ${ok_full}/${i}"
+echo "> Rappel (tout OK) : ${ok_full}/${i}"
