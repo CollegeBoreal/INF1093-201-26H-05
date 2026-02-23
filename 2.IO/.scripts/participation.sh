@@ -38,7 +38,7 @@ check_dir () {
 
 # --- En-tête ---
 
-echo "# Participation au $(date +"%d-%m-%Y %H:%M")"
+echo "# Participations"
 echo ""
 echo "| Table des matières            | Description                                             |"
 echo "|-------------------------------|---------------------------------------------------------|"
