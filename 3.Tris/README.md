@@ -19,7 +19,7 @@ Les **tris classiques comme Insertion, Shell et Quick** sont **pensés pour des 
 * Besoin de **déplacer les éléments pour insérer une valeur**
 * Avec un **tableau**, on peut accéder directement aux indices et décaler les éléments (`tab[j+1] = tab[j]`)
 * Avec une **liste chaînée**, on pourrait faire l’insertion facilement, mais **le parcours pour trouver la bonne position devient séquentiel** → moins efficace
-* complexité **$\text{O}(n^2)$**
+* complexité **O($n^2$)**
 
 ---
 
@@ -28,6 +28,7 @@ Les **tris classiques comme Insertion, Shell et Quick** sont **pensés pour des 
 * Nécessite de **comparer et échanger des éléments espacés** à distance `écart`
 * Accès direct indispensable (`tab[i - écart]`) → **tableau parfait pour ça**
 * Liste chaînée → accès à un nœud éloigné = O(n) → beaucoup trop lent
+* Complexité, **O(n log n)**
 
 ---
 
