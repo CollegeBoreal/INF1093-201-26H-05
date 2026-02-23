@@ -27,7 +27,7 @@ Les **tris classiques comme Insertion, Shell et Quick** sont **pensés pour des 
 
 * Nécessite de **comparer et échanger des éléments espacés** à distance `écart`
 * Accès direct indispensable (`tab[i - écart]`) → **tableau parfait pour ça**
-* Complexité, **O($n^{(3/2)}$)**
+* Complexité, séquence de Knuth **O($n^{(3/2)}$)**
 * Liste chaînée → accès à un nœud éloigné = O(n) → beaucoup trop lent
 
 ---
