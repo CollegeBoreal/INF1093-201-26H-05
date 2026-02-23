@@ -136,7 +136,7 @@ EOF
         [ -n "$ID_PRESENT" ] && SIGN_ICON=":writing_hand:"
     fi
 
-    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | ${EXEC_PY_ICON} | ${RAPPORT_ICON} | ${SIGN_ICON} | ${FIGURES_ICON} | ${IN_ICON} | ${OUT_ICON} | ${ERROR_ICON} |"
+    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | ${EXEC_PY_ICON} | [${RAPPORT_ICON}](${NB}) | ${SIGN_ICON} | ${FIGURES_ICON} | ${IN_ICON} | ${OUT_ICON} | ${ERROR_ICON} |"
 
     # Critère minimal
     if [ "$README_ICON" = ":heavy_check_mark:" ] &&
