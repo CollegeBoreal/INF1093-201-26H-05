@@ -1,4 +1,5 @@
-Parfait 👍
+# Exercices de compréhension
+
 Voici la **suite de la leçon sur la notation Big-O**, avec **diagrammes simples** et **exercices progressifs**, dans l’esprit *Grokking Algorithms* (visuel, concret, intuitif).
 
 ---
