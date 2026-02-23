@@ -46,6 +46,13 @@ jobs:
           cd 2.IO
           bash .scripts/run.sh
           cd ../..
+          ##
+          ## Evaluating chapter 3.Tris
+          ## 
+          echo "Evaluating chapter 3.Tris Participation"
+          cd 3.Tris
+          bash .scripts/run.sh
+          cd ../..
 
 
 
