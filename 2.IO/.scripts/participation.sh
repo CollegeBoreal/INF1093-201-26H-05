@@ -76,7 +76,7 @@ for entry in "${ETUDIANTS[@]}"; do
 $entry
 EOF
 
-    URL="[<img src='https://avatars0.githubusercontent.com/u/${avatar}?s=460&v=4' width=20 height=20></img>](https://github.com/${github})"
+    URL="[<image src='https://avatars0.githubusercontent.com/u/${avatar}?s=460&v=4' width=20 height=20></image>](https://github.com/${github})"
 
     FILE="${id}/README.md"
     FOLDER="${id}/images"
@@ -136,7 +136,7 @@ EOF
         [ -n "$ID_PRESENT" ] && SIGN_ICON=":writing_hand:"
     fi
 
-    echo "| ${i} | ../${FILE} ${URL} | ${README_ICON} | ${IMAGES_ICON} | ${EXEC_PY_ICON} | ${RAPPORT_ICON} | ${SIGN_ICON} | ${FIGURES_ICON} | ${IN_ICON} | ${OUT_ICON} | ${ERROR_ICON} |"
+    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${README_ICON} | ${IMAGES_ICON} | ${EXEC_PY_ICON} | ${RAPPORT_ICON} | ${SIGN_ICON} | ${FIGURES_ICON} | ${IN_ICON} | ${OUT_ICON} | ${ERROR_ICON} |"
 
     # Critère minimal
     if [ "$README_ICON" = ":heavy_check_mark:" ] &&
