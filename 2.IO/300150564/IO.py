@@ -3,42 +3,55 @@ OUTPUT_FILE = "resultats.txt"
 PASSING = 60
 
 
+def parse_line(line: str, line_no: int):
+    line = line.strip()
+    if not line:
+        return None
+
+    parts = line.split()
+
+    # On accepte "Nom 85" ou "Nom Composé 85"
+    if len(parts) < 2:
+        raise ValueError(f"Ligne {line_no}: format invalide (ex: Alice 85) -> {line!r}")
+
+    note_str = parts[-1]
+    nom = " ".join(parts[:-1])
+
+    try:
+        note = float(note_str)
+    except ValueError:
+        raise ValueError(f"Ligne {line_no}: note invalide -> {note_str!r}")
+
+    return nom, note
+
+
 def main():
-    students = []
+    etudiants = []
 
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         for line_no, line in enumerate(f, start=1):
-            line = line.strip()
-            if not line:
-                continue
-            parts = line.split()
-            if len(parts) != 2:
-                raise ValueError(f"Ligne {line_no}: format invalide -> {line!r}")
-            name = parts[0]
-            try:
-                grade = float(parts[1])
-            except ValueError:
-                raise ValueError(f"Ligne {line_no}: note invalide -> {parts[1]!r}")
-            students.append((name, grade))
+            item = parse_line(line, line_no)
+            if item is not None:
+                etudiants.append(item)
 
-    if not students:
+    if not etudiants:
         raise ValueError("Fichier vide ou aucune ligne valide.")
 
-    avg = sum(g for _, g in students) / len(students)
-    passing_students = [(n, g) for n, g in students if g >= PASSING]
+    moyenne = sum(note for _, note in etudiants) / len(etudiants)
+    admis = [(nom, note) for nom, note in etudiants if note >= PASSING]
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
         out.write("Étudiant(e)s ayant >= 60:\n")
-        if passing_students:
-            for n, g in passing_students:
-                out.write(f"- {n} {g}\n")
-        else:
+        for nom, note in admis:
+            out.write(f"- {nom} {note}\n")
+        if not admis:
             out.write("- Aucun\n")
-        out.write(f"\nMoyenne du groupe: {avg:.2f}\n")
+
+        out.write(f"\nMoyenne du groupe: {moyenne:.2f}\n")
+        out.write(f"Nombre d'étudiant(e)s: {len(etudiants)}\n")
 
     print("OK: resultats.txt généré.")
 
 
 if __name__ == "__main__":
     main()
-
