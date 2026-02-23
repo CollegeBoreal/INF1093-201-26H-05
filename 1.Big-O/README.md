@@ -65,7 +65,7 @@ Pense à *n* comme à la **taille d’un problème** (par ex., nombre d’élém
 La notation Big-O **n’inclut pas** :
 
 * les facteurs constants ;
-* les petites variations qui ne changent rien à la croissance asymptotique. ([Wikipedia][1])
+* les petites variations qui ne changent rien à la `croissance asymptotique`. ([Wikipedia][1])
 
 Par exemple :
 
