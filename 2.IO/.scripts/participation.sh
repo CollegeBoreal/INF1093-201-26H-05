@@ -78,7 +78,7 @@ for entry in "${ETUDIANTS[@]}"; do
 $entry
 EOF
 
-    URL="[\<image src='https://avatars0.githubusercontent.com/u/${avatar}?s=460&amp;v=4' width=20 height=20>\</image>](https://github.com/${github})"
+    URL="[<img src='https://avatars0.githubusercontent.com/u/${avatar}?s=460&amp;v=4' width=20 height=20></img>](https://github.com/${github})"
 
     FILE="${id}/README.md"
     FOLDER="${id}/images"
