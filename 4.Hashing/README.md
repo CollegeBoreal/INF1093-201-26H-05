@@ -186,6 +186,10 @@ notes = {"INF1042": 89, "INF1103": 92}
 
 Accès direct → rapide.
 
+```python
+notes['INF1042']
+```
+
 ***
 
 # 8. 🏁 Résumé
