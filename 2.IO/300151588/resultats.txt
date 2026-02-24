@@ -1,0 +1,8 @@
+Étudiant.e.s admis (≥ 60)
+Amine 91.0
+walid 70.0
+mohammed 60.0
+nasser 81.0
+Mersel 100.0
+
+Moyenne du groupe : 58.52
