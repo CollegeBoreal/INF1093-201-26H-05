@@ -38,7 +38,7 @@
 | 17 | [300155504](../300155504/README.md) [BADReddine223](https://github.com/BADReddine223) <img src='https://avatars0.githubusercontent.com/u/231570213?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 18 | [300155606](../300155606/README.md) [Djelloulmsili](https://github.com/Djelloulmsili) <img src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 19 | [300155934](../300155934/README.md) [aymenbouchemal](https://github.com/aymenbouchemal) <img src='https://avatars0.githubusercontent.com/u/231498992?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
-| 20 | [300156627](../300156627/README.md) [rougaiyatoudiallo](https://github.com/rougaiyatoudiallo) <img src='https://avatars0.githubusercontent.com/u/118176543?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
+| 20 | [300156627](../300156627/README.md) [rougaiyatoudiallo](https://github.com/rougaiyatoudiallo) <img src='https://avatars0.githubusercontent.com/u/118176543?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :x: | :heavy_check_mark: |
 | 21 | [300157287](../300157287/README.md) [cheikau](https://github.com/cheikau) <img src='https://avatars0.githubusercontent.com/u/231501940?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 22 | [300157301](../300157301/README.md) [amhn25](https://github.com/amhn25) <img src='https://avatars0.githubusercontent.com/u/258898045?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 23 | [300157330](../300157330/README.md) [toufikmekbel](https://github.com/toufikmekbel) <img src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
