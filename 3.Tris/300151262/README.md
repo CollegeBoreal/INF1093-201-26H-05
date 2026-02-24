@@ -17,6 +17,10 @@ Cela permet de séparer les données de l’algorithme, comme dans un programme 
 ```
 ID/
 │
+├─README.md
+│
+├─RAPPORT.ipynb
+│
 ├─ insertion/
 │   ├─ main.py
 │   └─ entree_insertion.txt
