@@ -11,32 +11,25 @@ Ce projet implémente trois algorithmes de tri classiques en Python :
 Les données sont lues depuis des fichiers texte contenant des entiers séparés par des espaces.  
 Cela permet de séparer les données de l’algorithme, comme dans un programme professionnel.
 
----
 
-## 📂 Structure du projet
+## 📂 Structure de répertoires
 
-
+```
 ID/
 │
 ├─ insertion/
-│ ├─ main.py
-│ └─ entree_insertion.txt
+│   ├─ main.py
+│   └─ entree_insertion.txt
 │
 ├─ shell/
-│ ├─ main.py
-│ └─ entree_shell.txt
+│   ├─ main.py
+│   └─ entree_shell.txt
 │
-├─ quick/
-│ ├─ main.py
-│ └─ entree_quick.txt
-│
-└─ images/
-├─ insertion_result.png
-├─ shell_result.png
-└─ quick_result.png
+└─ quick/
+    ├─ main.py
+    └─ entree_quick.txt
+```
 
-
----
 
 ## 📊 Résultats (captures d’écran)
 
