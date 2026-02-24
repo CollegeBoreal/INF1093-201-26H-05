@@ -33,7 +33,7 @@
 | 12 | [300153710](../300153710/README.md) [samyzahir120-wq](https://github.com/samyzahir120-wq) <img src='https://avatars0.githubusercontent.com/u/231508348?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 13 | [300154142](../300154142/README.md) [maouchimedchafik-lgtm](https://github.com/maouchimedchafik-lgtm) <img src='https://avatars0.githubusercontent.com/u/236670216?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 14 | [300155045](../300155045/README.md) [chouaibait](https://github.com/chouaibait) <img src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
-| 15 | [300155187](../300155187/README.md) [MaimounaBella](https://github.com/MaimounaBella) <img src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| 15 | [300155187](../300155187/README.md) [MaimounaBella](https://github.com/MaimounaBella) <img src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 16 | [300155488](../300155488/README.md) [iba-kane](https://github.com/iba-kane) <img src='https://avatars0.githubusercontent.com/u/122100786?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 17 | [300155504](../300155504/README.md) [BADReddine223](https://github.com/BADReddine223) <img src='https://avatars0.githubusercontent.com/u/231570213?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 18 | [300155606](../300155606/README.md) [Djelloulmsili](https://github.com/Djelloulmsili) <img src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
