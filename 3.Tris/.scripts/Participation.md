@@ -20,7 +20,7 @@
 |--------|-------------------------------------|-------------------|----------|-----------|
 | 0 | [300141685](../300141685/README.md) [soulemanebry](https://github.com/soulemanebry) <img src='https://avatars0.githubusercontent.com/u/157196575?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 1 | [300150564](../300150564/README.md) [wassimbnr](https://github.com/wassimbnr) <img src='https://avatars0.githubusercontent.com/u/102555452?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
-| 2 | [300151262](../300151262/README.md) [rifwil5-tech](https://github.com/rifwil5-tech) <img src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
+| 2 | [300151262](../300151262/README.md) [rifwil5-tech](https://github.com/rifwil5-tech) <img src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 3 | [300151505](../300151505/README.md) [300151505](https://github.com/300151505) <img src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 4 | [300151545](../300151545/README.md) [merselmohamed2003-star](https://github.com/merselmohamed2003-star) <img src='https://avatars0.githubusercontent.com/u/255948584?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 5 | [300151588](../300151588/README.md) [belhAmine](https://github.com/belhAmine) <img src='https://avatars0.githubusercontent.com/u/58528251?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
@@ -33,7 +33,7 @@
 | 12 | [300153710](../300153710/README.md) [samyzahir120-wq](https://github.com/samyzahir120-wq) <img src='https://avatars0.githubusercontent.com/u/231508348?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 13 | [300154142](../300154142/README.md) [maouchimedchafik-lgtm](https://github.com/maouchimedchafik-lgtm) <img src='https://avatars0.githubusercontent.com/u/236670216?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 14 | [300155045](../300155045/README.md) [chouaibait](https://github.com/chouaibait) <img src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
-| 15 | [300155187](../300155187/README.md) [MaimounaBella](https://github.com/MaimounaBella) <img src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: | :x: |
+| 15 | [300155187](../300155187/README.md) [MaimounaBella](https://github.com/MaimounaBella) <img src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 16 | [300155488](../300155488/README.md) [iba-kane](https://github.com/iba-kane) <img src='https://avatars0.githubusercontent.com/u/122100786?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 17 | [300155504](../300155504/README.md) [BADReddine223](https://github.com/BADReddine223) <img src='https://avatars0.githubusercontent.com/u/231570213?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 18 | [300155606](../300155606/README.md) [Djelloulmsili](https://github.com/Djelloulmsili) <img src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
@@ -50,7 +50,7 @@
 | 29 | [300158185](../300158185/README.md) [mohammed-mati](https://github.com/mohammed-mati) <img src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 30 | [300158486](../300158486/README.md) [lyes158](https://github.com/lyes158) <img src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 31 | [300159189](../300159189/README.md) [fateh98](https://github.com/fateh98) <img src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
-| :abacus: | $\frac{2}{32}$ = 6% | $\displaystyle\sum_{i=1}^{32} s_i$ = 2 |
+| :abacus: | $\frac{3}{32}$ = 9% | $\displaystyle\sum_{i=1}^{32} s_i$ = 3 |
 
 ## :b: Précision
 
