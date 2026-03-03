@@ -1,4 +1,4 @@
-\# Participation – Tris variés
+\# Participation – Tris variés (Insertion / Shell / Quick)
 
 
 
@@ -8,27 +8,35 @@ ID : 300150564
 
 
 
-\## Contenu
+\## Objectif
 
-\- Tri par insertion
-
-\- Tri de Shell
-
-\- Tri rapide (Quick Sort)
+Lire des entiers depuis un fichier texte, appliquer un algorithme de tri, puis afficher la liste triée.
 
 
 
-Chaque algorithme lit les données depuis un fichier texte
+\## Structure
 
-et affiche la liste triée.
+\- insertion/main.py + insertion/entree\_insertion.txt
+
+\- shell/main.py + shell/entree\_shell.txt
+
+\- quick/main.py + quick/entree\_quick.txt
+
+\- images/.gitkeep
 
 
 
-\## Complexité
+\## Exécution (PowerShell)
 
-Insertion : O(n²)
+Depuis `3.Tris` :
 
-Shell : dépend du gap
 
-Quick : O(n log n) en moyenne
+
+```powershell
+
+python .\\300150564\\insertion\\main.py
+
+python .\\300150564\\shell\\main.py
+
+python .\\300150564\\quick\\main.py
 
