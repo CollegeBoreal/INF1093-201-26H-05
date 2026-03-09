@@ -1,0 +1,7 @@
+Étudiants ayant >= 60
+rabah 85
+liza 77
+ryma 91
+yanis 89
+
+Moyenne du groupe : 77.4
