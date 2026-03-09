@@ -10,7 +10,7 @@
 *   Comprendre pourquoi un dictionnaire est **rapide**.
 
   💡 Petite remarque pédagogique intéressante :
-Beaucoup de systèmes modernes (cache web, sessions, microservices) utilisent des bases de données NoSQL comme `Redis` parce que les tables de hachage sont l’une des structures de données les plus rapides en informatique.
+- Beaucoup de systèmes modernes (cache web, sessions, microservices) utilisent des bases de données NoSQL comme `Redis` parce que les tables de hachage sont l’une des structures de données les plus rapides en informatique.
 
 ***
 
