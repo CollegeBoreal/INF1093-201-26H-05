@@ -210,7 +210,7 @@ L’idée est que **chaque exercice écrit un fichier `.txt`** que vous pouvez c
 
 # TP Guidé — Hashing et dictionnaires en Python
 
-## Objectifs
+## 🎯 Objectifs
 
 À la fin du TP, vous serez capable de :
 
@@ -257,7 +257,7 @@ Tous les programmes doivent écrire leur sortie dans le dossier **resultats/**.
 
 ---
 
-# Exercice 1 — Fonction de hachage
+## 🔹 Exercice 1 — Fonction de hachage
 
 Créer la fonction :
 
@@ -276,7 +276,7 @@ Exemple :
 hash_simple("chat", 10)
 ```
 
-### Programme attendu
+### ▶️ Programme attendu
 
 Créer :
 
@@ -295,7 +295,7 @@ python
 
 avec une table de taille **10**
 
-### Fichier attendu
+### 📂 Fichier attendu
 
 ```
 resultats/ex1.txt
@@ -314,7 +314,7 @@ python:3
 
 ---
 
-# Exercice 2 — Insertion dans une table de hachage
+## 🔹 Exercice 2 — Insertion dans une table de hachage
 
 Créer une table :
 
@@ -322,7 +322,7 @@ Créer une table :
 table = [[] for _ in range(5)]
 ```
 
-Implémenter :
+### ▶️ Implémenter :
 
 ```python
 def inserer(table, cle, valeur):
@@ -337,7 +337,7 @@ charlie 28
 david 40
 ```
 
-### Sortie attendue
+### 📂 Sortie attendue
 
 ```
 resultats/ex2.txt
@@ -357,9 +357,9 @@ Format :
 
 ---
 
-# Exercice 3 — Recherche
+## 🔹 Exercice 3 — Recherche
 
-Implémenter :
+### ▶️ Implémenter :
 
 ```python
 def rechercher(table, cle):
@@ -373,7 +373,7 @@ bob
 zoe
 ```
 
-### Fichier résultat
+### 📂 Fichier résultat
 
 ```
 resultats/ex3.txt
@@ -389,7 +389,7 @@ zoe:None
 
 ---
 
-# Exercice 4 — Dictionnaires Python
+## 🔹 Exercice 4 — Dictionnaires Python
 
 Créer un dictionnaire :
 
@@ -406,13 +406,13 @@ Charlie 92
 Diana 88
 ```
 
-### Programme :
+### ▶️  Programme :
 
 ```
 ex4_dict.py
 ```
 
-### Fichier résultat
+### 📂 Fichier résultat
 
 ```
 resultats/ex4.txt
@@ -429,7 +429,10 @@ Diana:88
 
 ---
 
-# Exercice 5 — Compter les mots
+## 🔹 Exercice 5 — Compter les mots
+
+
+### ▶️ Créer un compteur de mots avec un dictionnaire.
 
 Texte :
 
@@ -437,9 +440,7 @@ Texte :
 python est simple et python est puissant
 ```
 
-Créer un compteur de mots avec un dictionnaire.
-
-### Résultat attendu
+### 📂 Résultat attendu
 
 ```
 resultats/ex5.txt
