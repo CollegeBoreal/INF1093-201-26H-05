@@ -4,9 +4,9 @@
 
 📍 Créer une page
 
- créer un répertoire avec son 🆔 et ajouter le fichier README.md
- créer un répertoire dans son répertoire 🆔, ajouter le répertoire images et ajouter le fichier .gitkeep
- suivre les étapes ci-dessous dans votre répertoire 🆔
+ * créer un répertoire avec son 🆔 et ajouter le fichier README.md
+ * créer un répertoire dans son répertoire 🆔, ajouter le répertoire images et ajouter le fichier .gitkeep
+ * suivre les étapes ci-dessous dans votre répertoire 🆔
 
  ---
 
