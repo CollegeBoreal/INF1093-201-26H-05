@@ -4,9 +4,32 @@
 
 📍 Créer une page
 
- créer un répertoire avec son 🆔 et ajouter le fichier README.md
- créer un répertoire dans son répertoire 🆔, ajouter le répertoire images et ajouter le fichier .gitkeep
- suivre les étapes ci-dessous dans votre répertoire 🆔
+ * créer un répertoire avec son 🆔 et ajouter le fichier README.md
+ * créer un répertoire dans son répertoire 🆔, ajouter le répertoire images et ajouter le fichier .gitkeep
+ * suivre les étapes ci-dessous dans votre répertoire 🆔
+
+On va créer une **structure de répertoire claire** pour tes trois exercices de tri et fournir **les fichiers Python et fichiers d’entrée** pour chaque exercice.
+
+---
+
+### 📂 Structure de répertoires
+
+```
+🆔/
+│
+├─ insertion/
+│   ├─ main.py
+│   └─ entree_insertion.txt
+│
+├─ shell/
+│   ├─ main.py
+│   └─ entree_shell.txt
+│
+└─ quick/
+    ├─ main.py
+    └─ entree_quick.txt
+```
+
 
  ---
 
@@ -273,24 +296,3 @@ Résultat : [2, 5, 7, 7, 23, 32, 32, 34, 62]
 > exactement comme dans un vrai programme professionnel.
 
 
-On va créer une **structure de répertoire claire** pour tes trois exercices de tri et fournir **les fichiers Python et fichiers d’entrée** pour chaque exercice.
-
----
-
-## 📂 Structure de répertoires
-
-```
-ID/
-│
-├─ insertion/
-│   ├─ main.py
-│   └─ entree_insertion.txt
-│
-├─ shell/
-│   ├─ main.py
-│   └─ entree_shell.txt
-│
-└─ quick/
-    ├─ main.py
-    └─ entree_quick.txt
-```
