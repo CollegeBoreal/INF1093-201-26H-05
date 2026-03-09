@@ -203,3 +203,6 @@ notes['INF1042']
 
 ***
 
+# References
+
+<image src=images/redis-cache.gif width='70%' height='70%' > </image>
