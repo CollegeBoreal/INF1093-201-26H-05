@@ -40,6 +40,7 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 |  2-Fev | [**Entrée/sortie** - Traitement entrée/sortie sur fichiers](2.IO)
 | 16-Fev | [**Tris variés (insertion, shell, quick)** - Algorithmes de tri _Travail_](3.Tris)
 | 23-Fev | [**Hashing, Dictionnaires** - Hashing _Travail_](4.Hashing)
+|  9-Mar | [**Programmation OOP** - Programmation Orientée-Objet Travail](5.OOP)
 
 #### 🟣 Affiché
 
