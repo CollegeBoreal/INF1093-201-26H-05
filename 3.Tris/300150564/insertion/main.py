@@ -4,6 +4,7 @@ HERE = Path(__file__).resolve().parent
 INPUT = HERE / "entree_insertion.txt"
 
 
+# Trés bien Ouassin, t'es le meilleur
 def tri_insertion(tab):
     for i in range(1, len(tab)):
         cle = tab[i]
