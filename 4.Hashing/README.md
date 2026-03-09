@@ -459,6 +459,6 @@ et:1
 puissant:1
 ```
 
-# References
+# 📚 References
 
 <image src=images/redis-cache.gif width='50%' height='50%' > </image>
