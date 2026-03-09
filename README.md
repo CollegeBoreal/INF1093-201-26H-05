@@ -32,8 +32,8 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 
 #### ✅ Actuel
 
-| Période | Activités/Thèmes | Commentaires |
-|-|-:|-|-|
+| Période | Activités/Thèmes |
+|-|-|
 | 12-Jan | [Présentation du **Plan De Cours**](0.PlanDeCours) 
 | 19-Jan | [Présentation de l'environnement de travail de **Programmation**](P.Programmation)
 | 26-Jan | [**Notation Big O** - Mesurer l’efficacité d’un algorithme ](1.Big-O)
