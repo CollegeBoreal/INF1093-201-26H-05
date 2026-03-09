@@ -38,8 +38,8 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 | 19-Jan |    | [Présentation de l'environnement de travail de **Programmation**](P.Programmation)
 | 26-Jan |    | [**Notation Big O** - Mesurer l’efficacité d’un algorithme ](1.Big-O)
 |  2-Fev | 2️⃣ | [**Entrée/sortie** - Traitement entrée/sortie sur fichiers](2.IO)
-| 16-Fev | 3️⃣  | **Tris variés (insertion, shell, quick)** - Algorithmes de tri _Travail_
-| 23-Fev | 5️⃣  | **Hashing, Dictionnaires** - Hashing _Travail_
+| 16-Fev | 3️⃣  | [**Tris variés (insertion, shell, quick)** - Algorithmes de tri _Travail_](3.Tris)
+| 23-Fev | 5️⃣  | [**Hashing, Dictionnaires** - Hashing _Travail_](5.Hashing)
 
 #### 🟣 Affiché
 
