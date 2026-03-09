@@ -9,6 +9,9 @@
 *   Utiliser un dictionnaire pour stocker, accéder et modifier des données.
 *   Comprendre pourquoi un dictionnaire est **rapide**.
 
+  💡 Petite remarque pédagogique intéressante :
+Beaucoup de systèmes modernes (cache web, sessions, microservices) utilisent des bases de données NoSQL comme `Redis` parce que les tables de hachage sont l’une des structures de données les plus rapides en informatique.
+
 ***
 
 # 1. 🔐 Qu’est‑ce que le Hashing ?
