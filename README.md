@@ -1,4 +1,4 @@
-# INF1093-201-26H-05
+# INF1093-201-26H-05 (Lundi 13H S208)
 
 INF1093 (201) - Programmation 2
 
