@@ -1,9 +1,4 @@
-# Projet Figures Géométriques — POO Python
-Auteur : 300156627
-Date : 2026-03-10
 
-Ce projet démontre la Programmation Orientée Objet (POO) en Python
-avec les figures géométriques : Carré, Cercle et Triangle.
 
 
 # **Programmation Orientée Objet (POO) en Python 🐍**
