@@ -1,4 +1,4 @@
-# Laboratoire – Tables de Hachage en Python
+# Projet – Tables de Hachage en Python
 
 ## Étudiant
 ID : 300155187
@@ -118,3 +118,4 @@ Les concepts étudiés sont largement utilisés dans plusieurs domaines comme :
 - la cryptographie...
 
 ---
+
