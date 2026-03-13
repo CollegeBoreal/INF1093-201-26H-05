@@ -1,6 +1,6 @@
-# Traitement des Entrées/Sorties – INF1093
+# 📂 TP I/O – Traitement des entrées/sorties
 
-**Auteur :** Maimouna Diallo 🆔 300155187  
+**Auteur :** Maimouna Diallo 🆔 300155187
 **Date :** 02 février 2026  
 
 ---
@@ -29,8 +29,6 @@ Gestion simple des erreurs (lignes invalides)
 
 ###📊 Diagramme des notes
 
-
-
 Un diagramme en barres est généré dans le notebook RAPPORT.ipynb afin de visualiser les résultats.
 
 NB :
@@ -40,6 +38,7 @@ Ce diagramme représente les notes de chaque étudiant.e. et permet de visualise
 
 ### b) Lecture des données
 
+```python
 import matplotlib.pyplot as plt
 
 noms = []
@@ -57,6 +56,7 @@ with open("etudiants.txt", "r") as f:
             notes.append(float(note))
         except ValueError:
             print("Ligne invalide :", ligne)
+```
 
 
 ## 📁 Fichiers du projet
@@ -70,6 +70,7 @@ etudiants.txt → fichier d’entrée
 resultats.txt → fichier de sortie
 
 images/ → dossier pour les captures ou diagrammes
+
 
 
 
