@@ -1,5 +1,7 @@
-# 300155187 — Projet : Figures Géométriques en Python 📘 
-## ✨ Introduction 
+# 📘 Projet : Figures Géométriques en Python  
+ # ID : 300155187
+ # Etudiante : Maimouna Diallo
+# ✨ Introduction 
 Ce projet présente une série de classes Python permettant de représenter et manipuler différentes figures géométriques en 2D et 3D. 
 Chaque figure possède :  
 - une classe dédiée (héritée de Figure)  
@@ -7,30 +9,31 @@ Chaque figure possède :
 - une méthode pour calculer l’aire ou le volume  
 - une méthode d’affichage d’informations
   
-## 🔹 Figures 2D disponibles 
-## ⬜ Carré 
+# 🔹 Figures 2D disponibles 
+
+# ⬜ Carré 
   - Basé sur son côté 
-## ⚪ Cercle 
+# ⚪ Cercle 
   - Basé sur son rayon
-## 🔶 Losange 
+# 🔶 Losange 
   - Basé sur ses diagonales
-## ⬛ Parallélogramme 
+# ⬛ Parallélogramme 
 - Basé sur sa base et sa hauteur
-## 🔹 Figures 3D disponibles 
-## 🛢️ Cylindre
+# 🔹 Figures 3D disponibles 
+# 🛢️ Cylindre
      - Rayon r, Hauteur h 
-## ⬛ Prisme carré 
+# ⬛ Prisme carré 
     - Côté c, Hauteur h 
- ## 🔶 Prisme losange 
+ # 🔶 Prisme losange 
    - Diagonales d1, d2, Hauteur h 
- ## ▱ Prisme parallélogramme 
+ # ▱ Prisme parallélogramme 
 -  Base b, Hauteur h, Profondeur p 
-## 🌐 Sphère 
+# 🌐 Sphère 
   - Rayon r 
-## 🔺 Cône 
+# 🔺 Cône 
 Rayon r, Hauteur h 
 
-## 🧩 Structure du Projet
+# 🧩 Structure du Projet
 ```python
 figure.py → Classe de base Figure  
 carre.py → Classe Carre  
@@ -44,7 +47,7 @@ prisme_parallelogramme.py → Classe PrismeParallelogramme
 sphere.py → Classe Sphere  
 cone.py → Classe Cone
 ``` 
-## Fonctions d'affichage graphique : 
+# Fonctions d'affichage graphique : 
 
 ```python
 afficher_carre()  
@@ -58,22 +61,22 @@ afficher_prisme_parallelogramme()
 afficher_sphere()  
 afficher_cone() 
 ```
-## 🎯 Objectifs du Projet 
+# 🎯 Objectifs du Projet 
   - Appliquer les concepts de POO en Python  
   - Pratiquer l’héritage et les classes  
   - Visualiser les formes en 2D et 3D avec Matplotlib  
   - Calculer aires et volumes automatiquement  
   - Illustrer la représentation cartésienne
     
-## 🟦 1. Carré ⬜ 
-## 🧮 Classe 
+# 🟦 1. Carré ⬜ 
+# 🧮 Classe 
   Le carré est défini par :
  - Attribut : cote  
  - une méthode : aire() = cote²
 
-## 🖼️ Affichage 
+# 🖼️ Affichage 
 La figure est tracée à partir des 4 sommets d’un carré dans le repère cartésien.
-## ✨ Code d’affichage
+# ✨ Code d’affichage
 ```python
 def afficher_carre(carre): 
     cote = carre.cote 
@@ -87,15 +90,15 @@ def afficher_carre(carre):
     plt.grid(True) 
     plt.show() 
 ```
-## ⚪ 2. Cercle 
-## 🧮 Classe 
+# ⚪ 2. Cercle 
+# 🧮 Classe 
   Le cercle est défini par :
 - Attribut : rayon 
 - Méthode : aire() = π × r²
   
-## 🖼️ Affichage 
+# 🖼️ Affichage 
  Le contour du cercle est généré à partir de 300 points répartis sur un angle de 0 à 2π.
-## ✨ Code d’affichage
+# ✨ Code d’affichage
 
 ```python
 def afficher_cercle(cercle): 
@@ -112,16 +115,16 @@ def afficher_cercle(cercle):
     plt.show() 
   ```
 
-## 🔶 3. Losange 
-## 🧮 Classe 
+# 🔶 3. Losange 
+# 🧮 Classe 
 Le losange est défini par deux diagonales :
 - d1 (la grande)
 - d2 (la petite
-## Aire :
+# Aire :
 ```python
      A = (d1 × d2)/2
   ```
-## 🖼️ Affichage 
+# 🖼️ Affichage 
 ```python
 def afficher_losange(losange): 
     d1 = losange.d1 
@@ -136,19 +139,19 @@ def afficher_losange(losange):
     plt.grid(True) 
     plt.show()
   ```
-## ⬛ 4. Parallélogramme 
-## 🧮 Classe 
+# ⬛ 4. Parallélogramme 
+# 🧮 Classe 
   Le parallélogramme est défini par :
 - b → base
 - h → hauteur
-  ## Aire :
+  # Aire :
   
 ```python
  A = b × h 
 ```
-## 🖼️ Affichage 
+# 🖼️ Affichage 
 Un décalage horizontal automatique (b/3) permet de créer un parallélogramme non-rectangle.
-## ✨ Code d’affichage
+# ✨ Code d’affichage
 ```python
 def afficher_parallelogramme(par): 
     b, h = par.b, par.h 
@@ -163,11 +166,11 @@ def afficher_parallelogramme(par):
     plt.grid(True) 
     plt.show()
 ```
-## 🛢️ 5. Cylindre 
+# 🛢️ 5. Cylindre 
 ```python
 def afficher_cylindre(cylindre): r, h = cylindre.rayon, cylindre.hauteur theta = np.linspace(0, 2np.pi, 50) z = np.linspace(0, h, 50) theta, z = np.meshgrid(theta, z) x = r * np.cos(theta) y = r * np.sin(theta) fig = plt.figure(figsize=(6,6)) ax = fig.add_subplot(111, projection='3d') ax.plot_surface(x, y, z, alpha=0.5) ax.plot_surface(rnp.cos(theta), rnp.sin(theta), np.zeros_like(theta), alpha=0.7) ax.plot_surface(rnp.cos(theta), rnp.sin(theta), hnp.ones_like(theta), alpha=0.7) ax.set_title(f"Cylindre — volume={cylindre.volume():.2f}") ax.set_box_aspect([1,1,1]) plt.show() 
 ```
-## ⬛ 6. Prisme Carré
+# ⬛ 6. Prisme Carré
 
 ```python
 def afficher_prisme_carre(p): 
@@ -185,7 +188,7 @@ def afficher_prisme_carre(p):
     ax.set_title(f"Prisme Carré — volume={p.volume():.2f}") 
     plt.show() 
 ```
-## 🔶 7. Prisme Losange
+# 🔶 7. Prisme Losange
 ```python
 def afficher_prisme_losange(p): 
     d1, d2, h = p.d1, p.d2, p.hauteur 
@@ -200,7 +203,7 @@ def afficher_prisme_losange(p):
     ax.set_title(f"Prisme Losange — volume={p.volume():.2f}") 
     plt.show() 
 ```
-## ▱ 8. Prisme Parallélogramme 
+# ▱ 8. Prisme Parallélogramme 
 ```python
 def afficher_prisme_parallelogramme(p): 
     b, h, prof = p.base, p.hauteur_parallelo, p.profondeur 
@@ -216,17 +219,17 @@ def afficher_prisme_parallelogramme(p):
     ax.set_title(f"Prisme Parallélogramme — volume={p.volume():.2f}") 
     plt.show() 
   ```
-## 🌐 9. Sphère
+# 🌐 9. Sphère
 
 ```python
 def afficher_sphere(s): r = s.rayon theta, phi = np.linspace(0, np.pi, 40), np.linspace(0, 2*np.pi, 40) theta, phi = np.meshgrid(theta, phi) x = r * np.sin(theta) * np.cos(phi) y = r * np.sin(theta) * np.sin(phi) z = r * np.cos(theta) fig = plt.figure() ax = fig.add_subplot(111, projection='3d') ax.plot_surface(x, y, z, alpha=0.3) ax.set_title(f"Sphère — volume={s.volume():.2f}") plt.show() 
 ```
-## 🔺 10. Cône 
+# 🔺 10. Cône 
 ```python
 def afficher_cone(c): r, h = c.rayon, c.hauteur theta = np.linspace(0, 2np.pi, 50) z = np.linspace(0, h, 50) theta, z = np.meshgrid(theta, z) x = (r(1-z/h))np.cos(theta) y = (r(1-z/h))*np.sin(theta) fig = plt.figure() ax = fig.add_subplot(111, projection='3d') ax.plot_surface(x, y, z, alpha=0.3) ax.set_title(f"Cône — volume={c.volume():.2f}") plt.show() 
 ```
 
-## 🧪 Démonstration générale
+# 🧪 Démonstration générale
 
 ```python
 c1 = Carre(4) 
@@ -253,7 +256,7 @@ afficher_prisme_parallelogramme(c8)
 afficher_sphere(c9) 
 afficher_cone(c10)
 ``` 
-## 🎉 Conclusion 
+# 🎉 Conclusion 
 Ce projet montre : 
 l’utilisation de la POO en Python 
 l’héritage de classes 
