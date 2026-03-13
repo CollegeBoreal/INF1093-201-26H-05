@@ -1,9 +1,8 @@
 # 📘 Projet – Tables de Hachage en Python
 
 # Étudiant : Maimouna Diallo
-# ID : 300155187
-# Cours : INF1093  
-# Sujet : Implémentation des tables de hachage en Python
+ID : 300155187
+Sujet : Implémentation des tables de hachage en Python
 
 ---
 
@@ -115,5 +114,6 @@ Les dictionnaires Python reposent eux-mêmes sur ce principe, ce qui explique le
 - la cryptographie...
 ```
 ---
+
 
 
