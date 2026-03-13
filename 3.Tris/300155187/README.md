@@ -29,6 +29,7 @@ Ces algorithmes sont généralement appliqués sur des **tableaux**, car ils né
 
 ## 📂 Structure du projet
 
+```
 300155187/
 │
 ├─ insertion/
@@ -42,7 +43,7 @@ Ces algorithmes sont généralement appliqués sur des **tableaux**, car ils né
 └─ quick/
 ├─ main.py
 └─ entree_quick.txt
-
+```
 
 Chaque dossier contient :
 - un **programme Python** qui implémente l’algorithme
@@ -70,3 +71,4 @@ Résultat : [1, 2, 3, 4, 5, 10, 20]...
 ## 📌 Conclusion
 
 Ce projet permet de comprendre le fonctionnement de plusieurs algorithmes de tri et l’utilisation des fichiers d’entrée pour séparer les données du code. Cette approche facilite la réutilisation et l’organisation des programmes.
+
