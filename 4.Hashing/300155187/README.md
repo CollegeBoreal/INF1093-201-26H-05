@@ -3,6 +3,7 @@
 # Étudiant : Maimouna Diallo
 ID : 300155187 \n
 Sujet : Implémentation des tables de hachage en Python
+
 ---
 
 # 📌 Objectif du projet
@@ -113,6 +114,7 @@ Les dictionnaires Python reposent eux-mêmes sur ce principe, ce qui explique le
 - la cryptographie...
 ```
 ---
+
 
 
 
