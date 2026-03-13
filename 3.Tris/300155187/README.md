@@ -56,19 +56,22 @@ Chaque dossier contient :
 Les fichiers contiennent simplement des entiers séparés par des espaces.
 
 Exemple :
+```
 10 1 11 2 12 3 13 4 14 5 15 6 16 7 17 8 18 9 19 0
+```
 
 Le programme lit ces valeurs, applique l’algorithme de tri et affiche le tableau trié.
 
 ---
 
 ## ▶️ Exemple de résultat
-
+```
 Résultat : [1, 2, 3, 4, 5, 10, 20]...
-
+```
 ---
 
 ## 📌 Conclusion
 
 Ce projet permet de comprendre le fonctionnement de plusieurs algorithmes de tri et l’utilisation des fichiers d’entrée pour séparer les données du code. Cette approche facilite la réutilisation et l’organisation des programmes.
+
 
