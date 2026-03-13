@@ -27,7 +27,7 @@ Génération du fichier resultats.txt
 
 Gestion simple des erreurs (lignes invalides)
 
-###📊 Diagramme des notes
+# 📊 Diagramme des notes
 
 Un diagramme en barres est généré dans le notebook RAPPORT.ipynb afin de visualiser les résultats.
 
@@ -70,6 +70,7 @@ etudiants.txt → fichier d’entrée
 resultats.txt → fichier de sortie
 
 images/ → dossier pour les captures ou diagrammes
+
 
 
 
