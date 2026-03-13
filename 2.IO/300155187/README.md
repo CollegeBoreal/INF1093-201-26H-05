@@ -1,7 +1,7 @@
 # 📂 TP I/O – Traitement des entrées/sorties
 
 **Auteur :** Maimouna Diallo 🆔 300155187
-**Date :** 02 février 2026  
+**Date :** 02 février 2026 
 
 ---
 
@@ -57,8 +57,6 @@ with open("etudiants.txt", "r") as f:
         except ValueError:
             print("Ligne invalide :", ligne)
 ```
-
-
 ## 📁 Fichiers du projet
 
 IO.py→ script principal Python
@@ -70,8 +68,3 @@ etudiants.txt → fichier d’entrée
 resultats.txt → fichier de sortie
 
 images/ → dossier pour les captures ou diagrammes
-
-
-
-
-
