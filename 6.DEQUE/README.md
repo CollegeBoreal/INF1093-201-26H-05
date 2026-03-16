@@ -157,3 +157,90 @@ head
 * **`list`** : tableau dynamique, rapide accès index, append fin
 * **`deque`** : liste double-ended optimisée, rapide aux extrémités
 * **`Cons`** : concept de liste chaînée classique, rarement nécessaire en Python
+
+## 8️⃣ Ensembles (`set`) 🔹
+
+Un **ensemble** contient des **éléments uniques**, **non ordonnés**.
+
+### Exemple
+
+```python
+s = {1, 2, 3}
+s.add(3)   # déjà présent, ne sera pas ajouté
+s.add(4)
+print(s)
+```
+
+Résultat possible (ordre non garanti) :
+
+```
+{1, 2, 3, 4} ✅
+```
+
+### Opérations principales
+
+| 🔹 Opération | 💻 Exemple    | ✨ Résultat    |                 |
+| ------------ | ------------- | ------------- | --------------- |
+| Ajouter      | `s.add(5)`    | `{1,2,3,4,5}` |                 |
+| Supprimer    | `s.remove(2)` | `{1,3,4,5}`   |                 |
+| Union        | `s            | {6,7}`        | `{1,3,4,5,6,7}` |
+| Intersection | `s & {3,5,8}` | `{3,5}`       |                 |
+| Différence   | `s - {4,7}`   | `{1,3,5}`     |                 |
+
+💡 Idéal pour **unicité**, **intersection** et **union**.
+
+---
+
+## 9️⃣ Piles (`stack`) 🥞
+
+Une **pile** fonctionne **LIFO (Last In First Out)**.
+
+```
+Top
+⬆️ 30
+⬆️ 20
+⬆️ 10
+Bottom
+```
+
+### Exemple Python
+
+```python
+pile = []
+pile.append(10)  # push
+pile.append(20)
+pile.append(30)
+
+print(pile.pop())  # 30 sort en premier
+```
+
+Résultat :
+
+```
+30
+```
+
+### Schéma Emoji
+
+```
+pile = []
+
+push(10) -> 🟦10
+push(20) -> 🟦20
+push(30) -> 🟦30 (Top)
+
+pop() -> retire 🟦30
+```
+
+💡 Utilité : **historique, DFS, undo**, etc.
+
+---
+
+## 1️⃣0️⃣ Comparaison rapide ⚡
+
+| Structure               | Ordre            | Doublons        | Accès direct             | Usage typique                  |
+| ----------------------- | ---------------- | --------------- | ------------------------ | ------------------------------ |
+| 🔹 **Ensemble (`set`)** | ❌ Non ordonné    | ❌ Non autorisés | ❌ Non indexé             | Unicité, intersections, unions |
+| 🥞 **Pile (`stack`)**   | ✅ Ordonné (LIFO) | ✅ Autorisés     | ✅ via `pop()`/`append()` | Historique, parcours DFS, undo |
+
+
