@@ -1,0 +1,3 @@
+ERREUR: Le fichier 'etudiants_manquant.txt' est introuvable.
+ERREUR: Ligne 3 mal formée : 'Charlie'
+ERREUR: Note invalide à la ligne 5 : 'abc'
