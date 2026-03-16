@@ -103,6 +103,8 @@ class Cons:
 
 # Liste 1 -> 2 -> 3
 l = Cons(1, Cons(2, Cons(3)))
+# Accès
+l.next.next.value
 ```
 
 ### Schéma visuel
