@@ -1,0 +1,4 @@
+chat:4
+chien:7
+oiseau:2
+python:3
