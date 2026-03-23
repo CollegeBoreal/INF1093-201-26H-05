@@ -48,9 +48,9 @@
 | 27 | [300158035](../300158035/README.md) [djemadimelissa2004-cyber](https://github.com/djemadimelissa2004-cyber) <img src='https://avatars0.githubusercontent.com/u/236510494?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 28 | [300158058](../300158058/README.md) [rabah-ik](https://github.com/rabah-ik) <img src='https://avatars0.githubusercontent.com/u/255966334?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 29 | [300158185](../300158185/README.md) [mohammed-mati](https://github.com/mohammed-mati) <img src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 30 | [300158486](../300158486/README.md) [lyes158](https://github.com/lyes158) <img src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
+| 30 | [300158486](../300158486/README.md) [lyes158](https://github.com/lyes158) <img src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | 31 | [300159189](../300159189/README.md) [fateh98](https://github.com/fateh98) <img src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
-| :abacus: | $\frac{7}{32}$ = 21% | $\displaystyle\sum_{i=1}^{32} s_i$ = 7 |
+| :abacus: | $\frac{8}{32}$ = 25% | $\displaystyle\sum_{i=1}^{32} s_i$ = 8 |
 
 ## :b: Précision
 
