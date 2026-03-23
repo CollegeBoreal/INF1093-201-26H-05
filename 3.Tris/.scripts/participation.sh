@@ -59,8 +59,8 @@ echo "| Structure          | Arborescence + fichiers exigés présents     |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "| :hash: | Boréal :id:                         | :id:/README.md    | :rocket: | Structure |"
-echo "|--------|-------------------------------------|-------------------|----------|-----------|"
+echo "| :hash: | Boréal :id:                         | :id:/README.md    | Structure |"
+echo "|--------|-------------------------------------|-------------------|-----------|"
 
 # ---------- Corps ----------
 
@@ -77,19 +77,7 @@ for entry in "${ETUDIANTS[@]}"; do
 
     # Par défaut
     readme_status=":x:"
-    work_status=":x:"
     struct_status=":x:"
-
-    if [[ -f "$FILE" ]]; then
-        readme_status=":heavy_check_mark:"
-        # Vérifie si le dernier auteur est "noreply" (soumission web)
-        if git log --format=fuller -- "${FILE}" | grep Author | grep -q "noreply"; then
-            work_status=":x:"
-        else
-            work_status=":heavy_check_mark:"
-            ((s++))
-        fi
-    fi
 
     # Vérifie la structure (indépendamment du README)
     if check_structure "${id}"; then
@@ -98,7 +86,7 @@ for entry in "${ETUDIANTS[@]}"; do
         struct_status=":x:"
     fi
 
-    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${readme_status} | ${work_status} | ${struct_status} |"
+    echo "| ${i} | [${id}](../${FILE}) ${URL} | ${readme_status} | ${struct_status} |"
 
     ((i++))
 done
