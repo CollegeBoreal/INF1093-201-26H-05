@@ -23,7 +23,7 @@
 | 2 | [300151262](../300151262/README.md) [rifwil5-tech](https://github.com/rifwil5-tech) <img src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | 3 | [300151505](../300151505/README.md) [300151505](https://github.com/300151505) <img src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 4 | [300151545](../300151545/README.md) [merselmohamed2003-star](https://github.com/merselmohamed2003-star) <img src='https://avatars0.githubusercontent.com/u/255948584?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
-| 5 | [300151588](../300151588/README.md) [belhAmine](https://github.com/belhAmine) <img src='https://avatars0.githubusercontent.com/u/58528251?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
+| 5 | [300151588](../300151588/README.md) [belhAmine](https://github.com/belhAmine) <img src='https://avatars0.githubusercontent.com/u/58528251?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | 6 | [300151589](../300151589/README.md) [walidwolf31](https://github.com/walidwolf31) <img src='https://avatars0.githubusercontent.com/u/231501417?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 7 | [300151781](../300151781/README.md) [lounesallouti](https://github.com/lounesallouti) <img src='https://avatars0.githubusercontent.com/u/257377074?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | 8 | [300151835](../300151835/README.md) [benhammoucheliza928-eng](https://github.com/benhammoucheliza928-eng) <img src='https://avatars0.githubusercontent.com/u/255944310?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
@@ -50,7 +50,7 @@
 | 29 | [300158185](../300158185/README.md) [mohammed-mati](https://github.com/mohammed-mati) <img src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | 30 | [300158486](../300158486/README.md) [lyes158](https://github.com/lyes158) <img src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
 | 31 | [300159189](../300159189/README.md) [fateh98](https://github.com/fateh98) <img src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width='20' height='20'/> | :x: | :x: | :x: |
-| :abacus: | $\frac{6}{32}$ = 18% | $\displaystyle\sum_{i=1}^{32} s_i$ = 6 |
+| :abacus: | $\frac{7}{32}$ = 21% | $\displaystyle\sum_{i=1}^{32} s_i$ = 7 |
 
 ## :b: Précision
 
