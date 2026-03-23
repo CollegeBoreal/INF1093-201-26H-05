@@ -14,10 +14,6 @@ calcule la moyenne du groupe et génère un fichier de résultats.
 - IO.py : script Python
 - resultats.txt : résultats
 - RAPPORT.ipynb : analyse et diagramme
-## Diagramme des notes
-
-![Diagramme des notes](images/notes.png)
-
 ## Exécution
 ```bash
 python IO.py
