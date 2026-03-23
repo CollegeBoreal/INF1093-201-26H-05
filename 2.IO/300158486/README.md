@@ -1,5 +1,7 @@
 # Devoir — Traitement fichiers (Python I/O)
-
+Auteur : Lyes Hamed
+🆔 300158486
+Date : 25 février 2026
 ## Fichiers
 - `IO.py` : script Python qui lit `etudiants.txt`, calcule la moyenne et génère `resultats.txt`
 - `RAPPORT.ipynb` : notebook (rapport) avec lecture, calcul, génération + diagramme des notes
@@ -27,3 +29,7 @@ Résultat : création / mise à jour de `resultats.txt`.
 1. Ouvrir `RAPPORT.ipynb` dans Jupyter.
 2. Exécuter les cellules dans l’ordre.
 3. Le notebook affiche un diagramme des notes et peut sauvegarder l’image dans `images/`.
+
+## Exécution
+```bash
+python IO.py
