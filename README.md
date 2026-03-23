@@ -2,28 +2,16 @@
 
 INF1093 (201) - Programmation 2
 
-```lua
-Professor is inviting you to a scheduled Zoom meeting.
+## :one: [Devoirs](Devoirs)
 
-Topic: CBCR INF1093/201/5/Programmation 2/26H
-Time: This is a recurring meeting Meet anytime
+|  :hash: | Date  | Cours                              | 🎉 Participations                             |
+|---------|-------|:-----------------------------------|:----------------------------------------------|
+| :one:   | 19-Jan| [0.PlanDeCours](0.PlanDeCours)     | [🎉](0.PlanDeCours/.scripts/Participation.md)  |
+| :two:   | 02-Feb| [2.IO](2.IO)                       | [🎉 ](2.IO/.scripts/Participation.md)         |
+| :three: | 09-Feb| [3.Tris](3.Tris)                   | [🎉 ](3.Tris/.scripts/Participation.md)        |
+| :four:  | 23-Feb| [5.OOP](5.OOP)                     | [🎉 ](5.OOP/.scripts/Participation.md)         |
 
-Join Zoom Meeting
-https://collegeboreal.zoom.us/j/82266112181?pwd=LstPcZFcWVD1Byq3RsMVVae6G5FzGC.1
 
-Password: 4288450904
-
-One tap mobile
-8339581164,,82266112181# Canada Toll-free
-8557038985,,82266112181# Canada Toll-free
-
-Dial by your location
-        833 958 1164 Canada Toll-free
-        855 703 8985 Canada Toll-free
-        833 955 1088 Canada Toll-free
-Meeting ID: 822 6611 2181
-Find your local number: https://collegeboreal.zoom.us/u/kc3E096E9I
-```
 
 ## 📜 Déroulement du cours
 
