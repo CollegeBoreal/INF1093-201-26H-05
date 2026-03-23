@@ -12,4 +12,3 @@ else:
     print("❌ Chemin incorrect.")
     print("Votre chemin:", path)
     print("Chemin attendu:", expected_path)
-  
