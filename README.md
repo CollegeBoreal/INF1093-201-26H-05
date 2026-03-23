@@ -7,9 +7,9 @@ INF1093 (201) - Programmation 2
 |  :hash: | Date  | Cours                              | 🎉 Participations                   |
 |---------|-------|:-----------------------------------|:------------------------------------|
 | :one:   | 19-Jan| [0.PlanDeCours](0.PlanDeCours)     | [🎉](0.PlanDeCours/.scripts/Participation.md) |
-| :two:   | 02-Feb| [2.IO](2.IO)                  | [🎉 ](/.scripts/Participation-group1.md)   |
-| :three: | 09-Feb| [3.Tris](3.Tris)  | [🎉 ](3.Tris/.scripts/Participation-group1.md) 
-| :four:  | 23-Feb| [5.OOP](5.OOP)                 | [🎉 ](5.OOP/.scripts/Participation-group1.md) |
+| :two:   | 02-Feb| [2.IO](2.IO)                       | [🎉 ](/.scripts/Participation.md)   |
+| :three: | 09-Feb| [3.Tris](3.Tris)                   | [🎉 ](3.Tris/.scripts/Participation.md) 
+| :four:  | 23-Feb| [5.OOP](5.OOP)                     | [🎉 ](5.OOP/.scripts/Participation.md) |
 
 
 
