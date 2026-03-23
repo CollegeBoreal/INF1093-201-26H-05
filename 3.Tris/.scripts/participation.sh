@@ -79,6 +79,11 @@ for entry in "${ETUDIANTS[@]}"; do
     readme_status=":x:"
     struct_status=":x:"
 
+    if [[ -f "$FILE" ]]; then
+      readme_status=":heavy_check_mark:"
+      ((s++))
+    fi
+
     # Vérifie la structure (indépendamment du README)
     if check_structure "${id}"; then
         struct_status=":heavy_check_mark:"
