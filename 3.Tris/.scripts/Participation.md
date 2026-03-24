@@ -42,7 +42,7 @@
 | 21 | [300157287](../300157287/README.md) [cheikau](https://github.com/cheikau) <img src='https://avatars0.githubusercontent.com/u/231501940?s=460&v=4' width='20' height='20'/> | :x: | :x: |
 | 22 | [300157301](../300157301/README.md) [amhn25](https://github.com/amhn25) <img src='https://avatars0.githubusercontent.com/u/258898045?s=460&v=4' width='20' height='20'/> | :x: | :x: |
 | 23 | [300157330](../300157330/README.md) [toufikmekbel](https://github.com/toufikmekbel) <img src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width='20' height='20'/> | :x: | :x: |
-| 24 | [300157374](../300157374/README.md) [yanisna](https://github.com/yanisna) <img src='https://avatars0.githubusercontent.com/u/255961683?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :x: |
+| 24 | [300157374](../300157374/README.md) [yanisna](https://github.com/yanisna) <img src='https://avatars0.githubusercontent.com/u/255961683?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: |
 | 25 | [300157424](../300157424/README.md) [ma-jid-06](https://github.com/ma-jid-06) <img src='https://avatars0.githubusercontent.com/u/258873685?s=460&v=4' width='20' height='20'/> | :x: | :x: |
 | 26 | [300157734](../300157734/README.md) [kadermessalif-coder](https://github.com/kadermessalif-coder) <img src='https://avatars0.githubusercontent.com/u/254766183?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: |
 | 27 | [300158035](../300158035/README.md) [djemadimelissa2004-cyber](https://github.com/djemadimelissa2004-cyber) <img src='https://avatars0.githubusercontent.com/u/236510494?s=460&v=4' width='20' height='20'/> | :x: | :x: |
