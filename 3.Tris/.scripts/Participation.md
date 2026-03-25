@@ -18,7 +18,7 @@
 
 | :hash: | Boréal :id:                         | :id:/README.md    | Structure |
 |--------|-------------------------------------|-------------------|-----------|
-| 0 | [300141685](../300141685/README.md) [soulemanebry](https://github.com/soulemanebry) <img src='https://avatars0.githubusercontent.com/u/157196575?s=460&v=4' width='20' height='20'/> | :x: | :x: |
+| 0 | [300141685](../300141685/README.md) [soulemanebry](https://github.com/soulemanebry) <img src='https://avatars0.githubusercontent.com/u/157196575?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: |
 | 1 | [300150564](../300150564/README.md) [wassimbnr](https://github.com/wassimbnr) <img src='https://avatars0.githubusercontent.com/u/102555452?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: |
 | 2 | [300151262](../300151262/README.md) [rifwil5-tech](https://github.com/rifwil5-tech) <img src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: |
 | 3 | [300151505](../300151505/README.md) [300151505](https://github.com/300151505) <img src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width='20' height='20'/> | :x: | :x: |
@@ -50,7 +50,7 @@
 | 29 | [300158185](../300158185/README.md) [mohammed-mati](https://github.com/mohammed-mati) <img src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: |
 | 30 | [300158486](../300158486/README.md) [lyes158](https://github.com/lyes158) <img src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: |
 | 31 | [300159189](../300159189/README.md) [fateh98](https://github.com/fateh98) <img src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width='20' height='20'/> | :x: | :x: |
-| :abacus: | $\frac{12}{32}$ = 37% | $\displaystyle\sum_{i=1}^{32} s_i$ = 12 |
+| :abacus: | $\frac{13}{32}$ = 40% | $\displaystyle\sum_{i=1}^{32} s_i$ = 13 |
 
 ## :b: Précision
 
