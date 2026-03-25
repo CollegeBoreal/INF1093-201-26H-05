@@ -1,0 +1,8 @@
+Etudiant.e.s ayant >= 60 :
+Mamadou : 85.0
+Aissatou : 72.0
+Ibrahima : 68.0
+Fatoumata : 91.0
+Sekou : 77.0
+Mariama : 83.0
+Moyenne du groupe : 79.33

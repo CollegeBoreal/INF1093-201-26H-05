@@ -1,0 +1,52 @@
+import sys
+
+def lire_fichier(nom_fichier):
+    donnees = []
+    try:
+        with open(nom_fichier, "r", encoding="utf-8") as fichier:
+            for ligne in fichier:
+                contenu = ligne.strip()
+                if contenu == "":
+                    continue
+
+                try:
+                    nom, note = contenu.split(",")
+                    donnees.append((nom.strip(), float(note.strip())))
+                except:
+                    raise ValueError
+        return donnees
+
+    except FileNotFoundError:
+        print("Fichier introuvable.", file=sys.stderr)
+        sys.exit(1)
+
+
+def calculer_moyenne(liste_notes):
+    total = sum(note for _, note in liste_notes)
+    return total / len(liste_notes)
+
+
+def ecrire_resultats(fichier_sortie, donnees, moyenne):
+    with open(fichier_sortie, "w", encoding="utf-8") as f:
+        f.write("Liste des étudiants avec note >= 60\n")
+
+        for nom, note in donnees:
+            if note >= 60:
+                f.write(f"{nom} -> {note}\n")
+
+        f.write(f"\nMoyenne générale : {round(moyenne, 2)}\n")
+
+
+def main():
+    etudiants = lire_fichier("etudiants.txt")
+    moyenne = calculer_moyenne(etudiants)
+    ecrire_resultats("resultats.txt", etudiants, moyenne)
+
+    print("Traitement effectué avec succès.")
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except ValueError:
+        print("Erreur dans le format des données.", file=sys.stderr)
