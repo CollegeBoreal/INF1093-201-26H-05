@@ -52,7 +52,7 @@
 | 28 | [300158058](../300158058/README.md) [<image src='https://avatars0.githubusercontent.com/u/255966334?s=460&v=4' width=20 height=20></image>](https://github.com/rabah-ik) | :x: | :x: | :x: | [:x:](../300158058/RAPPORT.ipynb) | :x: | :zero: | :x: | :x: | :x: |
 | 29 | [300158185](../300158185/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/mohammed-mati) | :heavy_check_mark: | :heavy_check_mark: | :rocket: | [:receipt:](../300158185/RAPPORT.ipynb) | :writing_hand: | :one: | :heavy_check_mark: | :heavy_check_mark: |  |
 | 30 | [300158486](../300158486/README.md) [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :heavy_check_mark: | :heavy_check_mark: | :x: | [:receipt:](../300158486/RAPPORT.ipynb) | :x: | :one: | :heavy_check_mark: | :heavy_check_mark: |  |
-| 31 | [300159189](../300159189/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :x: | :x: | :x: | [:x:](../300159189/RAPPORT.ipynb) | :x: | :zero: | :x: | :x: | :x: |
-| :abacus: | $\frac{18}{32}$ = 56% | | | | | | | $\displaystyle\sum_{i=1}^{32} e_i$ = 14 | | | |
+| 31 | [300159189](../300159189/README.md) [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :heavy_check_mark: | :heavy_check_mark: | :rocket: | [:receipt:](../300159189/RAPPORT.ipynb) | :writing_hand: | :one: | :heavy_check_mark: | :heavy_check_mark: |  |
+| :abacus: | $\frac{19}{32}$ = 59% | | | | | | | $\displaystyle\sum_{i=1}^{32} e_i$ = 15 | | | |
 
-> Rappel (tout OK) : 13/32
+> Rappel (tout OK) : 14/32
