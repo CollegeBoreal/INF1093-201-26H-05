@@ -1,55 +1,29 @@
-<<<<<<< HEAD
-\# Algorithmes de tri
-
-
-
-\## 👤 Informations
-
-Nom : Fateh Boutaghane  
-
-ID : 300159189  
-
-
-
-\## 📚 Contenu
-
-\- Tri par insertion
-
-\- Tri de Shell
-
-\- Tri rapide
-
-
-
-\## 🎯 Objectif
-
-Lire des nombres depuis un fichier texte, appliquer un tri et afficher le résultat.
-
-
-
-\## ▶️ Exécution
-
-Dans chaque dossier :
-
-
-
-python main.py
-
-=======
 # INF1093-201-26H-05 (Lundi 13H S208)
 
 INF1093 (201) - Programmation 2
 
-## :one: [Devoirs](Devoirs)
+```lua
+Professor is inviting you to a scheduled Zoom meeting.
 
-|  :hash: | Date  | Cours                              | 🎉 Participations                             |
-|---------|-------|:-----------------------------------|:----------------------------------------------|
-| :one:   | 19-Jan| [0.PlanDeCours](0.PlanDeCours)     | [🎉](0.PlanDeCours/.scripts/Participation.md)  |
-| :two:   | 02-Feb| [2.IO](2.IO)                       | [🎉 ](2.IO/.scripts/Participation.md)         |
-| :three: | 09-Feb| [3.Tris](3.Tris)                   | [🎉 ](3.Tris/.scripts/Participation.md)        |
-| :four:  | 23-Feb| [5.OOP](5.OOP)                     | [🎉 ](5.OOP/.scripts/Participation.md)         |
+Topic: CBCR INF1093/201/5/Programmation 2/26H
+Time: This is a recurring meeting Meet anytime
 
+Join Zoom Meeting
+https://collegeboreal.zoom.us/j/82266112181?pwd=LstPcZFcWVD1Byq3RsMVVae6G5FzGC.1
 
+Password: 4288450904
+
+One tap mobile
+8339581164,,82266112181# Canada Toll-free
+8557038985,,82266112181# Canada Toll-free
+
+Dial by your location
+        833 958 1164 Canada Toll-free
+        855 703 8985 Canada Toll-free
+        833 955 1088 Canada Toll-free
+Meeting ID: 822 6611 2181
+Find your local number: https://collegeboreal.zoom.us/u/kc3E096E9I
+```
 
 ## 📜 Déroulement du cours
 
@@ -92,4 +66,3 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 
 - [INF1039 18A](https://github.com/CollegeBoreal/INF1039-202-18A-01)
 - [INF1039 17A](https://github.com/CollegeBoreal/INF1039-201-17A-02)
->>>>>>> 4732636965845f92355ee6884b4cb726605eb4fb

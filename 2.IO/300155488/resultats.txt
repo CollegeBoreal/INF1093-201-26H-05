@@ -1,0 +1,9 @@
+Etudiants avec note >= 60
+Iba 94.0
+Melissa 91.0
+Ibrahim 90.0
+Rokhayatou 91.0
+Maimouna 91.0
+Kader 85.0
+
+Moyenne du groupe: 90.33

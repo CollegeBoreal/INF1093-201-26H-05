@@ -1,0 +1,12 @@
+Étudiant(e)s ayant >= 60:
+- Alice 85.0
+- Bob 62.0
+- Charlie 91.0
+- David 77.0
+- Lucas 88.0
+- Sarah 73Alice 85.0
+- Bob 62.0
+- Charlie 91.0
+
+Moyenne du groupe: 77.22
+Nombre d'étudiant(e)s: 9

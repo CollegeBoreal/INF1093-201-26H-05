@@ -1,0 +1,6 @@
+Etudiants avec note >= 60
+Laic 85.0
+Fox 62.0
+Alex 91.0
+
+Moyenne du groupe: 79.33

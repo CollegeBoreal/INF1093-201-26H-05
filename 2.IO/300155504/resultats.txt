@@ -1,0 +1,12 @@
+===== RÉSULTATS =====
+
+Étudiants ayant réussi (note >= 60) :
+  Alice : 85.0
+  Bob : 62.0
+  Charlie : 91.0
+  Ethan : 78.0
+  Georges : 88.0
+  Ivan : 70.0
+  Julia : 95.0
+
+Moyenne du groupe : 70.20
