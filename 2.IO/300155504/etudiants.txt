@@ -1,0 +1,10 @@
+Alice 85
+Bob 62
+Charlie 91
+Diana 45
+Ethan 78
+Fatima 55
+Georges 88
+Hannah 33
+Ivan 70
+Julia 95
