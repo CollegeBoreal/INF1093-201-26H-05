@@ -1,0 +1,6 @@
+Étudiants admis (>=60):
+Maimon 99.0
+Bob 62.0
+Charlie 91.0
+
+Moyenne: 64.00

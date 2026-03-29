@@ -1,30 +1,57 @@
-notes = []
-reussite = []
+def main():
+    try:
+        # Ouvrir le fichier d'entrée
+        with open("etudiants.txt", "r", encoding="utf-8") as fichier:
+            lignes = fichier.readlines()
 
-try:
-    with open("etudiants.txt", "r") as f:
-        for ligne in f:
-            nom, note = ligne.split()
-            note = int(note)
-            notes.append(note)
+        etudiants_reussis = []
+        total_notes = 0
+        nombre_etudiants = 0
+
+        # Traitement des lignes
+        for ligne in lignes:
+            ligne = ligne.strip()
+
+            # Ignorer les lignes vides
+            if not ligne:
+                continue
+
+            try:
+                nom, note = ligne.split()
+                note = float(note)
+            except ValueError:
+                print(f"Format invalide ignoré : {ligne}")
+                continue
+
+            total_notes += note
+            nombre_etudiants += 1
 
             if note >= 60:
-                reussite.append(f"{nom} {note}")
+                etudiants_reussis.append(f"{nom} {note}")
 
-    moyenne = sum(notes) / len(notes)
+        # Vérifier s'il y a des étudiants
+        if nombre_etudiants == 0:
+            print("Aucune donnée valide trouvée.")
+            return
 
-    with open("resultats.txt", "w") as f:
-        f.write("Étudiants ayant >= 60\n")
+        moyenne = total_notes / nombre_etudiants
 
-        for etu in reussite:
-            f.write(etu + "\n")
+        # Écrire le fichier de sortie
+        with open("resultats.txt", "w", encoding="utf-8") as resultat:
+            resultat.write("Étudiants ayant une note ≥ 60 :\n")
+            for etudiant in etudiants_reussis:
+                resultat.write(etudiant + "\n")
 
-        f.write("\nMoyenne du groupe : " + str(moyenne))
+            resultat.write("\n")
+            resultat.write(f"Moyenne du groupe : {moyenne:.2f}\n")
 
-    print("Traitement terminé")
+        print("Traitement terminé avec succès ✅")
+        print("Résultats écrits dans resultats.txt")
 
-except FileNotFoundError:
-    print("Erreur : fichier etudiants.txt introuvable")
+    except FileNotFoundError:
+        print("Erreur : le fichier 'etudiants.txt' est introuvable ❌")
 
-except ValueError:
-    print("Erreur : format invalide")
+
+# Point d'entrée du script
+if __name__ == "__main__":
+    main()
