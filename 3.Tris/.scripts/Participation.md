@@ -34,7 +34,7 @@
 | 13 | [300154142](../300154142/README.md) [maouchimedchafik-lgtm](https://github.com/maouchimedchafik-lgtm) <img src='https://avatars0.githubusercontent.com/u/236670216?s=460&v=4' width='20' height='20'/> | :x: | :x: |
 | 14 | [300155045](../300155045/README.md) [chouaibait](https://github.com/chouaibait) <img src='https://avatars0.githubusercontent.com/u/232956639?s=460&v=4' width='20' height='20'/> | :x: | :x: |
 | 15 | [300155187](../300155187/README.md) [MaimounaBella](https://github.com/MaimounaBella) <img src='https://avatars0.githubusercontent.com/u/231571253?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: |
-| 16 | [300155488](../300155488/README.md) [iba-kane](https://github.com/iba-kane) <img src='https://avatars0.githubusercontent.com/u/122100786?s=460&v=4' width='20' height='20'/> | :x: | :x: |
+| 16 | [300155488](../300155488/README.md) [iba-kane](https://github.com/iba-kane) <img src='https://avatars0.githubusercontent.com/u/122100786?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: |
 | 17 | [300155504](../300155504/README.md) [BADReddine223](https://github.com/BADReddine223) <img src='https://avatars0.githubusercontent.com/u/231570213?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :x: |
 | 18 | [300155606](../300155606/README.md) [Djelloulmsili](https://github.com/Djelloulmsili) <img src='https://avatars0.githubusercontent.com/u/231571545?s=460&v=4' width='20' height='20'/> | :x: | :x: |
 | 19 | [300155934](../300155934/README.md) [aymenbouchemal](https://github.com/aymenbouchemal) <img src='https://avatars0.githubusercontent.com/u/231498992?s=460&v=4' width='20' height='20'/> | :x: | :x: |
@@ -50,7 +50,7 @@
 | 29 | [300158185](../300158185/README.md) [mohammed-mati](https://github.com/mohammed-mati) <img src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: |
 | 30 | [300158486](../300158486/README.md) [lyes158](https://github.com/lyes158) <img src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width='20' height='20'/> | :heavy_check_mark: | :heavy_check_mark: |
 | 31 | [300159189](../300159189/README.md) [fateh98](https://github.com/fateh98) <img src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width='20' height='20'/> | :x: | :x: |
-| :abacus: | $\frac{13}{32}$ = 40% | $\displaystyle\sum_{i=1}^{32} s_i$ = 13 |
+| :abacus: | $\frac{14}{32}$ = 43% | $\displaystyle\sum_{i=1}^{32} s_i$ = 14 |
 
 ## :b: Précision
 
