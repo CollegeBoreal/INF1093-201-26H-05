@@ -53,6 +53,13 @@ jobs:
           cd 3.Tris
           bash .scripts/run.sh
           cd ..
+          ##
+          ## Evaluating chapter 4.Hashing
+          ## 
+          echo "Evaluating chapter 4.Hashing Participation"
+          cd 4.Hashing
+          pwsh .scripts/run.ps1
+          cd ..
 
 
 
