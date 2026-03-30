@@ -1,0 +1,13 @@
+Mise à jour : A -> B | distance = 4
+Mise à jour : A -> C | distance = 3
+Mise à jour : C -> D | distance = 11
+Mise à jour : C -> F | distance = 10
+Mise à jour : B -> D | distance = 9
+Mise à jour : B -> E | distance = 16
+Mise à jour : D -> E | distance = 11
+Aucun changement : D -> F | distance actuelle = 10
+Mise à jour : F -> G | distance = 14
+Aucun changement : E -> G | distance actuelle = 14
+Chemin calculé : ['A', 'C', 'F', 'G']
+Distance calculée : 14
+Vérification réussie : le résultat est correct.
