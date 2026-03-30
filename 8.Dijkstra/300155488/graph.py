@@ -3,7 +3,7 @@ class Vertex:
     def __init__(self, node):
         self.id = node
         self.adjacent = {}
-        self.distance = float('inf')   #distance initiale infinie
+        self.distance = float('inf')   #distance initiale infinie 
         self.visited = False
         self.previous = None
 
