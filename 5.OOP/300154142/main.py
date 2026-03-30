@@ -1,9 +1,7 @@
 """
 Fichier : main.py
 Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
-Auteur : [300155187]
-Date : 2005-11-25
-"""
+
 
 from carre import Carre
 from cercle import Cercle
