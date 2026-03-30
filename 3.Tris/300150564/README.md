@@ -1,42 +1,28 @@
-\# Participation – Tris variés (Insertion / Shell / Quick)
+# 📊 TP Tris — Insertion, Shell, Quick
 
+| | |
+|---|---|
+| Nom | Ouassim Ahmed Benamira |
+| 🆔 | 300150564 |
 
+## 📌 Description
+Implémentation de trois algorithmes de tri en Python avec lecture depuis des fichiers d'entrée.
 
-Nom : Ouassim Benamira  
+## 📂 Structure
+- `insertion/` — Tri par insertion
+- `shell/` — Tri de Shell
+- `quick/` — Tri rapide (Quick Sort)
 
-ID : 300150564  
+## ▶️ Exécution
+```bash
+python insertion/main.py
+python shell/main.py
+python quick/main.py
+```
 
-
-
-\## Objectif
-
-Lire des entiers depuis un fichier texte, appliquer un algorithme de tri, puis afficher la liste triée.
-
-
-
-\## Structure
-
-\- insertion/main.py + insertion/entree\_insertion.txt
-
-\- shell/main.py + shell/entree\_shell.txt
-
-\- quick/main.py + quick/entree\_quick.txt
-
-\- images/.gitkeep
-
-
-
-\## Exécution (PowerShell)
-
-Depuis `3.Tris` :
-
-
-
-```powershell
-
-python .\\300150564\\insertion\\main.py
-
-python .\\300150564\\shell\\main.py
-
-python .\\300150564\\quick\\main.py
-
+## 📊 Complexité
+| Algorithme | Complexité |
+|---|---|
+| Insertion | O(n²) |
+| Shell | O(n³/²) |
+| Quick | O(n log n) |
