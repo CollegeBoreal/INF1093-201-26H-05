@@ -1,7 +1,7 @@
 # 8.Dijkstra
 
-**Nom : Lyes Hamed  
-**Numéro étudiant :300158486
+Nom : Lyes Hamed  
+ID : 300158486
 
 ## Présentation
 Ce travail porte sur l'algorithme de Dijkstra.  
