@@ -3,7 +3,8 @@
 function Test-CommonItemExists {
     param(
         [string]$Path,
-        [switch]$IsReadme
+        [switch]$IsReadme,
+        [switch]$IsRapport
     )
 
     if (-not (Test-Path $Path)) {
@@ -24,6 +25,19 @@ function Test-CommonItemExists {
         }
         else {
             return ":2nd_place_medal:"
+        }
+    }
+
+
+    if ($IsRapport) {
+        $Content = Get-Content $Path -Raw
+        $HasText = ($Content -match '\S')
+
+        if ($HasText) {
+            return ":receipt:"
+        }
+        else {
+            return ":question:"
         }
     }
 
