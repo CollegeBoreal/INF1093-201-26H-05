@@ -18,14 +18,13 @@ INF1093 (201) - Programmation 2
 |  :hash: | Date   | Cours                                  | 🎉 Participations                   |
 |---------|--------|:---------------------------------------|:------------------------------------|
 | :one:   | 12-Jan | [0.PlanDeCours](0.PlanDeCours)         | [🎉](0.PlanDeCours/.scripts/Participation.md) |
-| :one:   | 12-Jan | [1.Big-O](1.Big-O)                     | [🎉](1.Big-O/.scripts/Participation.md) |
 | :one:   | 12-Jan | [2.IO](2.IO)                           | [🎉](2.IO/.scripts/Participation.md) |
 | :one:   | 12-Jan | [3.Tris](3.Tris)                       | [🎉](3.Tris/.scripts/Participation.md) |
-| :one:   | 12-Jan | [4.Hashing)                            | [🎉](4.Hashing/.scripts/Participation.md) |
-| :one:   | 12-Jan | [5.OOP)                                | [🎉](5.OOP/.scripts/Participation.md) |
-| :one:   | 12-Jan | [6.DEQUE)                              | [🎉](6.DEQUE/.scripts/Participation.md) |
-| :one:   | 12-Jan | [7.GRAPH)                              | [🎉](7.GRAPH/.scripts/Participation.md) |
-| :one:   | 12-Jan | [8.Dijkstra)                           | [🎉](8.Dijkstra/.scripts/Participation.md) |
+| :one:   | 12-Jan | [4.Hashing](4.Hashing)                 | [🎉](4.Hashing/.scripts/Participation.md) |
+| :one:   | 12-Jan | [5.OOP](5.OOP)                         | [🎉](5.OOP/.scripts/Participation.md) |
+| :one:   | 12-Jan | [6.DEQUE](6.DEQUE)                     | [🎉](6.DEQUE/.scripts/Participation.md) |
+| :one:   | 12-Jan | [7.GRAPH](7.GRAPH)                     | [🎉](7.GRAPH/.scripts/Participation.md) |
+| :one:   | 12-Jan | [8.Dijkstra](8.Dijkstra)               | [🎉](8.Dijkstra/.scripts/Participation.md) |
 
 
 
