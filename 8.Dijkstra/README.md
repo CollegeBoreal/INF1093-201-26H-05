@@ -1,6 +1,22 @@
 # 📉 Dijkstra
 
-On crée trois fichiers : `graph.py`, `dijkstra_tp.py` et `check_results.py`.
+[🎉 Participations](.scripts/Participations.md)
+
+## 🐍 :a: On crée trois fichiers : 
+
+- `graph.py`,
+- `dijkstra_tp.py` et
+- `check_results.py`.
+
+## 🧾 :n: `RAPPORT.ipynb` – Visualisation du graphe
+
+Créer un fichier `RAPPORT.ipynb` permettant de :
+
+* Reproduire le graphe utilisé dans `dijkstra_tp.py`
+* **Afficher visuellement le graphe sous forme de diagramme**
+* Mettre en évidence le chemin le plus court (couleur différente)
+
+💡 Vous pouvez utiliser `matplotlib` et/ou `networkx` pour la visualisation.
 
 ---
 
