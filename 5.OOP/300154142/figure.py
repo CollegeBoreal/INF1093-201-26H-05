@@ -1,7 +1,8 @@
 """
 Fichier : figure.py
 Description : Classe de base pour toutes les figures géométriques
-
+Auteur : [300154142]
+"""
 
 class Figure:
     def __init__(self, nom):

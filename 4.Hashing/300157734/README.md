@@ -98,8 +98,7 @@ Utilisation du dictionnaire Python pour associer un **nom à une note**.
 
 Création d’un programme qui compte la fréquence des mots dans la phrase suivante :
 
-python est simple et python est puissant
-
+le chat dort et le chien joue avec le chat
 
 ---
 
