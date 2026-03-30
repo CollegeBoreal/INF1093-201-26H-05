@@ -1,0 +1,4 @@
+reseau -> case 9
+python -> case 2
+serveur -> case 0
+client -> case 3
