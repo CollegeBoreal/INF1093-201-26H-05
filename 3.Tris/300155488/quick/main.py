@@ -19,7 +19,7 @@ def tri_rapide(tab):
         else:              # SINON
             droite.append(x)
     
-    # RETOURNER concaténer(tri_rapide(gauche), milieu, tri_rapide(droite))
+    #RETOURNER concaténer(tri_rapide(gauche), milieu, tri_rapide(droite))
     return tri_rapide(gauche) + milieu + tri_rapide(droite)
 
 print("Avant:", tab)
