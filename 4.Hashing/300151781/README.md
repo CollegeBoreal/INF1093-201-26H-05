@@ -1,80 +1,29 @@
-<<<<<<< HEAD
-@"
-
-\# Algorithmes de tri – Tris variés
-
-
-
-\## 👤 Étudiant
-
-Nom : Fateh Boutaghane
-
-ID : 300159189
-
-
-
-\## 📂 Structure du projet
-
-\- insertion/
-
-\- shell/
-
-\- quick/
-
-
-
-\## 🎯 Objectif
-
-Lire des nombres depuis un fichier texte, appliquer un tri et afficher le résultat.
-
-
-
-\## 🔹 Résultats
-
-
-
-Insertion : \[1, 2, 3, 5, 8, 9]  
-
-Shell : \[4, 11, 23, 28, 43, 45, 65, 77, 89, 98]  
-
-Quick : \[2, 5, 7, 7, 23, 32, 32, 34, 62]
-
-
-
-\## ▶️ Exécution
-
-python main.py
-
-"@ | Out-File -Encoding utf8 README.md
-
-=======
 # INF1093-201-26H-05 (Lundi 13H S208)
 
 INF1093 (201) - Programmation 2
 
-## :date: [Épreuves](.epreuves)
+```lua
+Professor is inviting you to a scheduled Zoom meeting.
 
-| :hash:  | Date   | Épreuves                                           |
-|-------- |--------|:---------------------------------------------------|
+Topic: CBCR INF1093/201/5/Programmation 2/26H
+Time: This is a recurring meeting Meet anytime
 
-## 🧨 [Évaluations](.evaluations)
+Join Zoom Meeting
+https://collegeboreal.zoom.us/j/82266112181?pwd=LstPcZFcWVD1Byq3RsMVVae6G5FzGC.1
 
-| :hash:  | Date   | Evaluations                                        |
-|-------- |--------|:---------------------------------------------------|
+Password: 4288450904
 
+One tap mobile
+8339581164,,82266112181# Canada Toll-free
+8557038985,,82266112181# Canada Toll-free
 
-## :one: [Devoirs](Devoirs)
-
-|  :hash: | Date   | Cours                                  | 🎉 Participations                            |
-|---------|--------|:---------------------------------------|:---------------------------------------------|
-| :one:   | 12-Jan | [0.PlanDeCours](0.PlanDeCours)         | [🎉](0.PlanDeCours/.scripts/Participation.md) |
-| :one:   | 12-Jan | [2.IO](2.IO)                           | [🎉](2.IO/.scripts/Participation.md) |
-| :one:   | 12-Jan | [3.Tris](3.Tris)                       | [🎉](3.Tris/.scripts/Participation.md) |
-| :one:   | 12-Jan | [4.Hashing](4.Hashing)                 | [🎉](4.Hashing/.scripts/Participation.md) |
-| :one:   | 12-Jan | [5.OOP](5.OOP)                         | [🎉](5.OOP/.scripts/Participation.md) |
-| :one:   | 12-Jan | [8.Dijkstra](8.Dijkstra)               | [🎉](8.Dijkstra/.scripts/Participation.md) |
-
-
+Dial by your location
+        833 958 1164 Canada Toll-free
+        855 703 8985 Canada Toll-free
+        833 955 1088 Canada Toll-free
+Meeting ID: 822 6611 2181
+Find your local number: https://collegeboreal.zoom.us/u/kc3E096E9I
+```
 
 ## 📜 Déroulement du cours
 
@@ -117,4 +66,3 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 
 - [INF1039 18A](https://github.com/CollegeBoreal/INF1039-202-18A-01)
 - [INF1039 17A](https://github.com/CollegeBoreal/INF1039-201-17A-02)
->>>>>>> 6421d605930a6ced254db038e8865becb8702065

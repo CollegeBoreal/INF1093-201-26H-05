@@ -1,0 +1,10 @@
+Ali 45
+Sarah 52
+Youssef 38
+Mariam 57
+Paul 49
+Nadia 55
+Rachid 41
+Adam 78
+Amina 85
+
