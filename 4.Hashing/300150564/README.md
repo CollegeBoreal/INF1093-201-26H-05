@@ -1,56 +1,26 @@
-\# 🧠 TP Hashing et Dictionnaires
-
-
+# TP Hashing et Dictionnaires
 
 | | |
-
 |---|---|
-
 | Nom | Ouassim Ahmed Benamira |
+| ID | 300150564 |
 
-| 🆔 | 300150564 |
+## Description
+Implementation du hashing et des dictionnaires en Python.
 
+## Fichiers
+- `ex1_hash.py` - Fonction de hachage simple
+- `ex2_insert.py` - Insertion dans une table de hachage
+- `ex3_search.py` - Recherche dans une table de hachage
+- `ex4_dict.py` - Dictionnaires Python
+- `ex5_wordcount.py` - Compteur de mots
+- `resultats/` - Fichiers de sortie
 
-
-\## 📌 Description
-
-Implémentation du hashing et des dictionnaires en Python.
-
-
-
-\## 📂 Fichiers
-
-\- `ex1\_hash.py` — Fonction de hachage simple
-
-\- `ex2\_insert.py` — Insertion dans une table de hachage
-
-\- `ex3\_search.py` — Recherche dans une table de hachage
-
-\- `ex4\_dict.py` — Dictionnaires Python
-
-\- `ex5\_wordcount.py` — Compteur de mots
-
-
-
-\## ▶️ Exécution
-
+## Execution
 ```bash
-
-python ex1\_hash.py
-
-python ex2\_insert.py
-
-python ex3\_search.py
-
-python ex4\_dict.py
-
-python ex5\_wordcount.py
-
+python ex1_hash.py
+python ex2_insert.py
+python ex3_search.py
+python ex4_dict.py
+python ex5_wordcount.py
 ```
-
-
-
-\## 📂 Résultats
-
-Les résultats sont dans le dossier `resultats/`
-

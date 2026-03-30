@@ -1,48 +1,30 @@
-\# 🗺️ TP Dijkstra – Capitales Européennes
+# TP Dijkstra - Capitales Europeennes
 
+| | |
+|---|---|
+| Nom | Ouassim Ahmed Benamira |
+| ID | 300150564 |
 
+## Description
+Implementation de l'algorithme de Dijkstra pour trouver le plus court chemin entre des capitales europeennes.
 
-\## 📌 Description
+## Fichiers
+- `graph.py` - Classes Vertex et Graph
+- `dijkstra_tp.py` - Graphe + algorithme de Dijkstra
+- `check_results.py` - Auto-correction du resultat
+- `visualisation.py` - Affichage graphique
+- `RAPPORT.ipynb` - Notebook avec visualisation
 
-Implémentation de l'algorithme de Dijkstra pour trouver le plus court chemin entre des capitales européennes.
-
-
-
-\## 📂 Fichiers
-
-\- `graph.py` — Classes Vertex et Graph
-
-\- `dijkstra\_tp.py` — Graphe + algorithme de Dijkstra
-
-\- `check\_results.py` — Auto-correction du résultat
-
-\- `visualisation.py` — Affichage graphique avec matplotlib
-
-
-
-\## ▶️ Exécution
-
+## Execution
 ```bash
-
-python dijkstra\_tp.py
-
-python check\_results.py
-
+python dijkstra_tp.py
+python check_results.py
 python visualisation.py
-
 ```
 
+## Resultat
+Plus court chemin Paris -> Prague : Paris -> Berlin -> Prague (1330 km)
 
-
-\## 📍 Résultat
-
-Plus court chemin Paris → Prague : \*\*Paris → Berlin → Prague (1330 km)\*\*
-
-
-
-\## 📦 Librairies utilisées
-
-\- `matplotlib`
-
-\- `networkx`
-
+## Librairies
+- matplotlib
+- networkx
