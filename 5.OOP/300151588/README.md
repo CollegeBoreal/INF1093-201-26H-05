@@ -1,6 +1,6 @@
 # 📘 Projet : Figures Géométriques en Python  
- # ID : 300155187
- # Etudiante : Maimouna Diallo
+ # ID : 300151588
+ # Etudiante : Amine Belhenniche
 # ✨ Introduction 
 Ce projet présente une série de classes Python permettant de représenter et manipuler différentes figures géométriques en 2D et 3D. 
 Chaque figure possède :  

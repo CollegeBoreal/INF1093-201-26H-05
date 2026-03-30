@@ -6,5 +6,9 @@ Paul 49
 Nadia 55
 Rachid 41
 Adam 78
+<<<<<<< Updated upstream
 Amina 85
 
+=======
+Amina 85
+>>>>>>> Stashed changes
