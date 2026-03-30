@@ -70,14 +70,21 @@ function Test-AllRequiredFilesPresent {
         [hashtable]$Checks
     )
 
+    $validReadmeValues = @(
+        ":heavy_check_mark:",
+        ":1st_place_medal:",
+        ":2nd_place_medal:",
+        ":3rd_place_medal:"
+    )
+
     return (
-        $Checks.README    -eq ":heavy_check_mark:" -and
-        $Checks.Images    -eq ":heavy_check_mark:" -and
-        $Checks.EX1       -eq ":heavy_check_mark:" -and
-        $Checks.EX2       -eq ":heavy_check_mark:" -and
-        $Checks.EX3       -eq ":heavy_check_mark:" -and
-        $Checks.EX4       -eq ":heavy_check_mark:" -and
-        $Checks.EX5       -eq ":heavy_check_mark:"
+        $Checks.README -in $validReadmeValues -and
+        $Checks.Images -eq ":heavy_check_mark:" -and
+        $Checks.EX1    -eq ":heavy_check_mark:" -and
+        $Checks.EX2    -eq ":heavy_check_mark:" -and
+        $Checks.EX3    -eq ":heavy_check_mark:" -and
+        $Checks.EX4    -eq ":heavy_check_mark:" -and
+        $Checks.EX5    -eq ":heavy_check_mark:"
     )
 }
 
