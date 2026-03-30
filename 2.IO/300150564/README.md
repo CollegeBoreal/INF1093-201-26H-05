@@ -1,50 +1,37 @@
-\# 📂 TP I/O — Entrées/Sorties en Python
-
-
-
-| | |
-
-|---|---|
+📂 TP I/O - Entrees/Sorties en Python
 
 | Nom | Ouassim Ahmed Benamira |
+|-----|------------------------|
+| 🆔  | 300150564              |
 
-| 🆔 | 300150564 |
+---
 
+📌 Description
 
+Traitement des entrees/sorties avec Python et PowerShell.
+Lecture de fichiers, calcul de moyenne et generation de resultats.
 
-\## 📌 Description
+---
 
-Traitement des entrées/sorties avec Python et PowerShell.
+📂 Fichiers
 
-Lecture de fichiers, calcul de moyenne et génération de résultats.
+| Fichier | Description |
+|---------|-------------|
+| `IO.py` | 🚀 Script principal |
+| `etudiants.txt` | 📥 Fichier d'entree |
+| `resultats.txt` | 📤 Fichier de sortie |
+| `RAPPORT.ipynb` | 📊 Notebook avec diagramme |
 
+---
 
-
-\## 📂 Fichiers
-
-\- `IO.py` — Script principal
-
-\- `etudiants.txt` — Fichier d'entrée
-
-\- `resultats.txt` — Fichier de sortie
-
-\- `RAPPORT.ipynb` — Notebook avec diagramme
-
-
-
-\## ▶️ Exécution
-
+▶️ Execution
 ```bash
-
 python IO.py
-
 ```
 
+---
 
+📊 Resultats
 
-\## 📊 Résultat
-
-\- Liste des étudiants ayant ≥ 60
-
-\- Moyenne du groupe calculée automatiquement
-
+- ✅ Liste des etudiants ayant >= 60
+- 📈 Moyenne du groupe : 79.33

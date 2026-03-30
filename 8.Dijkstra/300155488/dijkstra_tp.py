@@ -1,21 +1,27 @@
 # dijkstra_tp.py
 from graph import Graph
 
-# --- Création du graphe ---
+# ---  Création du graphe  ---
+
+
+
 g = Graph()
-for node in ['a','b','c','d','e','f']:
+
+# Ajout des villes
+for node in ['Paris', 'London', 'New York', 'Tokyo', 'Berlin', 'Dubai']:
     g.add_vertex(node)
 
-g.add_edge('a', 'b', 7)
-g.add_edge('a', 'c', 9)
-g.add_edge('a', 'f', 14)
-g.add_edge('b', 'c', 10)
-g.add_edge('b', 'd', 15)
-g.add_edge('c', 'd', 11)
-g.add_edge('c', 'f', 2)
-g.add_edge('d', 'e', 6)
-g.add_edge('e', 'f', 9)
+# Ajout des connexions (distances approximatives ou arbitraires)
+g.add_edge('Paris', 'London', 400)
+g.add_edge('Paris', 'New York', 800)
+g.add_edge('Paris', 'Dubai', 140)
 
+g.add_edge('London', 'New York', 100)
+g.add_edge('London', 'Tokyo', 152)
+g.add_edge('New York', 'Tokyo', 311)
+g.add_edge('New York', 'Dubai', 100)
+g.add_edge('Tokyo', 'Berlin', 600)
+g.add_edge('Berlin', 'Dubai', 900)
 print("Graph data:")
 for v in g:
     for w in v.get_connections():
@@ -52,8 +58,8 @@ def shortest(v):
     return path[::-1]
 
 # --- Exécution ---
-start = g.get_vertex('a')
-target = g.get_vertex('e')
+start = g.get_vertex('Paris')
+target = g.get_vertex('Berlin')
 
 dijkstra(g, start)
 
