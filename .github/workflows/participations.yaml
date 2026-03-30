@@ -51,7 +51,7 @@ jobs:
           ## 
           echo "Evaluating chapter 3.Tris Participation"
           cd 3.Tris
-          bash .scripts/run.sh
+          pwsh .scripts/run.ps1
           cd ..
           ##
           ## Evaluating chapter 4.Hashing
