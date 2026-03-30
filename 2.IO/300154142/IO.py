@@ -1,5 +1,5 @@
 # -----------------
-# Author: Maimouna
+# Author: Chafik
 # -----------------
 
 import sys
