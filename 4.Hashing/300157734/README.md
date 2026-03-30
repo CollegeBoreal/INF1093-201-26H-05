@@ -100,7 +100,6 @@ Création d’un programme qui compte la fréquence des mots dans la phrase suiv
 
 le chat dort et le chien joue avec le chat
 
-
 ---
 
 # 🎯 Conclusion
