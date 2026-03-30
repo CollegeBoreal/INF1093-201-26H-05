@@ -14,10 +14,9 @@ def tri_shell(tab):
                 tab[j] = tab[j - ecart]
                 j = j - ecart
             
-            tab[j] = temp      # ← 12 espaces (niveau for)
+            tab[j] = temp     
         
-        ecart = ecart // 2   # ← 8 espaces (niveau while)
-    
+        ecart = ecart // 2  
 
 
 tri_shell(tab)
