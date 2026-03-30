@@ -1,14 +1,14 @@
 # check_results.py
-from dijkstra_tp import shortest, g
+from dijkstra_tp import g, shortest
 
-target = g.get_vertex('Halifax')
+target = g.get_vertex('Nice')
 path = shortest(target)
 
-expected_path = ['Toronto', 'Ottawa', 'Calgary', 'Halifax']
+expected = ['Paris', 'Lyon', 'Nice']
 
-if path == expected_path:
-    print("✅ Bravo, le chemin est correct !")
+if path == expected:
+    print("✅ Bravo, chemin correct !")
 else:
-    print("❌ Chemin incorrect.")
-    print("Votre chemin:", path)
-    print("Chemin attendu:", expected_path)
+    print("❌ Incorrect")
+    print("Ton chemin :", path)
+    print("Attendu :", expected)
