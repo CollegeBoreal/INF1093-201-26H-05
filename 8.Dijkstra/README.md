@@ -1,6 +1,6 @@
 # 📉 Dijkstra
 
-[🎉 Participations](.scripts/Participations.md)
+[🎉 Participations](.scripts/Participation.md)
 
 ## 🐍 :a: On crée trois fichiers : 
 
