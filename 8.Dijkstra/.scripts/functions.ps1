@@ -57,6 +57,7 @@ function Get-StudentPaths {
         README   = "$StudentID/README.md"
         Images   = "$StudentID/images"
         STRUCT   = "$StudentID/"
+        RAPPORT  = "$StudentID/RAPPORT.ipynb"
     }
 }
 
@@ -69,6 +70,7 @@ function Get-StudentChecks {
         README        = Test-CommonItemExists -Path $Paths.README -IsReadme
         Images        = Test-CommonItemExists -Path $Paths.Images
         STRUCT        = Test-Structure        -Path $Paths.STRUCT
+        RAPPORT       = Test-CommonItemExists -Path $Paths.RAPPORT -IsRapport
         TEST_SCRIPT   = Test-ExecuteScript    -Path $Paths.STRUCT -Script "check_results.py"
     }
 }
@@ -86,8 +88,8 @@ function Test-AllRequiredFilesPresent {
     return (
         $Checks.README -in $validReadmeValues -and
         $Checks.Images -eq ":heavy_check_mark:" -and
-        $Checks.STRUCT  -eq ":building_construction:" -and
-        $Checks.TEST_SCRIPT -eq ":rocket:" -or ":checkered_flag:"
+        $Checks.STRUCT  -eq ":building_construction:" -and 
+        $Checks.RAPPORT -eq ":receipt:"
     )
 }
 
@@ -96,8 +98,8 @@ function Write-PresenceHeader {
     Write-Output "## :a: Présence"
     Write-Output ""
 
-    Write-Output "|:hash:| Boréal :id: | README.md | images | Structure | check_results |"
-    Write-Output "|------|-------------|-----------|--------|-----------|---------------|"
+    Write-Output "|:hash:| Boréal :id: | README.md | images | Structure | check_results | RAPPORT.ipynb |"
+    Write-Output "|------|-------------|-----------|--------|-----------|---------------|---------------|"
 }
 
 
@@ -110,5 +112,5 @@ function Write-StudentRow {
         [hashtable]$Checks
     )
 
-    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Checks.STRUCT) | $($Checks.TEST_SCRIPT) |"
+    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Checks.STRUCT) | $($Checks.TEST_SCRIPT) |  [$($Checks.RAPPORT)](../$StudentID/RAPPORT.ipynb) |"
 }
