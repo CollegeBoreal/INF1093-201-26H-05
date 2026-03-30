@@ -1,9 +1,7 @@
 """
 Fichier : cylindre.py
 Description : Classe cylindre héritant de Figure
-Auteur : [300155187]
-Date : 2005-11-25
-"""
+
 
 from figure import Figure
 import math
