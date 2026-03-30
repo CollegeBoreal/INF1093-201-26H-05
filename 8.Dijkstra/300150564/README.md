@@ -1,48 +1,48 @@
-\# 🗺️ TP Dijkstra – Capitales Européennes
+🗺️ TP Dijkstra 
 
+| Nom | Ouassim Ahmed Benamira |
+|-----|------------------------|
+| 🆔  | 300150564              |
 
+---
 
-\## 📌 Description
+📌 Description
 
-Implémentation de l'algorithme de Dijkstra pour trouver le plus court chemin entre des capitales européennes.
+Implementation de l'algorithme de Dijkstra pour trouver
+le plus court chemin entre des capitales europeennes.
 
+---
 
+📂 Fichiers
 
-\## 📂 Fichiers
+| Fichier | Description |
+|---------|-------------|
+| `graph.py` | 🏗️ Classes Vertex et Graph |
+| `dijkstra_tp.py` | 🧮 Algorithme de Dijkstra |
+| `check_results.py` | ✅ Auto-correction |
+| `visualisation.py` | 🎨 Affichage graphique |
+| `RAPPORT.ipynb` | 📊 Notebook avec visualisation |
 
-\- `graph.py` — Classes Vertex et Graph
+---
 
-\- `dijkstra\_tp.py` — Graphe + algorithme de Dijkstra
-
-\- `check\_results.py` — Auto-correction du résultat
-
-\- `visualisation.py` — Affichage graphique avec matplotlib
-
-
-
-\## ▶️ Exécution
-
+▶️ Execution
 ```bash
-
-python dijkstra\_tp.py
-
-python check\_results.py
-
+python dijkstra_tp.py
+python check_results.py
 python visualisation.py
-
 ```
 
+---
 
+📍 Resultat
 
-\## 📍 Résultat
+| Depart | Arrivee | Chemin | Distance |
+|--------|---------|--------|----------|
+| 🇫🇷 Paris | 🇨🇿 Prague | Paris → Berlin → Prague | 1330 km |
 
-Plus court chemin Paris → Prague : \*\*Paris → Berlin → Prague (1330 km)\*\*
+---
 
+📦 Librairies
 
-
-\## 📦 Librairies utilisées
-
-\- `matplotlib`
-
-\- `networkx`
-
+- 📈 matplotlib
+- 🔗 networkx

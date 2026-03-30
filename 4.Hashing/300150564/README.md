@@ -1,56 +1,47 @@
-\# 🧠 TP Hashing et Dictionnaires
-
-
-
-| | |
-
-|---|---|
+🧠 TP Hashing - Dictionnaires en Python
 
 | Nom | Ouassim Ahmed Benamira |
+|-----|------------------------|
+| 🆔  | 300150564              |
 
-| 🆔 | 300150564 |
+---
 
+📌 Description
 
+Implementation du hashing et des dictionnaires en Python.
+Chaque exercice ecrit ses resultats dans le dossier resultats/.
 
-\## 📌 Description
+---
 
-Implémentation du hashing et des dictionnaires en Python.
+📂 Fichiers
 
+| Fichier | Description |
+|---------|-------------|
+| `ex1_hash.py` | 🔐 Fonction de hachage simple |
+| `ex2_insert.py` | ➕ Insertion dans une table |
+| `ex3_search.py` | 🔍 Recherche dans une table |
+| `ex4_dict.py` | 📚 Dictionnaires Python |
+| `ex5_wordcount.py` | 🔢 Compteur de mots |
 
+---
 
-\## 📂 Fichiers
-
-\- `ex1\_hash.py` — Fonction de hachage simple
-
-\- `ex2\_insert.py` — Insertion dans une table de hachage
-
-\- `ex3\_search.py` — Recherche dans une table de hachage
-
-\- `ex4\_dict.py` — Dictionnaires Python
-
-\- `ex5\_wordcount.py` — Compteur de mots
-
-
-
-\## ▶️ Exécution
-
+▶️ Execution
 ```bash
-
-python ex1\_hash.py
-
-python ex2\_insert.py
-
-python ex3\_search.py
-
-python ex4\_dict.py
-
-python ex5\_wordcount.py
-
+python ex1_hash.py
+python ex2_insert.py
+python ex3_search.py
+python ex4_dict.py
+python ex5_wordcount.py
 ```
 
+---
 
+📂 Resultats
 
-\## 📂 Résultats
-
-Les résultats sont dans le dossier `resultats/`
-
+| Fichier | Contenu |
+|---------|---------|
+| `resultats/ex1.txt` | Hash des mots |
+| `resultats/ex2.txt` | Table de hachage |
+| `resultats/ex3.txt` | Resultats de recherche |
+| `resultats/ex4.txt` | Notes des etudiants |
+| `resultats/ex5.txt` | Comptage des mots |
