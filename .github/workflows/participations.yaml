@@ -10,9 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: Install jq
-        run: brew install jq
-
       - name: Use jq
         run: echo '{"name":"GitHub"}' | jq '.name'
     
@@ -60,8 +57,13 @@ jobs:
           cd 4.Hashing
           pwsh .scripts/run.ps1
           cd ..
-
-
+          ##
+          ## Evaluating chapter 8.Dijkstra
+          ## 
+          echo "Evaluating chapter 8.Dijkstra Participation"
+          cd 8.Dijkstra
+          pwsh .scripts/run.ps1
+          cd ..
 
       - name: Commit files
         run: |
