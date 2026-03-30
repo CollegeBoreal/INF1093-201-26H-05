@@ -1,6 +1,6 @@
 # Projet – Tables de Hachage en Python
 
-# Étudiant : Nassim Idir
+# Étudiant : Lyes Hamed
 
 # ID : 300158486
 
