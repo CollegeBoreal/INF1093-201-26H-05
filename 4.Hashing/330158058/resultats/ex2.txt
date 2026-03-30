@@ -1,0 +1,6 @@
+Case 0: [('Sofia', 91), ('Nina', 84), ('Yanis', 79)]
+Case 1: []
+Case 2: []
+Case 3: []
+Case 4: [('Rabah', 88)]
+Case 5: [('Adam', 76)]
