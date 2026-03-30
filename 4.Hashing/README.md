@@ -1,5 +1,7 @@
 # 🧠 Leçon : Hashing et Dictionnaires en Python
 
+[:tada: Participation](.scripts/Participation.md)
+
 ## 🎯 Objectifs
 
 À la fin de cette leçon, tu seras capable de :

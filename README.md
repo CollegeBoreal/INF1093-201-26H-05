@@ -2,14 +2,27 @@
 
 INF1093 (201) - Programmation 2
 
+## :date: [Épreuves](.epreuves)
+
+| :hash:  | Date   | Épreuves                                           |
+|-------- |--------|:---------------------------------------------------|
+
+## 🧨 [Évaluations](.evaluations)
+
+| :hash:  | Date   | Evaluations                                        |
+|-------- |--------|:---------------------------------------------------|
+
+
 ## :one: [Devoirs](Devoirs)
 
-|  :hash: | Date  | Cours                              | 🎉 Participations                   |
-|---------|-------|:-----------------------------------|:------------------------------------|
-| :one:   | 19-Jan| [0.PlanDeCours](0.PlanDeCours)     | [🎉](0.PlanDeCours/.scripts/Participation.md) |
-| :two:   | 02-Feb| [2.IO](2.IO)                  | [🎉 ](/.scripts/Participation-group1.md)   |
-| :three: | 09-Feb| [3.Tris](3.Tris)  | [🎉 ](3.Tris/.scripts/Participation-group1.md) 
-| :four:  | 23-Feb| [5.OOP](5.OOP)                 | [🎉 ](5.OOP/.scripts/Participation-group1.md) |
+|  :hash: | Date   | Cours                                  | 🎉 Participations                            |
+|---------|--------|:---------------------------------------|:---------------------------------------------|
+| :one:   | 12-Jan | [0.PlanDeCours](0.PlanDeCours)         | [🎉](0.PlanDeCours/.scripts/Participation.md) |
+| :one:   | 12-Jan | [2.IO](2.IO)                           | [🎉](2.IO/.scripts/Participation.md) |
+| :one:   | 12-Jan | [3.Tris](3.Tris)                       | [🎉](3.Tris/.scripts/Participation.md) |
+| :one:   | 12-Jan | [4.Hashing](4.Hashing)                 | [🎉](4.Hashing/.scripts/Participation.md) |
+| :one:   | 12-Jan | [5.OOP](5.OOP)                         | [🎉](5.OOP/.scripts/Participation.md) |
+| :one:   | 12-Jan | [8.Dijkstra](8.Dijkstra)               | [🎉](8.Dijkstra/.scripts/Participation.md) |
 
 
 
