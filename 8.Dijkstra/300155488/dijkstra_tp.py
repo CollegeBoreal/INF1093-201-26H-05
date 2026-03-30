@@ -1,7 +1,7 @@
 # dijkstra_tp.py
 from graph import Graph
 
-# --- Création du graphe  ---
+# ---  Création du graphe  ---
 
 
 
