@@ -1,9 +1,8 @@
-# dijkstra_tp.py
 from graph import Graph
 
 # --- Création du graphe ---
 g = Graph()
-for node in ['a','b','c','d','e','f']:
+for node in ['a', 'b', 'c', 'd', 'e', 'f']:
     g.add_vertex(node)
 
 g.add_edge('a', 'b', 7)
@@ -21,13 +20,13 @@ for v in g:
     for w in v.get_connections():
         print(f"( {v.get_id()} , {w.get_id()}, {v.get_weight(w):3d} )")
 
+
 # --- Dijkstra simple ---
 def dijkstra(aGraph, start):
     start.set_distance(0)
     unvisited = [v for v in aGraph]
 
     while unvisited:
-        # Choisir le sommet avec distance minimale
         current = min(unvisited, key=lambda v: v.get_distance())
         current.set_visited()
         unvisited.remove(current)
@@ -39,9 +38,14 @@ def dijkstra(aGraph, start):
             if new_dist < neighbor.get_distance():
                 neighbor.set_distance(new_dist)
                 neighbor.set_previous(current)
-                print(f"updated : current = {current.get_id()} next = {neighbor.get_id()} new_dist = {neighbor.get_distance()}")
+                print(
+                    f"updated : current = {current.get_id()} next = {neighbor.get_id()} new_dist = {neighbor.get_distance()}"
+                )
             else:
-                print(f"not updated : current = {current.get_id()} next = {neighbor.get_id()} new_dist = {neighbor.get_distance()}")
+                print(
+                    f"not updated : current = {current.get_id()} next = {neighbor.get_id()} new_dist = {neighbor.get_distance()}"
+                )
+
 
 # --- Reconstruction du plus court chemin ---
 def shortest(v):
@@ -50,6 +54,7 @@ def shortest(v):
         v = v.previous
         path.append(v.get_id())
     return path[::-1]
+
 
 # --- Exécution ---
 start = g.get_vertex('a')

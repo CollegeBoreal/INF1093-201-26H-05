@@ -295,4 +295,3 @@ Résultat : [2, 5, 7, 7, 23, 32, 32, 34, 62]
 > Le **fichier d’entrée permet de séparer les données de l’algorithme**,
 > exactement comme dans un vrai programme professionnel.
 
-

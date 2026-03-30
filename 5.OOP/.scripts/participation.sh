@@ -54,9 +54,12 @@ i=0
 s=0
 total_figures=0
 
-for id in "${ETUDIANTS[@]}"
+for entry in "${ETUDIANTS[@]}"
 do
-    URL="[<image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image>](https://github.com/${IDS[$i]})"
+
+    IFS='|' read -r id github avatar <<< "$entry"
+
+    URL="[<image src='https://avatars0.githubusercontent.com/u/${avatar}?s=460&v=4' width=20 height=20></image>](https://github.com/${github})"
 
     FILE=${id}/README.md
     FOLDER=${id}/images
