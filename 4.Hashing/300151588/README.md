@@ -1,7 +1,7 @@
 # 📘 Algorithmes de tri – Tris variés (avec fichiers d’entrée)
 
-**Étudiante :** Maimouna Diallo  
-**ID :** 300155187  
+**Étudiante :** BELHENNICHE AMINE
+**ID :** 300151588
 **Cours :** INF1093 – Structures de données et fichiers  
 **Projet :** Implémentation de différents algorithmes de tri en Python
 
