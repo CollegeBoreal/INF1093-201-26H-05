@@ -8,7 +8,7 @@
 - `dijkstra_tp.py` et
 - `check_results.py`.
 
-## 🧾 :n: `RAPPORT.ipynb` – Visualisation du graphe
+## 🧾 :b: `RAPPORT.ipynb` – Visualisation du graphe
 
 Créer un fichier `RAPPORT.ipynb` permettant de :
 
