@@ -9,7 +9,7 @@ expected = [
 ]
 
 if path == expected:
-    print("✅ C’est excellent Mainouna, le chemin est correct !")
+    print("✅ Bravo, le chemin est correct!")
 else:
     print("❌ Incorrect ")
     print("mon:", path)
