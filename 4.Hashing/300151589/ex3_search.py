@@ -18,23 +18,21 @@ def rechercher(table, cle):
     return None
 
 
-table = [[] for _ in range(7)]
+table = [[] for _ in range(5)]
 
 donnees = [
-    ("madjid", 15),
-    ("yanis", 90),
-    ("mohamed", 58),
-    ("abdenoor", 60),
-    ("liza", 100)
-    ("ryma", 88)
-    ("lounes", 92)
+    ("Lyes", 15),
+    ("Melissa", 90),
+    ("Rabah", 58),
+    ("Ibrahim", 60),
+    ("Iba", 60)
 ]
 
 for cle, valeur in donnees:
     inserer(table, cle, valeur)
 
 
-cles_recherche = ["ajax", "bread", "zinzibar"]
+cles_recherche = ["alice", "bob", "zoe"]
 
 with open("resultats/ex3.txt", "w") as f:
     for cle in cles_recherche:
