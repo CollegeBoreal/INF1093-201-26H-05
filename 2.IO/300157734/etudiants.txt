@@ -1,5 +1,14 @@
-rabah 85
-liza 77
-ryma 91
-madjid 45
-yanis 89
+Ali 45
+Sarah 52
+Youssef 38
+Mariam 57
+Paul 49
+Nadia 55
+Rachid 41
+Adam 78
+<<<<<<< Updated upstream
+Amina 85
+
+=======
+Amina 85
+>>>>>>> Stashed changes

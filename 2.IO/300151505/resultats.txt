@@ -1,0 +1,8 @@
+Etudiants ayant une note >= 60
+---------------------------------
+walid 62.0
+Bob 76.0
+nassim 99.0
+djalloul 80.0
+
+Moyenne du groupe : 73.40
