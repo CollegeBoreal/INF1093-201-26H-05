@@ -1,54 +1,48 @@
-\# TP OOP - Figures Geometriques
-
-
-
-| | |
-
-|---|---|
+🔷 TP OOP - Figures Geometriques
 
 | Nom | Ouassim Ahmed Benamira |
+|-----|------------------------|
+| 🆔  | 300150564              |
 
-| ID | 300150564 |
+---
 
+📌 Description
 
+Projet Python demontrant la POO et l'heritage avec des figures geometriques.
 
-\## Description
+---
 
-Projet Python demonstrant la POO et l'heritage avec des figures geometriques.
+📂 Fichiers
 
+| Fichier | Description |
+|---------|-------------|
+| `figure.py` | 🏗️ Classe de base Figure |
+| `Carre.py` | 🟦 Classe Carre |
+| `Cercle.py` | ⚪ Classe Cercle |
+| `Triangle.py` | 🔺 Classe Triangle |
+| `main.py` | 🚀 Point d'entree |
+| `RAPPORT.ipynb` | 📊 Notebook avec visualisations |
 
+---
 
-\## Fichiers
-
-\- `figure.py` - Classe de base Figure
-
-\- `Carre.py` - Classe Carre
-
-\- `Cercle.py` - Classe Cercle
-
-\- `Triangle.py` - Classe Triangle
-
-\- `main.py` - Point d'entree du programme
-
-\- `RAPPORT.ipynb` - Notebook avec visualisations
-
-
-
-\## Execution
-
+▶️ Execution
 ```bash
-
 python main.py
-
 ```
 
+---
 
+📊 Resultats
 
-\## Resultats
+| Figure | Dimensions | Aire |
+|--------|------------|------|
+| 🟦 Carre | cote=4 | 16 |
+| ⚪ Cercle | rayon=3 | 28.27 |
+| 🔺 Triangle | base=5, hauteur=2 | 5.0 |
 
-\- Carre : cote=4, aire=16
+---
 
-\- Cercle : rayon=3, aire=28.27
+📦 Librairies
 
-\- Triangle : base=5, hauteur=2, aire=5.0
-
+- 📈 matplotlib
+- 🔢 numpy
