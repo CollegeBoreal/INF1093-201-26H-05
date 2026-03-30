@@ -54,16 +54,14 @@ function Test-AllRequiredFilesPresent {
     )
 
     $validReadmeValues = @(
-        ":heavy_check_mark:",
         ":1st_place_medal:",
-        ":2nd_place_medal:",
-        ":3rd_place_medal:"
+        ":2nd_place_medal:"
     )
 
     return (
         $Checks.README -in $validReadmeValues -and
         $Checks.Images -eq ":heavy_check_mark:" -and
-        $Checks.TRUCT  -eq ":building_construction:"
+        $Checks.STRUCT  -eq ":building_construction:"
     )
 }
 
