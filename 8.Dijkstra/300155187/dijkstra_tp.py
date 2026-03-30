@@ -66,3 +66,43 @@ path = shortest(target)
 
 print("🌍 Chemin :", " → ".join(path))
 print("📏 Distance :", target.get_distance(), "km")
+
+
+# --- Trouver tous les chemins possibles ---
+def find_all_paths(graph, start, end, path=[]):
+    path = path + [start]
+
+    if start == end:
+        return [path]
+
+    paths = []
+
+    for node in graph.get_vertex(start).adjacent:
+        if node.get_id() not in path:
+            newpaths = find_all_paths(graph, node.get_id(), end, path)
+            for newpath in newpaths:
+                paths.append(newpath)
+
+    return paths
+
+def path_distance(graph, path):
+    distance = 0
+    for i in range(len(path) - 1):
+        v = graph.get_vertex(path[i])
+        next_v = graph.get_vertex(path[i+1])
+        distance += v.get_weight(next_v)
+    return distance
+
+start = 'Toronto'
+end = 'Johannesburg'
+
+all_paths = find_all_paths(g, start, end)
+
+# Trier par distance
+sorted_paths = sorted(all_paths, key=lambda p: path_distance(g, p))
+
+print("\n🌍 Top 3 chemins :\n")
+
+for i, p in enumerate(sorted_paths[:3]):
+    print(f"{i+1}. {' → '.join(p)} | Distance = {path_distance(g, p)} km")
+
