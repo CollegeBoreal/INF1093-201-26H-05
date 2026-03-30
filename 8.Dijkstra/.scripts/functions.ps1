@@ -16,7 +16,7 @@ function Test-ExecuteScript {
     try {
         $output = python3 $scriptPath 2>&1
 
-        if ($LASTEXITCODE -eq 0 -and $output -match "✅ BRAVO ! Le chemin est correct.") {
+        if ($LASTEXITCODE -eq 0 -and $output -match "✅ Bravo, le chemin est correct !") {
             return ":rocket:"
         }
 
