@@ -1,6 +1,33 @@
 #!/usr/bin/env pwsh
 
 # ---------- Fonctions ----------
+function Test-ExecuteScript {
+    param(
+        [string]$Path,
+        [string]$Script
+    )
+
+    $scriptPath = Join-Path $Path $Script
+
+    if (-not (Test-Path $scriptPath)) {
+        return ":boom:"
+    }
+
+    try {
+        $output = python3 $scriptPath 2>&1
+
+        if ($LASTEXITCODE -eq 0 -and $output -match "✅ BRAVO ! Le chemin est correct.") {
+            return ":rocket:"
+        }
+
+        # option simple : succès si exit code = 0
+        return ":checkered_flag:"
+    }
+    catch {
+        return ":boom:"
+    }
+}
+
 function Test-Structure {
     param(
         [string]$Path
@@ -39,9 +66,10 @@ function Get-StudentChecks {
     )
 
     return @{
-        README    = Test-CommonItemExists -Path $Paths.README -IsReadme
-        Images    = Test-CommonItemExists -Path $Paths.Images
-        STRUCT    = Test-Structure        -Path $Paths.STRUCT
+        README        = Test-CommonItemExists -Path $Paths.README -IsReadme
+        Images        = Test-CommonItemExists -Path $Paths.Images
+        STRUCT        = Test-Structure        -Path $Paths.STRUCT
+        TEST_SCRIPT   = Test-ExecuteScript    -Path $Paths.STRUCT -Script "check_results.py"
     }
 }
 
@@ -58,7 +86,8 @@ function Test-AllRequiredFilesPresent {
     return (
         $Checks.README -in $validReadmeValues -and
         $Checks.Images -eq ":heavy_check_mark:" -and
-        $Checks.STRUCT  -eq ":building_construction:"
+        $Checks.STRUCT  -eq ":building_construction:" -and
+        $Checks.TEST_SCRIPT -eq ":rocket:" -or ":checkered_flag:"
     )
 }
 
@@ -67,8 +96,8 @@ function Write-PresenceHeader {
     Write-Output "## :a: Présence"
     Write-Output ""
 
-    Write-Output "|:hash:| Boréal :id: | README.md | images | Structure |"
-    Write-Output "|------|-------------|-----------|--------|-----------|"
+    Write-Output "|:hash:| Boréal :id: | README.md | images | Structure | check_results |"
+    Write-Output "|------|-------------|-----------|--------|-----------|---------------|"
 }
 
 
@@ -81,5 +110,5 @@ function Write-StudentRow {
         [hashtable]$Checks
     )
 
-    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Checks.STRUCT) |"
+    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Checks.STRUCT) | $($Checks.TEST_SCRIPT) |"
 }
