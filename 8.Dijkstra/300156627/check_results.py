@@ -1,10 +1,10 @@
 # check_results.py
 from dijkstra_tp import g, shortest
 
-target = g.get_vertex('Nice')
+target = g.get_vertex('Rome')
 path = shortest(target)
 
-expected = ['Paris', 'Lyon', 'Nice']
+expected = ['Paris', 'Berlin', 'Bruxelles', 'Rome']
 
 if path == expected:
     print("✅ Bravo, chemin correct !")
