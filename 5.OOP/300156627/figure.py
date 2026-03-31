@@ -1,6 +1,13 @@
+"""
+Fichier : figure.py
+Description : Classe Carré héritant de Figure
+Auteur : [300156627]
+Date : 2002-05-10
+"""
+
 class Figure:
     def __init__(self, nom):
-        # Nom de la figure (ex: Carré, Cercle, Triangle)
+        # Nom de la figure (ex: Carré, Cercle)
         self.nom = nom
 
     def afficher_info(self):
