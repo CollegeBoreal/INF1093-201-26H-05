@@ -1,0 +1,2 @@
+bonjour tout le monde
+python est utile pour lire et écrire des fichiers

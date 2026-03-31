@@ -1,0 +1,14 @@
+=== Test du projet POO ===
+Figure géométrique : Carré | côté = 5 | périmètre = 20 | aire = 25
+Aire calculée : 25
+----------------------------------------
+Figure géométrique : Cercle | rayon = 4 | circonférence = 25.13 | aire = 50.27
+Aire calculée : 50.26548245743669
+----------------------------------------
+Figure géométrique : Triangle | base = 6 | hauteur = 3 | aire = 9.0
+Aire calculée : 9.0
+----------------------------------------
+Figure géométrique : Cube | arête = 2 | surface totale = 24 | volume = 8
+Aire calculée : 24
+Volume calculé : 8
+----------------------------------------

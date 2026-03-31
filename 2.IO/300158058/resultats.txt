@@ -1,0 +1,12 @@
+=== Résultats des étudiants ===
+
+Étudiants ayant réussi (note >= 60) :
+- Rabah : 88.0
+- Yanis : 72.0
+- Sofia : 91.0
+- Nina : 67.0
+- Lina : 76.0
+
+Moyenne du groupe : 71.14
+Nombre total d'étudiants lus : 7
+Nombre d'étudiants ayant réussi : 5

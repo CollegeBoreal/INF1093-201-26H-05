@@ -1,0 +1,2 @@
+ceci est un texte d'entrée
+il sera transformé en majuscules

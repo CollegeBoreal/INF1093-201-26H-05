@@ -1,0 +1,37 @@
+=== Données du graphe ===
+(A, B, poids=4)
+(A, C, poids=3)
+(B, A, poids=4)
+(B, D, poids=5)
+(B, E, poids=12)
+(C, A, poids=3)
+(C, D, poids=8)
+(C, F, poids=7)
+(D, B, poids=5)
+(D, C, poids=8)
+(D, E, poids=2)
+(D, F, poids=6)
+(E, B, poids=12)
+(E, D, poids=2)
+(E, G, poids=3)
+(F, C, poids=7)
+(F, D, poids=6)
+(F, G, poids=4)
+(G, E, poids=3)
+(G, F, poids=4)
+
+=== Exécution de Dijkstra ===
+Mise à jour : A -> B | distance = 4
+Mise à jour : A -> C | distance = 3
+Mise à jour : C -> D | distance = 11
+Mise à jour : C -> F | distance = 10
+Mise à jour : B -> D | distance = 9
+Mise à jour : B -> E | distance = 16
+Mise à jour : D -> E | distance = 11
+Aucun changement : D -> F | distance actuelle = 10
+Mise à jour : F -> G | distance = 14
+Aucun changement : E -> G | distance actuelle = 14
+
+=== Résultat final ===
+Distance minimale vers G : 14
+Chemin le plus court : A -> C -> F -> G

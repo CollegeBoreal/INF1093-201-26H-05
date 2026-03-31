@@ -1,0 +1,8 @@
+Étudiant(e)s ayant >= 60:
+- Yanis 85.0
+- Ali 62.0
+- Sara 90.0
+- Karim 75.0
+
+Moyenne du groupe: 78.00
+Nombre d'étudiant(e)s: 4
