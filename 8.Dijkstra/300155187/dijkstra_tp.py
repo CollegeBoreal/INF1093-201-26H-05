@@ -48,7 +48,7 @@ def dijkstra(graph, start):
                 neighbor.set_distance(new_dist)
                 neighbor.set_previous(current)
 
-# --- Chemin ---
+# --- Chemin le plus court ---
 def shortest(v):
     path = []
     while v:
@@ -56,13 +56,50 @@ def shortest(v):
         v = v.previous
     return path[::-1]
 
+# ✅ --- AJOUT ICI ---
+# --- Tous les chemins ---
+def find_all_paths(graph, start, end, path=[]):
+    path = path + [start]
+
+    if start == end:
+        return [path]
+
+    paths = []
+
+    for node in graph.get_vertex(start).adjacent:
+        if node.get_id() not in path:
+            newpaths = find_all_paths(graph, node.get_id(), end, path)
+            for newpath in newpaths:
+                paths.append(newpath)
+
+    return paths
+
+# --- Distance d’un chemin ---
+def path_distance(graph, path):
+    distance = 0
+    for i in range(len(path) - 1):
+        v = graph.get_vertex(path[i])
+        next_v = graph.get_vertex(path[i+1])
+        distance += v.get_weight(next_v)
+    return distance
+
 # --- Exécution ---
 start = g.get_vertex('Toronto')
 target = g.get_vertex('Johannesburg')
 
 dijkstra(g, start)
 
+# 🔴 Chemin optimal
 path = shortest(target)
-
-print("🌍 Chemin :", " → ".join(path))
+print("🌍 Chemin Dijkstra :", " → ".join(path))
 print("📏 Distance :", target.get_distance(), "km")
+
+# 🔵 Plusieurs chemins
+all_paths = find_all_paths(g, 'Toronto', 'Johannesburg')
+
+# Trier par distance
+sorted_paths = sorted(all_paths, key=lambda p: path_distance(g, p))
+
+print("\n🌍 Top 3 chemins :")
+for i, p in enumerate(sorted_paths[:3]):
+    print(f"{i+1}. {' → '.join(p)} | {path_distance(g, p)} km")
