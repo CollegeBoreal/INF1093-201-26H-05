@@ -1,4 +1,4 @@
-# --- check_results.py ---
+# check_results.py
 from dijkstra_tp import shortest, g, path_distance
 
 # Sommet cible
@@ -10,32 +10,18 @@ path = shortest(target)
 
 # Chemin attendu
 expected_path = [
-    'Toronto',
-    'New York',
-    'London',
-    'Paris',
-    'Casablanca',
-    'Dakar',
-    'Lagos',
-    'Nairobi',
-    'Johannesburg'
+    'Toronto','New York','London','Paris','Casablanca',
+    'Dakar','Lagos','Nairobi','Johannesburg'
 ]
 
 # Vérification
 if path == expected_path:
-    print(f"✅ Bravo, le chemin est correct !")
-    # Affiche la distance totale si disponible
-    try:
-        distance = path_distance(g, path)
-        print(f"Distance totale : {distance} km")
-    except:
-        pass
+    print(f"✅ Bravo, le chemin vers '{target_city}' est correct !")
+    distance = path_distance(g, path)
+    print(f"Distance totale : {distance} km")
 else:
     print(f"❌ Chemin incorrect vers '{target_city}'.")
     print("Votre chemin :", " → ".join(path))
     print("Chemin attendu :", " → ".join(expected_path))
-    try:
-        distance = path_distance(g, path)
-        print(f"Distance calculée : {distance} km")
-    except:
-        pass
+    distance = path_distance(g, path)
+    print(f"Distance calculée : {distance} km")
