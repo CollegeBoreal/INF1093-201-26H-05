@@ -24,7 +24,7 @@ expected_path = [
 
 # Vérification
 if path == expected_path:
-    print(f"✅ Bravo, le chemin vers {target_city} est correct !")
+    print(f"✅ Bravo, le chemin vers est correct !")
     print(f"Distance totale : {distance} km")
 else:
     print(f"❌ Chemin incorrect vers {target_city}.")
