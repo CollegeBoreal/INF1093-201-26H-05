@@ -1,11 +1,13 @@
-# check_results.py
-from dijkstra_tp import shortest, g
+# --- check_results.py ---
+from dijkstra_tp import shortest, g, path_distance
 
 # Sommet cible
-target = g.get_vertex('Johannesburg')
+target_city = 'Johannesburg'
+target = g.get_vertex(target_city)
 
 # Chemin calculé
 path = shortest(target)
+distance = path_distance(g, path)
 
 # Chemin attendu
 expected_path = [
@@ -22,8 +24,10 @@ expected_path = [
 
 # Vérification
 if path == expected_path:
-    print("✅ Bravo, le chemin est correct !")
+    print(f"✅ Bravo, le chemin vers {target_city} est correct !")
+    print(f"Distance totale : {distance} km")
 else:
-    print("❌ Chemin incorrect.")
-    print("Votre chemin :", path)
-    print("Chemin attendu :", expected_path)
+    print(f"❌ Chemin incorrect vers {target_city}.")
+    print("Votre chemin :", " → ".join(path))
+    print("Chemin attendu :", " → ".join(expected_path))
+    print(f"Distance calculée : {distance} km")
