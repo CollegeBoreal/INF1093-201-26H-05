@@ -3,15 +3,16 @@ from graph import Graph
 
 # --- Création du graphe ---
 g = Graph()
-cities = [
+
+# --- Ajouter les villes ---
+villes = [
     'Toronto','New York','London','Paris','Berlin','Rome',
     'Casablanca','Dakar','Lagos','Nairobi','Johannesburg'
 ]
+for ville in villes:
+    g.add_vertex(ville)
 
-for city in cities:
-    g.add_vertex(city)
-
-# --- Arêtes avec distances ---
+# --- Ajouter les arêtes avec distances ---
 edges = [
     ('Toronto','New York',800),
     ('New York','London',5600),
@@ -33,7 +34,7 @@ edges = [
 for u, v, w in edges:
     g.add_edge(u, v, w)
 
-# --- Dijkstra simple ---
+# --- Dijkstra ---
 def dijkstra(aGraph, start):
     start.set_distance(0)
     unvisited = [v for v in aGraph]
@@ -51,7 +52,7 @@ def dijkstra(aGraph, start):
                 neighbor.set_distance(new_dist)
                 neighbor.set_previous(current)
 
-# --- Reconstruction du plus court chemin ---
+# --- Fonction reconstruction chemin ---
 def shortest(v):
     path = [v.get_id()]
     while v.previous:
@@ -59,23 +60,9 @@ def shortest(v):
         path.append(v.get_id())
     return path[::-1]
 
-# --- Recherche de tous les chemins (DFS) ---
-def find_all_paths(graph, start, end, path=[]):
-    start_vertex = graph.get_vertex(start)
-    path = path + [start_vertex.get_id()]
-    if start == end:
-        return [path]
-    paths = []
-    for neighbor in start_vertex.get_connections():
-        if neighbor.get_id() not in path:
-            new_paths = find_all_paths(graph, neighbor.get_id(), end, path)
-            for p in new_paths:
-                paths.append(p)
-    return paths
-
-# --- Calcul de la distance d'un chemin ---
-def path_distance(graph, path):
+# --- Fonction distance totale ---
+def path_distance(villes_path):
     dist = 0
-    for i in range(len(path)-1):
-        dist += graph.get_vertex(path[i]).get_weight(graph.get_vertex(path[i+1]))
+    for i in range(len(villes_path)-1):
+        dist += g.get_vertex(villes_path[i]).get_weight(g.get_vertex(villes_path[i+1]))
     return dist
