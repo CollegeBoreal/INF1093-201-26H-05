@@ -23,7 +23,7 @@ expected_path = [
 
 # Vérification
 if path == expected_path:
-    print(f"✅ Bravo, le chemin vers '{target_city}' est correct !")
+    print(f"✅ Bravo, le chemin est correct !")
     # Affiche la distance totale si disponible
     try:
         distance = path_distance(g, path)
