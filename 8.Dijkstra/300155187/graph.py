@@ -1,8 +1,10 @@
+# graph.py
+
 class Vertex:
     def __init__(self, node):
         self.id = node
         self.adjacent = {}
-        self.distance = float('inf')
+        self.distance = float('inf')   # distance initiale infinie
         self.visited = False
         self.previous = None
 
@@ -10,7 +12,7 @@ class Vertex:
         self.adjacent[neighbor] = weight
 
     def get_connections(self):
-        return self.adjacent.keys()
+        return self.adjacent.keys()  
 
     def get_id(self):
         return self.id
@@ -30,6 +32,9 @@ class Vertex:
     def set_visited(self):
         self.visited = True
 
+    def __str__(self):
+        return f"{self.id} adjacent: {[x.id for x in self.adjacent]}"
+
 
 class Graph:
     def __init__(self):
@@ -46,14 +51,13 @@ class Graph:
         return new_vertex
 
     def get_vertex(self, n):
-        return self.vert_dict.get(n)
+        return self.vert_dict.get(n, None)
 
     def add_edge(self, frm, to, cost=0):
         if frm not in self.vert_dict:
             self.add_vertex(frm)
         if to not in self.vert_dict:
             self.add_vertex(to)
-
         self.vert_dict[frm].add_neighbor(self.vert_dict[to], cost)
         self.vert_dict[to].add_neighbor(self.vert_dict[frm], cost)
 
