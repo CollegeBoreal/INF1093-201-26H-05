@@ -1,27 +1,34 @@
 # check_results.py
-from dijkstra_tp import g, dijkstra, shortest, path_distance
+from dijkstra_tp import g, dijkstra, shortest
 
-# Définir villes de départ et d'arrivée
+# --- Configuration ---
 start_city = 'Toronto'
 target_city = 'Johannesburg'
 
+# --- Préparer le graphe ---
 start = g.get_vertex(start_city)
 target = g.get_vertex(target_city)
 
-# Exécuter Dijkstra
+# --- Exécuter Dijkstra ---
 dijkstra(g, start)
 
-# Calcul chemin et distance
+# --- Calculer le chemin ---
 path = shortest(target)
-distance = path_distance(path)
 
-# Chemin attendu réel (calculé à partir des distances)
+# --- Calculer la distance totale ---
+distance = 0
+for i in range(len(path)-1):
+    u = g.get_vertex(path[i])
+    v = g.get_vertex(path[i+1])
+    distance += u.get_weight(v)
+
+# --- Chemin attendu ---
 expected_path = [
     'Toronto','New York','London','Paris','Casablanca',
     'Dakar','Lagos','Nairobi','Johannesburg'
 ]
 
-# Vérification
+# --- Vérification ---
 if path == expected_path:
     print("✅ Bravo, le chemin est correct !")
     print(f"Distance totale : {distance} km")
