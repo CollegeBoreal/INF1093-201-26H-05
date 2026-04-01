@@ -1,10 +1,8 @@
 # dijkstra_tp.py
 from graph import Graph
 
-# --- Création du graphe ---
+# Création du graphe
 g = Graph()
-
-# --- Ajouter les villes ---
 villes = [
     'Toronto','New York','London','Paris','Berlin','Rome',
     'Casablanca','Dakar','Lagos','Nairobi','Johannesburg'
@@ -12,7 +10,7 @@ villes = [
 for ville in villes:
     g.add_vertex(ville)
 
-# --- Ajouter les arêtes avec distances ---
+# Arêtes avec distances
 edges = [
     ('Toronto','New York',800),
     ('New York','London',5600),
@@ -31,10 +29,10 @@ edges = [
     ('Nairobi','Johannesburg',2900),
 ]
 
-for u, v, w in edges:
-    g.add_edge(u, v, w)
+for u,v,w in edges:
+    g.add_edge(u,v,w)
 
-# --- Dijkstra ---
+# Dijkstra
 def dijkstra(aGraph, start):
     start.set_distance(0)
     unvisited = [v for v in aGraph]
@@ -44,7 +42,7 @@ def dijkstra(aGraph, start):
         current.set_visited()
         unvisited.remove(current)
 
-        for neighbor in current.adjacent:
+        for neighbor in current.get_connections():
             if neighbor.visited:
                 continue
             new_dist = current.get_distance() + current.get_weight(neighbor)
@@ -52,7 +50,7 @@ def dijkstra(aGraph, start):
                 neighbor.set_distance(new_dist)
                 neighbor.set_previous(current)
 
-# --- Fonction reconstruction chemin ---
+# Reconstitution chemin
 def shortest(v):
     path = [v.get_id()]
     while v.previous:
@@ -60,9 +58,9 @@ def shortest(v):
         path.append(v.get_id())
     return path[::-1]
 
-# --- Fonction distance totale ---
-def path_distance(villes_path):
+# Distance totale
+def path_distance(path):
     dist = 0
-    for i in range(len(villes_path)-1):
-        dist += g.get_vertex(villes_path[i]).get_weight(g.get_vertex(villes_path[i+1]))
+    for i in range(len(path)-1):
+        dist += g.get_vertex(path[i]).get_weight(g.get_vertex(path[i+1]))
     return dist
