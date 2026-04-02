@@ -1,13 +1,16 @@
-from dijkstra_tp import g, dijkstra, shortest, path_distance, reset_graph
+from dijkstra_tp import g, dijkstra, shortest, path_distance
 
 start_city = 'Toronto'
 target_city = 'Johannesburg'
 
+# Réinitialisation des distances
+for v in g:
+    v.distance = float('inf')
+    v.visited = False
+    v.previous = None
+
 start = g.get_vertex(start_city)
 target = g.get_vertex(target_city)
-
-# 🔄 Réinitialisation avant Dijkstra
-reset_graph(g)
 
 dijkstra(g, start)
 
