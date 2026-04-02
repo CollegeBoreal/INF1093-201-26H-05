@@ -1,4 +1,3 @@
-# check_results.py
 from dijkstra_tp import g, dijkstra, shortest, path_distance, reset_graph
 
 start_city = 'Toronto'
