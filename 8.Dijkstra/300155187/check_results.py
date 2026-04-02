@@ -8,12 +8,16 @@ target_city = 'Johannesburg'
 start = g.get_vertex(start_city)
 target = g.get_vertex(target_city)
 
+# 🔒 sécurité
+if not start or not target:
+    print("❌ Ville invalide")
+    exit()
+
 dijkstra(g, start)
 
 path = shortest(target)
 distance = path_distance(g, path)
 
-# ✅ CHEMIN CORRECT
 expected_path = [
     'Toronto','London','Paris',
     'Casablanca','Dakar','Lagos','Nairobi','Johannesburg'
