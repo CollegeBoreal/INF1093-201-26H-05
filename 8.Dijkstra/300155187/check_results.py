@@ -1,28 +1,27 @@
 from dijkstra_tp import g, dijkstra, shortest, path_distance
 
+# --- Configuration ---
 start_city = 'Toronto'
 target_city = 'Johannesburg'
 
-# Réinitialisation des distances
-for v in g:
-    v.distance = float('inf')
-    v.visited = False
-    v.previous = None
-
+# --- Préparation ---
 start = g.get_vertex(start_city)
 target = g.get_vertex(target_city)
 
+# --- Exécution Dijkstra ---
 dijkstra(g, start)
 
+# --- Résultat obtenu ---
 path = shortest(target)
 distance = path_distance(g, path)
 
-# ✅ CHEMIN CORRECT
+# --- Résultat attendu ---
 expected_path = [
     'Toronto','New York','London','Paris',
     'Casablanca','Dakar','Lagos','Nairobi','Johannesburg'
 ]
 
+# --- Affichage ---
 print("Chemin trouvé :", " → ".join(path))
 print("Distance :", distance, "km")
 

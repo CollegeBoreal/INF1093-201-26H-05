@@ -1,9 +1,9 @@
-# dijkstra_tp.py
 from graph import Graph
 
 # --- Création du graphe ---
 g = Graph()
 
+# Villes
 cities = [
     'Toronto','New York','London','Paris','Berlin','Rome',
     'Casablanca','Dakar','Lagos','Nairobi','Johannesburg'
@@ -11,6 +11,7 @@ cities = [
 for city in cities:
     g.add_vertex(city)
 
+# Routes et distances
 edges = [
     ('Toronto','New York',800),
     ('New York','London',5600),
@@ -32,15 +33,14 @@ edges = [
 for u, v, w in edges:
     g.add_edge(u, v, w)
 
-# --- Réinitialisation du graphe avant chaque Dijkstra ---
-def reset_graph(aGraph):
+# --- Dijkstra ---
+def dijkstra(aGraph, start):
+    # Réinitialiser
     for v in aGraph:
         v.distance = float('inf')
         v.visited = False
         v.previous = None
 
-# --- Dijkstra simple ---
-def dijkstra(aGraph, start):
     start.set_distance(0)
     unvisited = [v for v in aGraph]
 
@@ -57,7 +57,7 @@ def dijkstra(aGraph, start):
                 neighbor.set_distance(new_dist)
                 neighbor.set_previous(current)
 
-# --- Reconstruction du plus court chemin ---
+# --- Reconstruction du chemin ---
 def shortest(v):
     path = [v.get_id()]
     while v.previous:
@@ -81,7 +81,7 @@ def find_all_paths(aGraph, start_id, end_id, path=None):
                 paths.append(newpath)
     return paths
 
-# --- Calcul distance totale pour un chemin ---
+# --- Distance totale ---
 def path_distance(aGraph, path):
     dist = 0
     for i in range(len(path)-1):
