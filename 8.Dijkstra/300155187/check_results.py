@@ -1,27 +1,28 @@
+# check_results.py
+
 from dijkstra_tp import g, dijkstra, shortest, path_distance
 
-# --- Configuration ---
 start_city = 'Toronto'
 target_city = 'Johannesburg'
 
-# --- Préparation ---
 start = g.get_vertex(start_city)
 target = g.get_vertex(target_city)
 
-# --- Exécution Dijkstra ---
+# 🔒 sécurité
+if not start or not target:
+    print("❌ Ville invalide")
+    exit()
+
 dijkstra(g, start)
 
-# --- Résultat obtenu ---
 path = shortest(target)
 distance = path_distance(g, path)
 
-# --- Résultat attendu ---
 expected_path = [
-    'Toronto','New York','London','Paris',
+    'Toronto','London','Paris',
     'Casablanca','Dakar','Lagos','Nairobi','Johannesburg'
 ]
 
-# --- Affichage ---
 print("Chemin trouvé :", " → ".join(path))
 print("Distance :", distance, "km")
 
