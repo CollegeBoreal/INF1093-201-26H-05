@@ -1,5 +1,0 @@
-Rabah = 88
-Adam = 76
-Sofia = 91
-Nina = 84
-Yanis = 79
