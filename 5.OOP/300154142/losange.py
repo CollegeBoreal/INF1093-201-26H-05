@@ -1,6 +1,9 @@
 """
 Fichier : losange.py
 Description : Classe losange héritant de Figure
+Auteur : [300154142]
+Date : 2026-04-06
+"""
 
 from figure import Figure
 

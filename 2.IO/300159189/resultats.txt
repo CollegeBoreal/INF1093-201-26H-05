@@ -1,4 +1,4 @@
-Étudiants admis (>=60):
+Ã‰tudiants admis (>=60):
 Maimon 99.0
 Bob 62.0
 Charlie 91.0

@@ -1,7 +1,7 @@
 # 📊 Traitement des Entrées/Sorties – INF1093
 
-**Auteur :** djelloul msili 🆔 300155606
-**Date :** 02 février 2026  
+**Auteur :** Djelloul Msili 🆔 300155606
+**Date :** 22 février 2026  
 
 ---
 # Devoir Python – Gestion des notes
@@ -21,4 +21,8 @@ calcule la moyenne du groupe et génère un fichier de résultats.
 ## Exécution
 ```bash
 python IO.py
+
+
+
+
 

@@ -1,7 +1,9 @@
 """
 Fichier : main.py
 Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
-
+Auteur : [300154142]
+Date : 2026-04-01
+"""
 
 from carre import Carre
 from cercle import Cercle
@@ -13,10 +15,6 @@ from prisme_losange import prisme_losange
 from prisme_parallelogramme import prisme_parallelogramme
 from sphere import sphere
 from cone import cone
-
-
-
-
 
 
 
