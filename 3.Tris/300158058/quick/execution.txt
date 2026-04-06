@@ -1,0 +1,2 @@
+Tableau avant tri : [13, 7, 28, 4, 19, 1, 25, 7, 16]
+Tableau après tri : [1, 4, 7, 7, 13, 16, 19, 25, 28]
