@@ -23,6 +23,9 @@ function Get-StudentReport {
             if ($LASTEXITCODE -eq 0) {
                 $execPyIcon = ":rocket:"
             }
+            else {
+                $execPyIcon = ":bangbang:"
+            }
         } catch {
             $execPyIcon = ":boom:"
         }
