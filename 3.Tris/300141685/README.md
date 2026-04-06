@@ -6,3 +6,6 @@
 - Tri rapide (Quick Sort)
 
 ## Structure
+
+## Visualisation
+![Comparaison des tris](images/comparaison_tris.png)
