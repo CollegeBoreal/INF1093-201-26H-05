@@ -16,7 +16,7 @@
 
 |:hash:| Boréal :id: | README.md | images | Structure |
 |------|-------------|-----------|--------|-----------|
-| 0 | [300141685](../300141685/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/157196575?s=460&v=4' width=20 height=20></image>](https://github.com/soulemanebry) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: |
+| 0 | [300141685](../300141685/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/157196575?s=460&v=4' width=20 height=20></image>](https://github.com/soulemanebry) | :1st_place_medal: | :heavy_check_mark: | :building_construction: |
 | 1 | [300150564](../300150564/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/102555452?s=460&v=4' width=20 height=20></image>](https://github.com/wassimbnr) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: |
 | 2 | [300151262](../300151262/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image>](https://github.com/rifwil5-tech) | :1st_place_medal: | :heavy_check_mark: | :building_construction: |
 | 3 | [300151505](../300151505/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width=20 height=20></image>](https://github.com/300151505) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: |
@@ -39,7 +39,7 @@
 | 20 | [300156627](../300156627/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/118176543?s=460&v=4' width=20 height=20></image>](https://github.com/rougaiyatoudiallo) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: |
 | 21 | [300157287](../300157287/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/231501940?s=460&v=4' width=20 height=20></image>](https://github.com/cheikau) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: |
 | 22 | [300157301](../300157301/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/258898045?s=460&v=4' width=20 height=20></image>](https://github.com/amhn25) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: |
-| 23 | [300157330](../300157330/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image>](https://github.com/toufikmekbel) | :2nd_place_medal: | :heavy_check_mark: | :x: |
+| 23 | [300157330](../300157330/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/231571164?s=460&v=4' width=20 height=20></image>](https://github.com/toufikmekbel) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: |
 | 24 | [300157374](../300157374/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/255961683?s=460&v=4' width=20 height=20></image>](https://github.com/yanisna) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: |
 | 25 | [300157424](../300157424/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/258873685?s=460&v=4' width=20 height=20></image>](https://github.com/ma-jid-06) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: |
 | 26 | [300157734](../300157734/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/254766183?s=460&v=4' width=20 height=20></image>](https://github.com/kadermessalif-coder) | :1st_place_medal: | :heavy_check_mark: | :building_construction: |
@@ -48,4 +48,4 @@
 | 29 | [300158185](../300158185/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/mohammed-mati) | :1st_place_medal: | :heavy_check_mark: | :building_construction: |
 | 30 | [300158486](../300158486/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :1st_place_medal: | :heavy_check_mark: | :building_construction: |
 | 31 | [300159189](../300159189/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: |
-| :abacus: | \$\frac{24}{32}\$ = 75% | \$\displaystyle\sum_{i=1}^{32} s_i\$ = 24 |
+| :abacus: | \$\frac{25}{32}\$ = 78.12% | \$\displaystyle\sum_{i=1}^{32} s_i\$ = 25 |
