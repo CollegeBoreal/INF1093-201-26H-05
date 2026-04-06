@@ -80,6 +80,8 @@ function Test-AllRequiredFilesPresent {
         [hashtable]$Checks
     )
 
+    Write-Output $Checks
+
     $validReadmeValues = @(
         ":1st_place_medal:",
         ":2nd_place_medal:"
