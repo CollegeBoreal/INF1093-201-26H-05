@@ -1,8 +1,8 @@
 """
 Fichier : parallelogramme.py
 Description : Classe  parallelogramme héritant de Figure
-Auteur : [300154142]
-Date : 2026-04-06
+Auteur : [300155187]
+Date : 2005-11-25
 """
 
 from figure import Figure
