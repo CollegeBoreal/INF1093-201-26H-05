@@ -1,7 +1,0 @@
-Étudiant.e.s avec note ≥ 40 :
-fouad 45
-yanis 60
-rabah 50
-said 65
-
-Moyenne du groupe : 44.625

@@ -16,7 +16,7 @@ function Get-StudentReport {
     $nb = "$id/RAPPORT.ipynb"
 
     # --- IO.py execution ---
-    $execPyIcon = ":boom:"
+    $execPyIcon = ":grey_question:"
     if (Test-Path $py) {
         try {
             python3 $py *> $null
