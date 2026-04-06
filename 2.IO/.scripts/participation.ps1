@@ -4,7 +4,7 @@ $ErrorActionPreference = "Stop"
 
 # Importer les fonctions
 . .scripts/functions.ps1
-. .scripts/DBfunctions.ps1
+. .scripts/EXfunctions.ps1
 
 # Importer la liste des étudiants
 . ../.scripts/students.ps1
@@ -26,21 +26,14 @@ foreach ($entry in $STUDENTS) {
     $checks = Get-StudentChecks -Paths $paths
     $url    = Get-GitHubAvatarLink -GitHubID $GitHubID -AvatarID $AvatarID
 
-    $db  = ":x:"
-    $log = ":x:"
-
-    # if (Test-Path $paths.DBScript) {
-    #     $db  = Test-LoadDB -StudentID $StudentID
-    #     $log = "[:wood:](../$StudentID/$StudentID-db.txt)"
-    # }
+    $result = Get-StudentReport -id $StudentID
 
     Write-StudentRow `
         -Index $i `
         -StudentID $StudentID `
         -GitHubLink $url `
         -Checks $checks `
-        -DbStatus $db `
-        -LogLink $log `
+        -Result $result `
         -ReadmePath $paths.README
 
     if (Test-AllRequiredFilesPresent -Checks $checks) {

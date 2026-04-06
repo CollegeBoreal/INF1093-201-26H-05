@@ -73,11 +73,10 @@ function Write-StudentRow {
         [string]$StudentID,
         [string]$GitHubLink,
         [hashtable]$Checks,
-        [string]$DbStatus,
-        [string]$LogLink,
+        [PSCustomObject]$Result,
         [string]$ReadmePath
     )
 
-    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Checks.PY) | $($Checks.NB) | $($Checks.IN) | $($Checks.OUT) | $DbStatus | $LogLink |"
+    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Result.IO_Exec) | [$($Result.Rapport)](../$StudentID/RAPPORT.ipynb) | $($Checks.IN) | $($Checks.OUT) | $($Result.Errors) |"
 }
 
