@@ -27,6 +27,10 @@ function Test-CommonItemExists {
         }
     }
 
+    if ($IsRapport) {
+        return ":receipt:"
+    }
+
     return ":heavy_check_mark:"
 }
 

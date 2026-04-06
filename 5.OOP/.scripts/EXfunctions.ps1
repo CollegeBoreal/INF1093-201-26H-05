@@ -44,7 +44,16 @@ function Get-StudentReport {
     if (Test-Path $nb) {
         $rapportIcon = ":receipt:"
 
-        $json = Get-Content $nb -Raw | ConvertFrom-Json
+        $json = $null
+        try {
+            $raw = Get-Content $nb -Raw
+            $raw = $raw.Trim([char]0xFEFF)  # remove BOM if present
+            $json = $raw | ConvertFrom-Json -ErrorAction Stop
+        }
+        catch {
+            $errorIcon = ":boom:"
+            return
+        }
 
         # Count errors
         $errors = @(
