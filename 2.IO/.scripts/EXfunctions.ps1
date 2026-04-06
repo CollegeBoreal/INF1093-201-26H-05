@@ -18,8 +18,9 @@ function Get-StudentReport {
     # --- IO.py execution ---
     $execPyIcon = ":grey_question:"
     if (Test-Path $py) {
+        Push-Location $id
         try {
-            python3 $py *> $null
+            python3 "IO.py" *> $null
             if ($LASTEXITCODE -eq 0) {
                 $execPyIcon = ":rocket:"
             }
@@ -28,6 +29,9 @@ function Get-StudentReport {
             }
         } catch {
             $execPyIcon = ":boom:"
+        }
+        finally {
+            Pop-Location
         }
     }
 
