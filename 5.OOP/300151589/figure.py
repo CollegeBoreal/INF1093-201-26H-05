@@ -1,18 +1,17 @@
 """
 Fichier : Cercle.py
 Description : Classe Cercle héritant de Figure
-Auteur : abdelkader messali
-Date : 2026-04-06
+Auteur : [3000158486]
+Date : 2001-12-12
 """
 
 from figure import Figure
 import math
 
-
 class Cercle(Figure):
     def __init__(self, rayon):
-        super().__init__("Cercle")
-        self.rayon = rayon
+        super().__init__("Cercle")  # Appel du constructeur de la classe de base
+        self.rayon = rayon           # Rayon du cercle
 
     def aire(self):
         # Calcul de l'aire du cercle
@@ -21,4 +20,3 @@ class Cercle(Figure):
     def afficher_info(self):
         # Retourne une chaîne contenant le nom, le rayon et l'aire
         return f"{super().afficher_info()}, rayon={self.rayon}, aire={self.aire():.2f}"
-

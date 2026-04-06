@@ -58,7 +58,7 @@ Depuis le dossier parent de votre identifiant :
 
 ```bash
 git add Mohammed.Mati
-git commit -m "ajout du cube"
+git commit -m "ajout du x"
 git push
 ```
 

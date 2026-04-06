@@ -1,0 +1,2 @@
+Tableau avant tri : [22, 5, 17, 9, 1, 14, 3, 11]
+Tableau après tri : [1, 3, 5, 9, 11, 14, 17, 22]
