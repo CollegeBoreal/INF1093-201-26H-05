@@ -34,6 +34,7 @@ foreach ($entry in $STUDENTS) {
         -GitHubLink $url `
         -Checks $checks `
         -Result $result `
+        -OUTPath $paths.OUT `
         -ReadmePath $paths.README
 
     if (Test-AllRequiredFilesPresent -Checks $checks) {
