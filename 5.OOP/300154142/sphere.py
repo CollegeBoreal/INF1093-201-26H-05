@@ -1,8 +1,8 @@
 """
 Fichier : sphere.py
 Description : Classe sphere héritant de Figure
-Auteur : [300155187]
-Date : 2005-11-25
+Auteur : [300154142]
+Date : 2026-04-06
 """
 
 from figure import Figure
