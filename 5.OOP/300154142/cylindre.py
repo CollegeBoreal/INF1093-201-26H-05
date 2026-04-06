@@ -1,7 +1,7 @@
 """
 Fichier : cylindre.py
 Description : Classe cylindre héritant de Figure
-Auteur : [300155187]
+Auteur : [300154142]
 Date : 2005-11-25
 """
 
