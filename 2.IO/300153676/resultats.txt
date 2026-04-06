@@ -1,4 +1,3 @@
-
 Étudiants ayant une note ≥ 60 :
 Adam 78.0
 Amina 85.0
