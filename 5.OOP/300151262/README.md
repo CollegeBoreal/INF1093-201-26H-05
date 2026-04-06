@@ -7,7 +7,7 @@
 ---
 
 ## 📁 Structure du projet
-
+```
 300151262/
 ├── README.md
 ├── main.py
@@ -34,7 +34,7 @@
 ├── Hemisphere.py
 ├── requirements.txt
 └── RAPPORT.ipynb
-
+```
 ---
 
 ## 📌 Description
