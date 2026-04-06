@@ -2,7 +2,7 @@
 
 ## Informations de l'étudiant
 - **Nom :** BELAID Rabah
-- **ID :** 330158058
+- **ID :** 300158058
 
 ## Description
 Ce travail pratique présente une petite introduction au **hashing** et à l’utilisation des **dictionnaires en Python**.
