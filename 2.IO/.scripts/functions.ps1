@@ -77,6 +77,6 @@ function Write-StudentRow {
         [string]$ReadmePath
     )
 
-    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Result.IO_Exec) | [$($Result.Rapport)](../$StudentID/RAPPORT.ipynb) | $($Checks.IN) | $($Checks.OUT) | $($Result.Errors) |"
+    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Result.IO_Exec) | [$($Result.Rapport)](../$StudentID/RAPPORT.ipynb) | $($Result.Signature) | $($Result.FiguresCount) | $($Checks.IN) | $($Checks.OUT) | $($Result.Errors) |"
 }
 

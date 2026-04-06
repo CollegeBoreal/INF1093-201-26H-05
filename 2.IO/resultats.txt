@@ -1,0 +1,7 @@
+=== Résultats des étudiants ===
+
+Étudiants ayant réussi (note >= 60) :
+
+Moyenne du groupe : 0.00
+Nombre total d'étudiants lus : 0
+Nombre d'étudiants ayant réussi : 0
