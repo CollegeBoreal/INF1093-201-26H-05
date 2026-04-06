@@ -1,19 +1,32 @@
 """
-Fichier : figure.py
-Description : Classe de base pour toutes les figures géométriques
-Auteur : [300158486]
-Date : 2001-12-12
+Fichier : main.py
+Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
+Auteur : [300151589]
+Date : 2026-04-06
 """
 
-class Figure:
-    def __init__(self, nom):
-        # Nom de la figure (ex: Carré, Cercle)
-        self.nom = nom
+from Carre import Carre
+from Cercle import Cercle
+from Triangle import Triangle 
 
-    def afficher_info(self):
-        # Retourne une chaîne contenant le nom de la figure
-        return f"Figure: {self.nom}"
+def main():
+    """
+    Fonction principale du programme.
+    Crée un carré et un cercle, puis affiche leurs informations.
+    """
+    # Création d'un carré de côté 4
+    c1 = Carre(4)
 
-    def aire(self):
-        # Méthode à implémenter par les sous-classes
-        raise NotImplementedError("Cette méthode doit être implémentée par les sous-classes.")
+    # Création d'un cercle de rayon 3
+    c2 = Cercle(3)
+
+    # Affichage des informations des deux figures
+    print(c1.afficher_info())
+    print(c2.afficher_info())
+
+# Point d'entrée du programme
+if __name__ == "__main__":
+    formes = [Carre(4), Cercle(3), Triangle(5, 2)]
+for f in formes:
+    print(f"Aire: {f.aire()} 📏")
+    main()
