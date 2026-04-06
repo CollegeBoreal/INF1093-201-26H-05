@@ -68,7 +68,7 @@ function Test-AllRequiredFilesPresent {
     )
 
     return (
-        $Checks.README -eq ":heavy_check_mark:" -and
+        $Checks.README -eq ":1st_place_medal:" -or ":2nd_place_medal:" -and
         $Checks.Images -eq ":heavy_check_mark:" -and
         $Checks.PY     -eq ":heavy_check_mark:" -and
         $Checks.NB     -eq ":heavy_check_mark:" -and
@@ -94,9 +94,11 @@ function Write-StudentRow {
         [string]$GitHubLink,
         [hashtable]$Checks,
         [PSCustomObject]$Result,
+        [string]$INPath,
+        [string]$OUTPath,
         [string]$ReadmePath
     )
 
-    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Result.IO_Exec) | [$($Result.Rapport)](../$StudentID/RAPPORT.ipynb) | $($Result.Signature) | $(Num-ToEmoji $($Result.FiguresCount)) | $($Checks.IN) | $($Checks.OUT) | $($Result.Errors) |"
+    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Result.IO_Exec) | [$($Result.Rapport)](../$StudentID/RAPPORT.ipynb) | $($Result.Signature) | $(Num-ToEmoji $($Result.FiguresCount)) | [$($Checks.IN)](../$INPath) | [$($Checks.OUT)](../$OUTPath) | $($Result.Errors) |"
 }
 

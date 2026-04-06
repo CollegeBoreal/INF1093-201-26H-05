@@ -1,0 +1,23 @@
+Liste des étudiants admis :
+Adam -> 78.0
+Amina -> 85.0
+Bilal -> 69.0
+Camille -> 91.0
+Daniel -> 74.0
+Elena -> 88.0
+Fouad -> 63.0
+Hana -> 90.0
+Ibrahim -> 72.0
+Julie -> 81.0
+Kevin -> 67.0
+Lina -> 94.0
+Mohamed -> 76.0
+Nora -> 83.0
+Olivier -> 70.0
+Rania -> 89.0
+Samir -> 65.0
+Tom -> 92.0
+Yassine -> 80.0
+Zoé -> 87.0
+
+Moyenne générale : 79.70
