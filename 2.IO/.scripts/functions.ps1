@@ -1,5 +1,25 @@
 #!/usr/bin/env pwsh
 
+function Num-ToEmoji {
+    param (
+        [int]$n
+    )
+
+    switch ($n) {
+        0 { ":zero:" }
+        1 { ":one:" }
+        2 { ":two:" }
+        3 { ":three:" }
+        4 { ":four:" }
+        5 { ":five:" }
+        6 { ":six:" }
+        7 { ":seven:" }
+        8 { ":eight:" }
+        9 { ":nine:" }
+        default { ":keycap_ten:" }
+    }
+}
+
 function Test-ItemExists {
     param(
         [string]$Path
@@ -77,6 +97,6 @@ function Write-StudentRow {
         [string]$ReadmePath
     )
 
-    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Result.IO_Exec) | [$($Result.Rapport)](../$StudentID/RAPPORT.ipynb) | $($Result.Signature) | $($Result.FiguresCount) | $($Checks.IN) | $($Checks.OUT) | $($Result.Errors) |"
+    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Result.IO_Exec) | [$($Result.Rapport)](../$StudentID/RAPPORT.ipynb) | $($Result.Signature) | $(Num-ToEmoji $($Result.FiguresCount)) | $($Checks.IN) | $($Checks.OUT) | $($Result.Errors) |"
 }
 
