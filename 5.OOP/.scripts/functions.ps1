@@ -94,6 +94,6 @@ function Write-StudentRow {
         [string]$ReadmePath
     )
 
-    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Result.IO_Exec) | [$($Result.Rapport)](../$StudentID/RAPPORT.ipynb) | $($Result.Signature) | $(Num-ToEmoji $($Result.FiguresCount)) | $($Checks.REQ) | $($Result.Errors) |"
+    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | [$($Result.IO_Exec)](../$StudentID/main.py) | [$($Result.Rapport)](../$StudentID/RAPPORT.ipynb) | $($Result.Signature) | $(Num-ToEmoji $($Result.FiguresCount)) | $($Checks.REQ) | $($Result.Errors) |"
 }
 
