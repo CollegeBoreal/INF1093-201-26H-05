@@ -1,4 +1,4 @@
-Étudiant.e.s admis (>=60)
+Ã‰tudiant.e.s admis (>=60)
 Melissa 91.0
 Toufik 70.0
 Kader 60.0

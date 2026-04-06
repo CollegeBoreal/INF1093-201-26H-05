@@ -1,23 +1,23 @@
-�tudiants avec note >= 60 :
-Adam 78
-Amina 85
-Bilal 69
-Camille 91
-Daniel 74
-Elena 88
-Fouad 63
-Hana 90
-Ibrahim 72
-Julie 81
-Kevin 67
-Lina 94
-Mohamed 76
-Nora 83
-Olivier 70
-Rania 89
-Samir 65
-Tom 92
-Yassine 80
-Zoé 87
+Étudiants ayant une note ≥ 60 :
+Adam 78.0
+Amina 85.0
+Bilal 69.0
+Camille 91.0
+Daniel 74.0
+Elena 88.0
+Fouad 63.0
+Hana 90.0
+Ibrahim 72.0
+Julie 81.0
+Kevin 67.0
+Lina 94.0
+Mohamed 76.0
+Nora 83.0
+Olivier 70.0
+Rania 89.0
+Samir 65.0
+Tom 92.0
+Yassine 80.0
+Zoé 87.0
 
 Moyenne du groupe : 71.52
