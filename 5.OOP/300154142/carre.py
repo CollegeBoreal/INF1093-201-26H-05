@@ -1,11 +1,12 @@
 """
 Fichier : Carre.py
 Description : Classe Carré héritant de Figure
+    "\n",
     "|     |                     |\n",
     "| --- | ------------------- |\n",
     "| Nom | Maouchi Mohamed Chafik |\n",
     "| 🆔  | 300154142          |\n",
-"""
+    "\n",
 
 from figure import Figure
 
