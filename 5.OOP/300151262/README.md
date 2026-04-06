@@ -55,9 +55,8 @@ Cube, Sphere, Cylindre, Cone, Pyramide, Prisme, Tore, Hemisphere
 
 ## ▶️ Exécution
 ```python
-"""
 python main.py
-"""
+
 ```
 ---
 
@@ -77,7 +76,7 @@ Puis ouvrir RAPPORT.ipynb
 
 ## 📸 Capture d’écran
 
-(Ajouter votre capture ici)
+[Capture de resulat de main.py](images/1.png)
 
 ---
 
