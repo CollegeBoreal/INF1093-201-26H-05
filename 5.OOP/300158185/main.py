@@ -8,7 +8,7 @@ Date : 2026-03-25
 from Carre import Carre
 from Cercle import Cercle
 from Triangle import Triangle
-from Cube import Cube
+
 
 
 def main():
