@@ -59,6 +59,13 @@ jobs:
           pwsh .scripts/run.ps1
           cd ..
           ##
+          ## Evaluating chapter 5.OOP
+          ## 
+          echo "Evaluating chapter 5.OOP Participation"
+          cd 5.OOP
+          pwsh .scripts/run.ps1
+          cd ..
+          ##
           ## Evaluating chapter 8.Dijkstra
           ## 
           echo "Evaluating chapter 8.Dijkstra Participation"

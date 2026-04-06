@@ -1,0 +1,99 @@
+#!/usr/bin/env pwsh
+
+function Num-ToEmoji {
+    param (
+        [int]$n
+    )
+
+    switch ($n) {
+        0 { ":zero:" }
+        1 { ":one:" }
+        2 { ":two:" }
+        3 { ":three:" }
+        4 { ":four:" }
+        5 { ":five:" }
+        6 { ":six:" }
+        7 { ":seven:" }
+        8 { ":eight:" }
+        9 { ":nine:" }
+        default { ":keycap_ten:" }
+    }
+}
+
+function Test-ItemExists {
+    param(
+        [string]$Path
+    )
+
+    if (Test-Path $Path) {
+        return ":heavy_check_mark:"
+    }
+
+    return ":x:"
+}
+
+function Get-StudentPaths {
+    param(
+        [string]$StudentID
+    )
+
+    return @{
+        README   = "$StudentID/README.md"
+        Images   = "$StudentID/images"
+        PY       = "$StudentID/main.py"
+        NB       = "$StudentID/RAPPORT.ipynb"
+        REQ      = "$StudentID/requirements.txt"
+    }
+}
+
+function Get-StudentChecks {
+    param(
+        [hashtable]$Paths
+    )
+
+    return @{
+        README = Test-CommonItemExists -Path $Paths.README -IsReadme
+        Images = Test-CommonItemExists -Path $Paths.Images
+        PY     = Test-ItemExists -Path $Paths.PY
+        NB     = Test-ItemExists -Path $Paths.NB
+        REQ    = Test-ItemExists -Path $Paths.REQ
+    }
+}
+
+function Test-AllRequiredFilesPresent {
+    param(
+        [hashtable]$Checks
+    )
+
+    return (
+        $Checks.README -eq ":1st_place_medal:" -or ":2nd_place_medal:" -and
+        $Checks.Images -eq ":heavy_check_mark:" -and
+        $Checks.PY     -eq ":heavy_check_mark:" -and
+        $Checks.NB     -eq ":heavy_check_mark:" -and
+        $Checks.REQ    -eq ":heavy_check_mark:"
+    )
+}
+
+function Write-PresenceHeader {
+    Write-Output ""
+    Write-Output "## :a: Présence"
+    Write-Output ""
+
+    Write-Output "|:hash:| Boréal :id: | README.md | images | :rocket: main.py | :receipt: RAPPORT | :writing_hand: Sgn | :framed_picture: Figures | requirements.txt | :boom: Erreurs |"
+    Write-Output "|------|-------------|-----------|--------|------------------|-------------------|--------------------|--------------------------|------------------|----------------|"
+}
+
+
+function Write-StudentRow {
+    param(
+        [int]$Index,
+        [string]$StudentID,
+        [string]$GitHubLink,
+        [hashtable]$Checks,
+        [PSCustomObject]$Result,
+        [string]$ReadmePath
+    )
+
+    Write-Output "| $Index | [$StudentID](../$ReadmePath) :point_right: $GitHubLink | $($Checks.README) | $($Checks.Images) | $($Result.IO_Exec) | [$($Result.Rapport)](../$StudentID/RAPPORT.ipynb) | $($Result.Signature) | $(Num-ToEmoji $($Result.FiguresCount)) | [$($Checks.REQ) | $($Result.Errors) |"
+}
+
