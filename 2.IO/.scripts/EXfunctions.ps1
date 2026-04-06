@@ -16,7 +16,7 @@ function Get-StudentReport {
     $nb = "$id/RAPPORT.ipynb"
 
     # --- IO.py execution ---
-    $execPyIcon = ":x:"
+    $execPyIcon = ":boom:"
     if (Test-Path $py) {
         try {
             python3 $py *> $null
@@ -24,7 +24,7 @@ function Get-StudentReport {
                 $execPyIcon = ":rocket:"
             }
         } catch {
-            $execPyIcon = ":x:"
+            $execPyIcon = ":boom:"
         }
     }
 
