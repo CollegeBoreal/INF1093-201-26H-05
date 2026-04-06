@@ -59,7 +59,7 @@ Résultat attendu :
 
 ### 🔹 3️⃣ Tri Rapide (Quick Sort)
 
-![Résultat Quick](images/2t.png)
+![Résultat Quick](images/2.png)
 
 Résultat attendu :
 
