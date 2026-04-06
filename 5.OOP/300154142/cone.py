@@ -1,7 +1,7 @@
 """
 Fichier : cone.py
 Description : Classe cône héritant de Figure
-Auteur : [300155187]
+Auteur : [300154142]
 Date : 2005-11-25
 """
 
