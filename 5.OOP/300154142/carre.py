@@ -1,8 +1,10 @@
 """
 Fichier : Carre.py
 Description : Classe Carré héritant de Figure
-Auteur : [300155187]
-Date : 2005-11-25
+    "|     |                     |\n",
+    "| --- | ------------------- |\n",
+    "| Nom | Maouchi Mohamed Chafik |\n",
+    "| 🆔  | 300154142          |\n",
 """
 
 from figure import Figure
