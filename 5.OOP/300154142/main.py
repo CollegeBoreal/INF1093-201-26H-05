@@ -1,8 +1,9 @@
 """
 Fichier : main.py
 Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
-Auteur : [300155187]
-Date : 2005-11-25
+    | Nom | Maouchi Mohamed Chafik |
+    | 🆔  | 300154142          |
+
 """
 
 from carre import Carre
