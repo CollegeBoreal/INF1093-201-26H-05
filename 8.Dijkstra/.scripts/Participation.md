@@ -16,7 +16,7 @@
 
 |:hash:| Boréal :id: | README.md | images | Structure | check_results | RAPPORT.ipynb |
 |------|-------------|-----------|--------|-----------|---------------|---------------|
-| 0 | [300141685](../300141685/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/157196575?s=460&v=4' width=20 height=20></image>](https://github.com/soulemanebry) | :2nd_place_medal: | :x: | :building_construction: | :checkered_flag: |  [:heavy_check_mark:](../300141685/RAPPORT.ipynb) |
+| 0 | [300141685](../300141685/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/157196575?s=460&v=4' width=20 height=20></image>](https://github.com/soulemanebry) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: | :checkered_flag: |  [:heavy_check_mark:](../300141685/RAPPORT.ipynb) |
 | 1 | [300150564](../300150564/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/102555452?s=460&v=4' width=20 height=20></image>](https://github.com/wassimbnr) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: | :rocket: |  [:heavy_check_mark:](../300150564/RAPPORT.ipynb) |
 | 2 | [300151262](../300151262/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/231570449?s=460&v=4' width=20 height=20></image>](https://github.com/rifwil5-tech) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: | :rocket: |  [:heavy_check_mark:](../300151262/RAPPORT.ipynb) |
 | 3 | [300151505](../300151505/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232939190?s=460&v=4' width=20 height=20></image>](https://github.com/300151505) | :2nd_place_medal: | :heavy_check_mark: | :x: | :boom: |  [:x:](../300151505/RAPPORT.ipynb) |
@@ -48,4 +48,4 @@
 | 29 | [300158185](../300158185/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232939280?s=460&v=4' width=20 height=20></image>](https://github.com/mohammed-mati) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: | :rocket: |  [:heavy_check_mark:](../300158185/RAPPORT.ipynb) |
 | 30 | [300158486](../300158486/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232938643?s=460&v=4' width=20 height=20></image>](https://github.com/lyes158) | :2nd_place_medal: | :heavy_check_mark: | :building_construction: | :rocket: |  [:heavy_check_mark:](../300158486/RAPPORT.ipynb) |
 | 31 | [300159189](../300159189/README.md) :point_right: [<image src='https://avatars0.githubusercontent.com/u/232939045?s=460&v=4' width=20 height=20></image>](https://github.com/fateh98) | :x: | :x: | :x: | :boom: |  [:x:](../300159189/RAPPORT.ipynb) |
-| :abacus: | \$\frac{19}{32}\$ = 59.38% | \$\displaystyle\sum_{i=1}^{32} s_i\$ = 19 |
+| :abacus: | \$\frac{20}{32}\$ = 62.5% | \$\displaystyle\sum_{i=1}^{32} s_i\$ = 20 |
