@@ -16,7 +16,7 @@ calcule la moyenne du groupe et génère un fichier de résultats.
 - RAPPORT.ipynb : analyse et diagramme
 ## Diagramme des notes
 
-![Diagramme des notes](images/Capture d’écran 2026-04-06 142345.png)
+![Diagramme des notes](images/1.png)
 
 ## Exécution
 ```bash
