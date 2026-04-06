@@ -14,4 +14,4 @@
     └─ entree_quick.txt
 # 🔹 1. Tri par insertion
 
-<images src=images\tri_insersion widgh=50% high= 50%> <images>
+<images src="images\triinsersion" widgh=50% high= 50%> <images>
