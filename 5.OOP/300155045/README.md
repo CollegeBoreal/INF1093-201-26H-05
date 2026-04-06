@@ -1,4 +1,4 @@
-# ⚛️ TP Formes Géométriques — POO en Python
+# ⚛️  Étude : Figures Géométriques — Aires et Visualisations
 
 | Nom | CHOUAIB AIT CHOUAIB |
 |-----|----------------------|
