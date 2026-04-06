@@ -54,21 +54,23 @@ Cube, Sphere, Cylindre, Cone, Pyramide, Prisme, Tore, Hemisphere
 ---
 
 ## ▶️ Exécution
-
+```python
+"""
 python main.py
-
+"""
+```
 ---
 
 ## 📦 Dépendances
-
+```python
 python -m pip install -r requirements.txt
-
+```
 ---
 
 ## 📓 Notebook Jupyter
-
+```python
 jupyter lab
-
+```
 Puis ouvrir RAPPORT.ipynb
 
 ---
