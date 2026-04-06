@@ -1,7 +1,7 @@
 # 📊 Traitement des Entrées/Sorties – INF1093
 
-**Auteur :** Ahmed BERGUI 🆔 300151262
-**Date :** 02 février 2026  
+**Auteur :** lyes medjahed 🆔 300153676
+**Date :** 06 avril 2026  
 
 ---
 # Devoir Python – Gestion des notes
