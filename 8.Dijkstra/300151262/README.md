@@ -1,8 +1,6 @@
 # Ahmed BERGUI | 300151262
 ## Dijkstra
 
-🎉 **Participations**
-
 ## 📌 Objectif
 Ce projet a pour but d’implémenter l’algorithme de **Dijkstra** en Python, puis de vérifier automatiquement le résultat obtenu et de visualiser le graphe utilisé.
 
