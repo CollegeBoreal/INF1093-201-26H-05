@@ -1,6 +1,7 @@
 # 📊 TP I/O - Entrees/Sorties en Python – INF1093
 
-**Nom :** Chouaib Ait Chouaib 🆔 300155045 **Date :** 06 avril 2026
+**Nom :** Chouaib Ait Chouaib
+🆔 300155045 
 
 ---
 
