@@ -4,11 +4,10 @@ def hash_simple(mot, taille):
         total += ord(lettre)
     return total % taille
 
-
 mots = ["chat", "chien", "oiseau", "python"]
-taille_table = 10
+table_taille = 10
 
-with open("resultats/ex1.txt", "w") as f:
+with open("resultats/ex1.txt", "w", encoding="utf-8") as f:
     for mot in mots:
-        valeur = hash_simple(mot, taille_table)
+        valeur = hash_simple(mot, table_taille)
         f.write(f"{mot}:{valeur}\n")
