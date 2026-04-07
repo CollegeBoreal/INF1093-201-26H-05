@@ -61,7 +61,8 @@ Lancer les fichiers dans cet ordre :
 python dijkstra_tp.py
 python check_results.py
 ```
-
+![1](iamges/1.png)
+![2](iamges/2.png)
 ---
 
 ## ✅ Résultat attendu
