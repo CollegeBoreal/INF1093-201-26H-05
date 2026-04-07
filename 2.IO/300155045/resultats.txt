@@ -1,0 +1,13 @@
+Resultats des etudiant.e.s
+============================
+
+Etudiant.e.s ayant une note >= 60 :
+- Alice : 85.0
+- Bob : 62.0
+- Charlie : 91.0
+- Ethan : 74.0
+- Fatima : 88.0
+
+Moyenne du groupe : 76.33
+Nombre total d'etudiant.e.s : 6
+Nombre d'etudiant.e.s admis : 5
