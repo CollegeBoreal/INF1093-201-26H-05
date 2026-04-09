@@ -61,8 +61,8 @@ Toronto → London → Paris → Casablanca → Dakar → Lagos → Nairobi → 
 
 ## ▶️ Exécution du projet
 
-Dans PowerShell :
-
+Dans PowerShell et Kernel:
+</> Markdown
 ```powershell 
 jupyter lab RAPPORT.ipynb
 <img width="485" height="342" alt="Dijkstra" src="https://github.com/user-attachments/assets/9d8c1bfa-5a1b-4bb9-bce5-c435d7c59a6a" />
