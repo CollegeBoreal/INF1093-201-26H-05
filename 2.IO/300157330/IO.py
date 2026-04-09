@@ -1,28 +1,69 @@
+# -----------------
+# Author: Toufik Mekbel
+# -----------------
 
-# IO_employes.py
+import sys
 
-f = open("employes.txt", "r")
-lignes = f.readlines()
-f.close()
+def analyser_fichier(entree, sortie):
+    somme_notes = 0
+    nb_etudiants = 0
+    liste_admis = []
 
-total = 0
-count = 0
+    try:
+        fichier = open(entree, "r")
 
-out = open("rapport.txt", "w")
-out.write("Employés avec salaire >= 6000 :\n")
+        for ligne in fichier:
+            ligne = ligne.strip()
 
-for ligne in lignes:
-    nom, salaire = ligne.split()
-    salaire = int(salaire)
+            if ligne == "":
+                continue
 
-    total += salaire
-    count += 1
+            infos = ligne.split()
 
-    if salaire >= 6000:
-        out.write(nom + " " + str(salaire) + "\n")
+            if len(infos) != 2:
+                print("Erreur format :", ligne, file=sys.stderr)
+                continue
 
-moyenne = total / count
-out.write("\nSalaire moyen : " + str(round(moyenne, 2)))
-out.close()
+            nom = infos[0]
+            try:
+                note = float(infos[1])
+            except:
+                print("Note invalide :", ligne, file=sys.stderr)
+                continue
 
-print("Traitement terminé.")
+            somme_notes += note
+            nb_etudiants += 1
+
+            if note >= 60:
+                liste_admis.append((nom, note))
+
+        fichier.close()
+
+        if nb_etudiants == 0:
+            print("Aucune donnée trouvée", file=sys.stderr)
+            return
+
+        moyenne = somme_notes / nb_etudiants
+
+        # écrire le résultat
+        fichier_sortie = open(sortie, "w")
+
+        fichier_sortie.write("Liste des étudiants admis :\n")
+
+        for nom, note in liste_admis:
+            fichier_sortie.write(f"{nom} -> {note}\n")
+
+        fichier_sortie.write("\n")
+        fichier_sortie.write(f"Moyenne générale : {moyenne:.2f}\n")
+
+        fichier_sortie.close()
+
+        print("Traitement terminé avec succès ✔")
+
+    except FileNotFoundError:
+        print("Fichier non trouvé ❌", file=sys.stderr)
+
+
+# exécution
+if __name__ == "__main__":
+    analyser_fichier("etudiants.txt", "resultats.txt")

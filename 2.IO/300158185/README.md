@@ -9,14 +9,20 @@
 Ce projet lit un fichier contenant des étudiants et leurs notes,
 calcule la moyenne du groupe et génère un fichier de résultats.
 
-
 ## Fichiers
-- IO.py : script Python principal
-- etudiants.txt : fichier d’entrée
-- resultats.txt : fichier de sortie
-- RAPPORT.ipynb : graphique des notes
-- images/ : dossier pour images si nécessaire
+- etudiants.txt : données d'entrée
+- IO.py : script Python
+- resultats.txt : résultats
+- RAPPORT.ipynb : analyse et diagramme
+## Diagramme des notes
+
+![Diagramme des notes](images/1.png)
 
 ## Exécution
 ```bash
 python IO.py
+
+
+
+
+

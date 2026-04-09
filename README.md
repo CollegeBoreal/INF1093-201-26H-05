@@ -17,12 +17,11 @@ INF1093 (201) - Programmation 2
 
 |  :hash: | Date   | Cours                                  | 🎉 Participations                            |
 |---------|--------|:---------------------------------------|:---------------------------------------------|
-| :one:   | 12-Jan | [0.PlanDeCours](0.PlanDeCours)         | [🎉](0.PlanDeCours/.scripts/Participation.md) |
-| :one:   | 12-Jan | [2.IO](2.IO)                           | [🎉](2.IO/.scripts/Participation.md) |
-| :one:   | 12-Jan | [3.Tris](3.Tris)                       | [🎉](3.Tris/.scripts/Participation.md) |
-| :one:   | 12-Jan | [4.Hashing](4.Hashing)                 | [🎉](4.Hashing/.scripts/Participation.md) |
-| :one:   | 12-Jan | [5.OOP](5.OOP)                         | [🎉](5.OOP/.scripts/Participation.md) |
-| :one:   | 12-Jan | [8.Dijkstra](8.Dijkstra)               | [🎉](8.Dijkstra/.scripts/Participation.md) |
+| :one:   | 26-Jan | [2.IO](2.IO)                           | [🎉](2.IO/.scripts/Participation.md) |
+| :two:   | 16-Fev | [3.Tris](3.Tris)                       | [🎉](3.Tris/.scripts/Participation.md) |
+| :three: |  9-Mar | [4.Hashing](4.Hashing)                 | [🎉](4.Hashing/.scripts/Participation.md) |
+| :four:  | 24-Mar | [5.OOP](5.OOP)                         | [🎉](5.OOP/.scripts/Participation.md) |
+| :five:  |  2-Avr | [8.Dijkstra](8.Dijkstra)               | [🎉](8.Dijkstra/.scripts/Participation.md) |
 
 
 

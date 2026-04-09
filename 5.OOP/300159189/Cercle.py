@@ -1,3 +1,9 @@
+"""
+Fichier : Cercle.py
+Classe Cercle
+Auteur : 300159189
+"""
+
 from figure import Figure
 import math
 

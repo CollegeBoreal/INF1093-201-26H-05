@@ -8,14 +8,14 @@ ID : 300158058
 from Carre import Carre
 from Cercle import Cercle
 from Triangle import Triangle
-from Cube import Cube
+
 
 def main():
     figures = [
         Carre(5),
         Cercle(4),
         Triangle(6, 3),
-        Cube(2)
+      
     ]
 
     print("=== Test du projet POO ===")

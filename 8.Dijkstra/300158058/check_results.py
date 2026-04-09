@@ -23,7 +23,7 @@ def verifier_resultats():
     distance_attendue = 14
 
     if chemin == chemin_attendu and distance == distance_attendue:
-        print("Vérification réussie : le résultat est correct.")
+        print("✅ Bravo, le chemin est correct !")
     else:
         print("Vérification échouée : le résultat ne correspond pas à l'attendu.")
 
