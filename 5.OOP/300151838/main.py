@@ -5,8 +5,8 @@ Auteur : abdelkader.messali
 Date : 2026-04-06
 """
 
-from carre import carre
-from cercle import cercle
+from carre import Carre
+from cercle import Cercle
 from Triangle import Triangle
 from Cube import Cube
 
