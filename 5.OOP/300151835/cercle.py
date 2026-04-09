@@ -2,7 +2,7 @@
 Fichier : Cercle.py
 Description : Classe Cercle héritant de Figure
 Auteur : [300151835]
-Date : 2005-11-25
+Date : 2002-11-26
 """
 
 from figure import Figure
