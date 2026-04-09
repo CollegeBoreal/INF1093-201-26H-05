@@ -30,16 +30,42 @@ Le graphe représente des villes de différents continents (Amérique, Europe, A
 ---
 
 ## 📏 Exemple de résultat
-Chemin optimal :  
-**Toronto → New York → London → Paris → Casablanca → Dakar → Lagos → Nairobi → Johannesburg**  
 
-Distance totale : calculée automatiquement avec Dijkstra.
+### 🖥️ Exécution dans PowerShell
+![Résultat PowerShell](images/powershell_result.png)
+
+**Chemin trouvé :**  
+Toronto → London → Paris → Casablanca → Dakar → Lagos → Nairobi → Johannesburg  
+
+**Distance totale :** 21240 km  
+
+✅ Le chemin est correct !
 
 ---
 
-## 🎨 Visualisation
-- Graphique optimisé pour ressembler à une **carte simplifiée**.  
-- Légende pour identifier les continents et le chemin optimal.  
-- Export possible dans `images/graphe.png`.
+### 🌐 Visualisation du graphe
+![Graphe Dijkstra](images/graph_result.png)
+
+- Le chemin optimal est affiché en **vert**
+- Les autres chemins sont visibles en arrière-plan
+- Les distances sont indiquées sur chaque connexion
 
 ---
+
+## ⚙️ Technologies utilisées
+- Python 🐍  
+- NetworkX  
+- Matplotlib  
+
+---
+
+## ▶️ Exécution du projet
+
+Dans PowerShell :
+
+```powershell 
+jupyter lab RAPPORT.ipynb
+<img width="485" height="342" alt="Dijkstra" src="https://github.com/user-attachments/assets/9d8c1bfa-5a1b-4bb9-bce5-c435d7c59a6a" />
+
+python check_results.py
+<img width="960" height="503" alt="capture python check_results" src="https://github.com/user-attachments/assets/e4021c8c-eb29-4b64-8fab-a534e90fe03f" />
