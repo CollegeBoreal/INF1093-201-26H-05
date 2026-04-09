@@ -3,6 +3,7 @@
 Fichier : cone.py
 Description : Classe cône héritant de Figure
 Auteur : [300151835]
+Date:2002-11-26
 """
 
 from figure import Figure
