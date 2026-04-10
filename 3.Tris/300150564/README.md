@@ -24,6 +24,7 @@ avec lecture depuis des fichiers d'entree.
 ---
 
 ▶️ Execution
+
 ```bash
 python insertion/main.py
 python shell/main.py
@@ -32,10 +33,16 @@ python quick/main.py
 
 ---
 
-📊 Resultats
+📊 Visualisations
 
-| Algorithme | Entree | Sortie |
-|------------|--------|--------|
-| Insertion | 8 3 5 2 9 1 | 1 2 3 5 8 9 |
-| Shell | 45 23 11 89 77 | 4 11 23 28 43 45 |
-| Quick | 34 7 23 32 5 | 2 5 7 7 23 32 |
+🔹 Tri par Insertion
+
+![Tri Insertion](images/tri_insertion.png)
+
+🔹 Tri de Shell
+
+![Tri Shell](images/tri_shell.png)
+
+🔹 Tri Rapide
+
+![Tri Quick](images/tri_quick.png)
