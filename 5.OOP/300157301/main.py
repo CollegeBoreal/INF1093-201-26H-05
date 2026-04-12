@@ -1,4 +1,3 @@
-
 from Carre import Carre
 from Rectangle import Rectangle
 from Triangle import Triangle
