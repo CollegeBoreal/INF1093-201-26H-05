@@ -11,8 +11,8 @@
 ```
 300157301/
 ├── README.md
-├── main.py
-├── figure.py
+├── Main.py
+├── Figure.py
 ├── Carre.py
 ├── Rectangle.py
 ├── Triangle.py
@@ -33,7 +33,7 @@
 ├── Prisme.py
 ├── Tore.py
 ├── Hemisphere.py
-├── requirements.txt
+├── Requirements.txt
 └── RAPPORT.ipynb
 ```
 ---
