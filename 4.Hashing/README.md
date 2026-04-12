@@ -49,8 +49,6 @@ Il sert à :
 *   ranger des données dans des “cases” en mémoire,
 *   retrouver ces données très vite.
 
-~~~
-
 **Des examples simples de hashing peuvent être démontrées avec `ord()` et `chr()` 🐍🔐** :
 
 ##### 🧠 Que sont'ils?
