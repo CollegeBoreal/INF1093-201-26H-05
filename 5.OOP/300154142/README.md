@@ -1,7 +1,6 @@
 📘 Projet : Figures Géométriques en Python
 
-Nom : Maouchi Mohamed Chafik 
-Numéro étudiant : 300154142
+Nom : Maouchi Mohamed Chafik Numéro étudiant : 300154142
 
 ✨ Introduction
 
@@ -39,11 +38,14 @@ Cela permet de visualiser concrètement les formes tout en validant les calculs 
 
 Ce projet m’a permis de mieux comprendre les principes fondamentaux de la programmation orientée objet en Python, notamment l’utilisation des classes et de l’héritage.
 
-
-
-<img width="956" height="501" alt="Capture d’écran 2026-04-06 131801" src="https://github.com/user-attachments/assets/78960567-f4b8-4a30-b1d3-97c72422abba" />
-
-
 Il m’a également permis de travailler sur la représentation graphique des figures géométriques et d’automatiser les calculs mathématiques.
 
 Ce travail constitue une base solide pour des projets plus avancés, comme :
+
+
+<img width="956" height="501" alt="Capture d’écran 2026-04-06 131801" src="https://github.com/user-attachments/assets/2614d87e-3da1-412e-98be-a87b11bc5d11" />
+
+
+
+
+<

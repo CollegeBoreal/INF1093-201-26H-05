@@ -1,3 +1,9 @@
+"""
+Fichier : Triangle.py
+Classe Triangle
+Auteur : 300159189
+"""
+
 from figure import Figure
 
 class Triangle(Figure):

@@ -1,9 +1,8 @@
 """
 Fichier : figure.py
 Description : Classe de base pour toutes les figures géométriques
-    | Nom | Maouchi Mohamed Chafik |
-    | 🆔  | 300154142          |
-
+Auteur : [300155187]
+Date : 2025-11-20
 """
 
 class Figure:

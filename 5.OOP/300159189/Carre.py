@@ -1,3 +1,9 @@
+"""
+Fichier : Carre.py
+Classe Carré
+Auteur : 300159189
+"""
+
 from figure import Figure
 
 class Carre(Figure):
@@ -9,4 +15,4 @@ class Carre(Figure):
         return self.cote ** 2
 
     def afficher_info(self):
-        return f"{super().afficher_info()}, côté={self.cote}, aire={self.aire()}"
+        return f"{super().afficher_info()}, cote={self.cote}, aire={self.aire()}"

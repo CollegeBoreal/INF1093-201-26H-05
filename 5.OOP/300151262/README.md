@@ -7,7 +7,7 @@
 ---
 
 ## 📁 Structure du projet
-
+```
 300151262/
 ├── README.md
 ├── main.py
@@ -34,7 +34,7 @@
 ├── Hemisphere.py
 ├── requirements.txt
 └── RAPPORT.ipynb
-
+```
 ---
 
 ## 📌 Description
@@ -54,31 +54,33 @@ Cube, Sphere, Cylindre, Cone, Pyramide, Prisme, Tore, Hemisphere
 ---
 
 ## ▶️ Exécution
-
+```python
 python main.py
 
+```
 ---
 
 ## 📦 Dépendances
-
+```python
 python -m pip install -r requirements.txt
-
+```
 ---
 
 ## 📓 Notebook Jupyter
-
+```python
 jupyter lab
-
+```
 Puis ouvrir RAPPORT.ipynb
 
 ---
 
 ## 📸 Capture d’écran
 
-(Ajouter votre capture ici)
+![Capture de resulat de main.py](images/1.png)
 
 ---
 
 ## ✅ Conclusion
 
 Projet complet utilisant 20 formes pour illustrer la POO en Python.
+

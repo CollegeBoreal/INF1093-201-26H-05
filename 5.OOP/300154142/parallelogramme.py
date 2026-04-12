@@ -1,9 +1,8 @@
 """
 Fichier : parallelogramme.py
 Description : Classe  parallelogramme héritant de Figure
-    | Nom | Maouchi Mohamed Chafik |
-    | 🆔  | 300154142          |
-
+Auteur : [300155187]
+Date : 2005-11-25
 """
 
 from figure import Figure

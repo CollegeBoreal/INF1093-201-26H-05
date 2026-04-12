@@ -1,9 +1,8 @@
 """
 Fichier : cylindre.py
 Description : Classe cylindre héritant de Figure
-    | Nom | Maouchi Mohamed Chafik |
-    | 🆔  | 300154142          |
-
+Auteur : [300154142]
+Date : 2005-11-25
 """
 
 from figure import Figure
