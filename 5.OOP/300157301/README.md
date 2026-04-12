@@ -78,6 +78,8 @@ Puis ouvrir RAPPORT.ipynb
 ## 📸 Capture d’écran
 
 ![Capture de resulat de main.py](images/1.png)
+<img width="1917" height="922" alt="image" src="https://github.com/user-attachments/assets/bdcf0372-8f10-4485-9813-5fd3ee901df1" />
+
 
 ---
 
