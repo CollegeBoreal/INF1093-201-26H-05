@@ -1,76 +1,86 @@
 # Projet Python — Formes Géométriques
 
-**Étudiant :** Ahmed BERGUI
-**Répertoire :** `8.OOP/300151262`
+**Étudiant :** Ahmed BERGUI  
+**Cours :** INF1093  
+**Répertoire :** `300151262`
 
-## Structure du projet
+---
 
-```text
+## 📁 Structure du projet
+```
 300151262/
 ├── README.md
-├── images/
-│   └── .gitkeep
 ├── main.py
 ├── figure.py
 ├── Carre.py
-├── Cercle.py
+├── Rectangle.py
 ├── Triangle.py
+├── Cercle.py
+├── Losange.py
+├── Trapeze.py
+├── Parallelogramme.py
+├── Pentagone.py
+├── Hexagone.py
+├── Octogone.py
+├── Ovale.py
+├── Anneau.py
 ├── Cube.py
+├── Sphere.py
+├── Cylindre.py
+├── Cone.py
+├── Pyramide.py
+├── Prisme.py
+├── Tore.py
+├── Hemisphere.py
 ├── requirements.txt
 └── RAPPORT.ipynb
 ```
+---
 
-## Description
+## 📌 Description
 
-Ce projet démontre les bases de la programmation orientée objet en Python à l’aide de figures géométriques :
+Ce projet illustre les concepts de la programmation orientée objet (POO) en Python à travers la modélisation de 20 formes géométriques, en 2D et en 3D.
 
-- `Figure` : classe de base
-- `Carre` : classe dérivée
-- `Cercle` : classe dérivée
-- `Triangle` : extension demandée dans l’exercice
-- `Cube` : extension supplémentaire en 3D
+---
 
-Le fichier `main.py` crée plusieurs formes, affiche leurs informations et montre un exemple simple de polymorphisme.
+## 🔷 Formes utilisées
 
-## Exécution
+### Formes 2D
+Carre, Rectangle, Triangle, Cercle, Losange, Trapeze, Parallelogramme, Pentagone, Hexagone, Octogone, Ovale, Anneau
 
-```bash
-python3 main.py
+### Formes 3D
+Cube, Sphere, Cylindre, Cone, Pyramide, Prisme, Tore, Hemisphere
+
+---
+
+## ▶️ Exécution
+```python
+python main.py
+
 ```
+---
 
-## Dépendances graphiques
-
-```bash
-python3 -m pip install -r requirements.txt
+## 📦 Dépendances
+```python
+python -m pip install -r requirements.txt
 ```
+---
 
-## Jupyter
-
-Pour ouvrir le notebook :
-
-```bash
+## 📓 Notebook Jupyter
+```python
 jupyter lab
 ```
+Puis ouvrir RAPPORT.ipynb
 
-Puis ouvrir `RAPPORT.ipynb`.
+---
 
-## Git / GitHub
+## 📸 Capture d’écran
 
-Depuis le dossier parent de votre identifiant :
+![Capture de resulat de main.py](images/1.png)
 
-```bash
-git add ahmed.bergui
-git commit -m "ajout du cube"
-git push
-```
+---
 
-## Note technique
+## ✅ Conclusion
 
-Sous Linux, les noms de fichiers sont sensibles à la casse. Les imports utilisent donc :
+Projet complet utilisant 20 formes pour illustrer la POO en Python.
 
-```python
-from Carre import Carre
-from Cercle import Cercle
-from Triangle import Triangle
-from Cube import Cube
-```

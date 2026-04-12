@@ -35,3 +35,9 @@ python IO.py
 
 - ✅ Liste des etudiants ayant >= 60
 - 📈 Moyenne du groupe : 79.33
+
+---
+
+📊 Diagramme des notes
+
+![Diagramme des notes](images/download.png)
