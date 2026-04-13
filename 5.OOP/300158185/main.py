@@ -1,8 +1,8 @@
 """
 Fichier : main.py
 Description : Point d'entrée du programme. Crée plusieurs formes et affiche leurs informations.
-Auteur : 300158185
-Date : 2026-02-30
+Auteur : [ID de l'étudiant]
+Date : YYYY-MM-DD
 """
 
 from Carre import Carre
@@ -29,7 +29,7 @@ def main():
     formes = [
         Carre(4),
         Cercle(3),
-        Triangle(3, 4, 5),
+        Triangle(3, 4,),
         Rectangle(4, 6),
         Losange(5, 6),
         Trapeze(3, 5, 4),
@@ -38,7 +38,7 @@ def main():
         Hexagone(3),
         Octogone(3),
         Ellipse(4, 2),
-        Etoile(5),
+        Etoile(5,2),
         Cube3D(3)
     ]
 
