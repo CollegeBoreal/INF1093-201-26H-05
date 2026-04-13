@@ -1,0 +1,6 @@
+
+python:2
+est:2
+simple:1
+et:1
+puissant:1
