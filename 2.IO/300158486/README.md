@@ -38,3 +38,5 @@ Voici le diagramme généré dans le rapport :
 ## Exécution
 ```bash
 python IO.py
+
+![Diagramme des notes](images/python.png)
