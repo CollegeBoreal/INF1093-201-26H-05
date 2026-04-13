@@ -1,7 +1,7 @@
 # Projet Python — Formes Géométriques
 
-**Étudiant :** Mohammed Mati
-**Répertoire :** `5.OOP/300158185`
+**Étudiant :** Djelloul msili
+**Répertoire :** `5.OOP/300155606`
 
 ## Structure du projet
 
