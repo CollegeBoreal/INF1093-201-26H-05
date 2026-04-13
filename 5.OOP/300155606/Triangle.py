@@ -1,8 +1,8 @@
 """
 Fichier : Triangle.py
 Description : Classe Triangle héritant de Figure
-Auteur : ahmed.bergui
-Date : 2026-03-25
+Auteur : Djelloul msili
+Date : 2026-04-13
 """
 
 from figure import Figure
