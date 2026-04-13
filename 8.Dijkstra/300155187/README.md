@@ -58,8 +58,6 @@ Ce notebook permet de :
 - **Afrique** : Casablanca, Dakar, Lagos, Nairobi, Johannesburg  
 
 ---
- <img src="images/Dijkstra.png" alt="Description de l'image" width="300">
- <img src="images/capture python check_results.png" alt="Description de l'image" width="300">
 
 ## ▶️ Exécution du projet
 
@@ -68,4 +66,7 @@ Lancer les fichiers dans cet ordre :
 ```bash
 python dijkstra_tp.py
 python check_results.py
+
+<img src="images/Dijkstra.png" alt="Description de l'image" width="300">
+ <img src="images/capture python check_results.png" alt="Description de l'image" width="300">
 
