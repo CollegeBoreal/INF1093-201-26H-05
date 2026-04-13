@@ -40,7 +40,7 @@ Ce fichier permet de :
 
 ---
 
-## 🧾 4️⃣ `rapport_metro.ipynb` – Visualisation
+## 🧾 4️⃣ `RAPPORT.ipynb` – Visualisation
 
 Ce notebook permet de :
 - Représenter le graphe avec **NetworkX**
