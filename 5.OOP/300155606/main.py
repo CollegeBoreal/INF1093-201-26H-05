@@ -1,8 +1,8 @@
 """
 Fichier : main.py
 Description : Point d'entrée du programme. Crée plusieurs figures et affiche leurs informations.
-Auteur : ahmed.bergui
-Date : 2026-03-25
+Auteur : Djelloul msili 
+Date : 2026-04-13
 """
 
 from Carre import Carre
