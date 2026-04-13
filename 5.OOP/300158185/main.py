@@ -8,7 +8,7 @@ Date : 2026-03-25
 from Carre import Carre
 from Cercle import Cercle
 from Triangle import Triangle
-from Cube import Cube
+
 
 
 def main():
@@ -16,7 +16,7 @@ def main():
     Fonction principale du programme.
     Crée des figures, puis affiche leurs informations.
     """
-    formes = [Carre(4), Cercle(3), Triangle(5, 2), Cube(3)]
+    formes = [Carre(4), Cercle(3), Triangle(5, 2)]
 
     for forme in formes:
         print(forme.afficher_info())

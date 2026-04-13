@@ -41,7 +41,8 @@ jobs:
           ## 
           echo "Evaluating chapter 2.IO Participation"
           cd 2.IO
-          bash .scripts/run.sh
+          pwsh .scripts/run.ps1
+          # bash .scripts/run.sh
           cd ..
           ##
           ## Evaluating chapter 3.Tris
@@ -55,6 +56,13 @@ jobs:
           ## 
           echo "Evaluating chapter 4.Hashing Participation"
           cd 4.Hashing
+          pwsh .scripts/run.ps1
+          cd ..
+          ##
+          ## Evaluating chapter 5.OOP
+          ## 
+          echo "Evaluating chapter 5.OOP Participation"
+          cd 5.OOP
           pwsh .scripts/run.ps1
           cd ..
           ##

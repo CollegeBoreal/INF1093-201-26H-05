@@ -1,5 +1,6 @@
 # 📘 Algorithmes de tri – Tris variés (avec fichiers d’entrée)
 
+<img width="1080" height="1080" alt="1_S54-fRI1ngnwN_btgHQOGA" src="https://github.com/user-attachments/assets/ecdbecea-6b65-41ec-8f51-e89a12b4a5f5" />
 **Étudiante :** BELHENNICHE AMINE
 **ID :** 300151588
 **Cours :** INF1093 – Structures de données et fichiers  

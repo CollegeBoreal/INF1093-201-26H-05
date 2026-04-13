@@ -26,6 +26,7 @@ Chaque exercice ecrit ses resultats dans le dossier resultats/.
 ---
 
 ▶️ Execution
+
 ```bash
 python ex1_hash.py
 python ex2_insert.py
@@ -36,12 +37,12 @@ python ex5_wordcount.py
 
 ---
 
-📂 Resultats
+📊 Visualisations
 
-| Fichier | Contenu |
-|---------|---------|
-| `resultats/ex1.txt` | Hash des mots |
-| `resultats/ex2.txt` | Table de hachage |
-| `resultats/ex3.txt` | Resultats de recherche |
-| `resultats/ex4.txt` | Notes des etudiants |
-| `resultats/ex5.txt` | Comptage des mots |
+🔐 Table de hachage
+
+![Hash Table](images/hash_table.png)
+
+🔢 Compteur de mots
+
+![Word Count](images/wordcount.png)

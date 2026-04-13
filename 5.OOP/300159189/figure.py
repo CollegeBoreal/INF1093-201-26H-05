@@ -1,3 +1,9 @@
+"""
+Fichier : figure.py
+Classe de base Figure
+Auteur : 300159189
+"""
+
 class Figure:
     def __init__(self, nom):
         self.nom = nom
@@ -6,4 +12,4 @@ class Figure:
         return f"Figure: {self.nom}"
 
     def aire(self):
-        raise NotImplementedError("Cette méthode doit être implémentée par les sous-classes.")
+        raise NotImplementedError("Cette méthode doit être implémentée.")
