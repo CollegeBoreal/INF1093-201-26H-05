@@ -22,6 +22,8 @@ Le programme :
 3. calcule la moyenne
 4. écrit les étudiants ayant une note >= 60
 5. enregistre la moyenne dans `resultats.txt`
+![Image du projet](images/ph.png)
+6. 
 
 ## Exécution
 ```bash
