@@ -1,7 +1,7 @@
 """
 Fichier : prisme_carre.py
 Description : Classe prisme carré héritant de Figure
-Auteur : [300151588]
+Auteur : [300151545]
 Date : 2005-11-25
 """
 
