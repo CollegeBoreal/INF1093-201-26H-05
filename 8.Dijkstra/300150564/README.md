@@ -1,4 +1,4 @@
-🗺️ TP Dijkstra 
+🗺️ TP Dijkstra - Capitales Europeennes
 
 | Nom | Ouassim Ahmed Benamira |
 |-----|------------------------|
@@ -26,6 +26,7 @@ le plus court chemin entre des capitales europeennes.
 ---
 
 ▶️ Execution
+
 ```bash
 python dijkstra_tp.py
 python check_results.py
@@ -39,6 +40,12 @@ python visualisation.py
 | Depart | Arrivee | Chemin | Distance |
 |--------|---------|--------|----------|
 | 🇫🇷 Paris | 🇨🇿 Prague | Paris → Berlin → Prague | 1330 km |
+
+---
+
+📊 Visualisation du graphe
+
+![Graphe Dijkstra](images/graphe_dijkstra.png)
 
 ---
 

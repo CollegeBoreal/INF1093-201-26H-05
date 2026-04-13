@@ -80,8 +80,6 @@ function Test-AllRequiredFilesPresent {
         [hashtable]$Checks
     )
 
-    Write-Output $Checks
-
     $validReadmeValues = @(
         ":1st_place_medal:",
         ":2nd_place_medal:"
@@ -91,7 +89,7 @@ function Test-AllRequiredFilesPresent {
         $Checks.README -in $validReadmeValues -and
         $Checks.Images -eq ":heavy_check_mark:" -and
         $Checks.STRUCT  -eq ":building_construction:" -and 
-        $Checks.RAPPORT -eq ":receipt:"
+        $Checks.RAPPORT -eq ":heavy_check_mark:"
     )
 }
 

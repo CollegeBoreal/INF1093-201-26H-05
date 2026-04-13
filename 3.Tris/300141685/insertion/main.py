@@ -1,11 +1,4 @@
-from pathlib import Path
-
-HERE = Path(__file__).resolve().parent
-INPUT = HERE / "entree_insertion.txt"
-
-
-# Trés bien Barry, t'es le meilleur
-def tri_insertion(tab):
+﻿def tri_insertion(tab):
     for i in range(1, len(tab)):
         cle = tab[i]
         j = i - 1
@@ -13,13 +6,11 @@ def tri_insertion(tab):
             tab[j + 1] = tab[j]
             j -= 1
         tab[j + 1] = cle
+    return tab
 
+with open("entree_insertion.txt", "r") as f:
+    tab = list(map(int, f.read().split()))
 
-def main():
-    tab = list(map(int, INPUT.read_text(encoding="utf-8").split()))
-    tri_insertion(tab)
-    print("Résultat :", tab)
-
-
-if __name__ == "__main__":
-    main()
+print("Avant tri :", tab)
+tab_trie = tri_insertion(tab)
+print("Apres tri :", tab_trie)

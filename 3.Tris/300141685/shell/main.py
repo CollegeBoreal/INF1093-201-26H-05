@@ -1,30 +1,20 @@
-
-from pathlib import Path
-
-HERE = Path(__file__).resolve().parent
-INPUT = HERE / "entree_shell.txt"
-
-
-def tri_shell(tab):
+﻿def tri_shell(tab):
     n = len(tab)
-    gap = n // 2
-
-    while gap > 0:
-        for i in range(gap, n):
+    ecart = n // 2
+    while ecart > 0:
+        for i in range(ecart, n):
             temp = tab[i]
             j = i
-            while j >= gap and tab[j - gap] > temp:
-                tab[j] = tab[j - gap]
-                j -= gap
+            while j >= ecart and tab[j - ecart] > temp:
+                tab[j] = tab[j - ecart]
+                j -= ecart
             tab[j] = temp
-        gap //= 2
+        ecart //= 2
+    return tab
 
+with open("entree_shell.txt", "r") as f:
+    tab = list(map(int, f.read().split()))
 
-def main():
-    tab = list(map(int, INPUT.read_text(encoding="utf-8").split()))
-    tri_shell(tab)
-    print("Résultat :", tab)
-
-
-if __name__ == "__main__":
-    main()
+print("Avant tri :", tab)
+tab_trie = tri_shell(tab)
+print("Apres tri :", tab_trie)

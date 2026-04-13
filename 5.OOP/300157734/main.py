@@ -20,9 +20,9 @@ def main():
 
     for forme in formes:
         print(forme.afficher_info())
-        print(f"Aire: {forme.aire()} 📏")
+        print(f"Aire: {forme.aire()} ")
         if hasattr(forme, "volume"):
-            print(f"Volume: {forme.volume()} 🧊")
+            print(f"Volume: {forme.volume()} ")
 
 
 if __name__ == "__main__":

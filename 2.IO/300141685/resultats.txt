@@ -1,0 +1,8 @@
+=== Etudiants ayant reussi (note >= 60) ===
+﻿Mamadou: 85
+Aissatou: 72
+Fatoumata: 91
+Mariama: 83
+
+=== Moyenne du groupe ===
+Moyenne: 72.33
