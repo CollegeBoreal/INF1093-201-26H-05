@@ -68,6 +68,7 @@ etudiants.txt → fichier d’entrée
 resultats.txt → fichier de sortie
 
 images/ → dossier pour les captures ou diagrammes
+
 <img src="images/Diagramme des notes.PNG" alt="Description de l'image">
 <img src="images/capio2.png" alt="Description de l'image">
 
