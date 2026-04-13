@@ -29,3 +29,6 @@ ID/
     ├── ex3.txt
     ├── ex4.txt
     └── ex5.txt
+```
+## Exécution
+![Exécution](images/ex.png)
