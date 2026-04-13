@@ -39,6 +39,9 @@ Ce fichier permet de :
 - Tester automatiquement le résultat
 - Vérifier si le chemin trouvé est correct
 
+<img src="images/Dijkstra.png" alt="Description de l'image" width="300">
+<img src="images/capture python check_results.png" alt="Description de l'image" width="300">
+
 ---
 
 ## 🧾 4️⃣ `RAPPORT.ipynb` – Visualisation
@@ -58,8 +61,6 @@ Ce notebook permet de :
 - **Afrique** : Casablanca, Dakar, Lagos, Nairobi, Johannesburg  
 
 ---
- <img src="images/Dijkstra.png" alt="Description de l'image" width="300">
- <img src="images/capture python check_results.png" alt="Description de l'image" width="300">
 
 ## ▶️ Exécution du projet
 
@@ -68,4 +69,6 @@ Lancer les fichiers dans cet ordre :
 ```bash
 python dijkstra_tp.py
 python check_results.py
+
+
 

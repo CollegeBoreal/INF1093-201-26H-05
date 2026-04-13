@@ -29,7 +29,14 @@ Résultat : création / mise à jour de `resultats.txt`.
 1. Ouvrir `RAPPORT.ipynb` dans Jupyter.
 2. Exécuter les cellules dans l’ordre.
 3. Le notebook affiche un diagramme des notes et peut sauvegarder l’image dans `images/`.
+4. ## Diagramme des notes
+
+Voici le diagramme généré dans le rapport :
+
+![Diagramme des notes](images/diagramme_notes.png)
 
 ## Exécution
 ```bash
 python IO.py
+
+![Diagramme des notes](images/python.png)
