@@ -1,7 +1,7 @@
 """
 Fichier : main.py
 Description : Point d'entrée du programme. Crée plusieurs figures et affiche leurs informations.
-Auteur : ahmed.bergui
+Auteur : Djelloul.msili
 Date : 2026-03-25
 """
 
