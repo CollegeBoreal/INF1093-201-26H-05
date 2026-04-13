@@ -7,7 +7,7 @@ path = shortest(target)
 expected = ['Paris', 'Berlin', 'Bruxelles', 'Rome']
 
 if path == expected:
-    print("✅ Bravo, chemin correct !")
+    print("✅ Bravo, le chemin est correct !")
 else:
     print("❌ Incorrect")
     print("Ton chemin :", path)

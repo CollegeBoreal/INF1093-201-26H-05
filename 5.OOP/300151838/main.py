@@ -1,9 +1,3 @@
-"""
-Fichier : main.py
-Description : Point d'entrée du programme. Crée plusieurs figures et affiche leurs informations.
-Auteur : abdelkader.messali
-Date : 2026-04-06
-"""
 
 from Carre import Carre
 from Cercle import Cercle

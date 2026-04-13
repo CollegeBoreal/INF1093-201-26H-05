@@ -1,9 +1,3 @@
-"""
-Fichier : Carre.py
-Description : Classe Carré héritant de Figure
-Auteur : abdelkader messali
-Date : 2026-04-06
-"""
 
 from figure import Figure
 
