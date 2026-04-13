@@ -49,6 +49,19 @@ Il sert à :
 *   ranger des données dans des “cases” en mémoire,
 *   retrouver ces données très vite.
 
+**Des examples simples de hashing peuvent être démontrées avec `ord()` et `chr()` 🐍🔐** :
+
+##### 🧠 Que sont'ils?
+
+* `ord()` → transforme caractère 🔤 → nombre 🔢
+* `chr()` → transforme nombre 🔢 → caractère 🔤
+* Hash simple = transformation + calcul (somme, poids, modulo)
+
+```python
+chr(97)  # 'a'
+ord('a') # 97
+```
+
 ***
 
 # 2. 📚 Les dictionnaires en Python
