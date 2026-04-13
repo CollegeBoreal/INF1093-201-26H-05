@@ -40,9 +40,6 @@ Voici le diagramme généré dans le rapport :
 ```bash
 python IO.py
 
-## Exécution
+![Python](images/python.png)
 
-    python IO.py
 
-    ### Image Python
-   ![Python](images/python.png)
