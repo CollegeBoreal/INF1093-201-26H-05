@@ -108,6 +108,8 @@ compte.afficher_solde()  # 💰 Solde: 120
 
 ### d) **Polymorphisme 🎭**
 
+- [ ] Représentation Graphique
+
 ```mermaid
 classDiagram
     class Animal {
@@ -125,6 +127,8 @@ classDiagram
     Animal <|-- Chien
     Animal <|-- Chat
 ```
+
+- [ ] Implémentation en Python 🐍
 
 ```python
 class Animal:
