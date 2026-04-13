@@ -108,7 +108,7 @@ compte.afficher_solde()  # 💰 Solde: 120
 
 ### d) **Polymorphisme 🎭**
 
-- [ ] Représentation Graphique
+- [ ] Représentation Graphique de l'***Héritage***
 
 ```mermaid
 classDiagram
@@ -127,6 +127,30 @@ classDiagram
     Animal <|-- Chien
     Animal <|-- Chat
 ```
+
+- [ ] Représentation Graphique de la ***Dépendance***
+
+```mermaid
+classDiagram
+    class Animal {
+        +parler()
+    }
+
+    class Chien {
+        +parler()
+    }
+
+    class Chat {
+        +parler()
+    }
+
+    Animal ..> Chien : utilise
+    Animal ..> Chat : utilise
+```
+
+#### 🧠 Différence importante
+* Animal <|-- Chien → héritage (is-a)
+* Animal ..> Chien → utilisation (uses-a)
 
 - [ ] Implémentation en Python 🐍
 
