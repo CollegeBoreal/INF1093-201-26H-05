@@ -1,8 +1,8 @@
 """
 Fichier : figure.py
 Description : Classe de base pour toutes les figures géométriques
-Auteur : ahmed.bergui
-Date : 2026-03-25
+Auteur : Djelloul msili
+Date : 2026-04-13
 """
 
 class Figure:
