@@ -1,9 +1,9 @@
 notes = {
-    "Lyes": 15,
+    "aymen": 15,
     "Mellissa": 90,
     "Rabah": 58,
     "Ibrahim": 60,
-    "Iba": 100
+    "walid": 100
 }
 
 with open("resultats/ex4.txt", "w") as f:
