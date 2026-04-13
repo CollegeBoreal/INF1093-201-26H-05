@@ -1,31 +1,28 @@
+# 📊 Traitement des Entrées/Sorties – INF1093
 
-# TP Guidé — Hashing et dictionnaires en Python
+**Auteur :** Ahmed BERGUI 🆔 300151262
+**Date :** 02 février 2026  
 
-## Description
-Ce travail pratique a pour objectif de comprendre le fonctionnement du **hashing** et des **dictionnaires en Python** à travers plusieurs exercices simples.  
-Chaque exercice produit un fichier de sortie dans le dossier `resultats/` afin de faciliter la vérification automatique.
+---
+# Devoir Python – Gestion des notes
 
-## Objectifs
-À la fin de ce TP, l’étudiant sera capable de :
+Ce projet lit un fichier contenant des étudiants et leurs notes,
+calcule la moyenne du groupe et génère un fichier de résultats.
 
-- comprendre le principe du hashing
-- utiliser une fonction de hachage simple
-- insérer et rechercher des éléments dans une table de hachage
-- utiliser les dictionnaires Python
-- compter les mots d’un texte avec un dictionnaire
+## Fichiers
+- etudiants.txt : données d'entrée
+- IO.py : script Python
+- resultats.txt : résultats
+- RAPPORT.ipynb : analyse et diagramme
+## Diagramme des notes
 
-## Structure du projet
+![Diagramme des notes](images/notes.png)
 
-```text
-ID/
-├── ex1_hash.py
-├── ex2_insert.py
-├── ex3_search.py
-├── ex4_dict.py
-├── ex5_wordcount.py
-└── resultats/
-    ├── ex1.txt
-    ├── ex2.txt
-    ├── ex3.txt
-    ├── ex4.txt
-    └── ex5.txt
+## Exécution
+```bash
+python IO.py
+```
+![Exécution](images/ex.png)
+
+
+
