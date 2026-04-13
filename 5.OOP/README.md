@@ -108,6 +108,24 @@ compte.afficher_solde()  # 💰 Solde: 120
 
 ### d) **Polymorphisme 🎭**
 
+```mermaid
+classDiagram
+    class Animal {
+        +parler()
+    }
+
+    class Chien {
+        +parler()
+    }
+
+    class Chat {
+        +parler()
+    }
+
+    Animal <|-- Chien
+    Animal <|-- Chat
+```
+
 ```python
 class Animal:
     def parler(self):
