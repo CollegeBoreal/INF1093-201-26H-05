@@ -36,10 +36,9 @@ Voici le diagramme généré dans le rapport :
 ![Diagramme des notes](images/diagramme_notes.png)
 
 ## Exécution
-
+![python](images/python.png)
 ```bash
 python IO.py
-### Image Python
-![Python](images/python.png)
+
 
 
