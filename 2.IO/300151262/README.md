@@ -21,8 +21,7 @@ calcule la moyenne du groupe et génère un fichier de résultats.
 ## Exécution
 ```bash
 python IO.py
-
-
+![Exécution](images/ex.png)
 
 
 
