@@ -1,12 +1,12 @@
 # Projet Python — Formes Géométriques
 
-**Étudiant :** Mohammed Mati
-**Répertoire :** `5.OOP/300158185`
+**Étudiant :** Djelloul msili
+**Répertoire :** `5.OOP/300155606`
 
 ## Structure du projet
 
 ```text
-300158185/
+300155606/
 ├── README.md
 ├── images/
 │   └── .gitkeep
@@ -57,7 +57,7 @@ Puis ouvrir `RAPPORT.ipynb`.
 Depuis le dossier parent de votre identifiant :
 
 ```bash
-git add Mohammed.Mati
+git add Djelloul.msili
 git commit -m "ajout du cube"
 git push
 ```
