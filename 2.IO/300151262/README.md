@@ -19,9 +19,10 @@ calcule la moyenne du groupe et génère un fichier de résultats.
 ![Diagramme des notes](images/notes.png)
 
 ## Exécution
+![Exécution](images/ex.png)
 ```bash
 python IO.py
-![Exécution](images/ex.png)
+
 
 
 
