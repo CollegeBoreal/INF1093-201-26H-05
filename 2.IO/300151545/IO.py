@@ -1,5 +1,5 @@
 # -----------------
-# Author: Ryma
+# Author: Mohamed
 # -----------------
 
 import sys
