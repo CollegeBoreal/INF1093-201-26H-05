@@ -1,14 +1,14 @@
 # Projet Python — Formes Géométriques
 
-**Étudiant :** Ahmed BERGUI  
+**Étudiant :** Mohammed Mati  
 **Cours :** INF1093  
-**Répertoire :** `300151262`
+**Répertoire :** `300158185`
 
 ---
 
 ## 📁 Structure du projet
 ```
-300151262/
+300158185/
 ├── README.md
 ├── main.py
 ├── figure.py
