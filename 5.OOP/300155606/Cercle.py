@@ -1,7 +1,7 @@
 """
 Fichier : Cercle.py
 Description : Classe Cercle héritant de Figure
-Auteur : ahmed.bergui
+Auteur : djelloul.msili
 Date : 2026-03-25
 """
 
