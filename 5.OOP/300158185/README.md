@@ -76,7 +76,7 @@ Puis ouvrir RAPPORT.ipynb
 
 ## 📸 Capture d’écran
 
-![Capture de resulat de main.py](images/1.png)
+![Capture de resulat de main.py](images/001.png)
 
 ---
 
