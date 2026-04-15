@@ -1,10 +1,3 @@
-"""
-Fichier : Cercle.py
-Description : Classe Cercle héritant de Figure
-Auteur : 300151505
-Date : 2026-04-06
-"""
-
 from figure import Figure
 import math
 

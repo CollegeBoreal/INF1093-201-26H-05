@@ -1,11 +1,12 @@
 from Carre import Carre
 from Cercle import Cercle
-from Triangle import Triangle
 
 def main():
-    formes = [Carre(4), Cercle(3), Triangle(5, 2)]
-    for f in formes:
-        print(f.afficher_info())
+    c1 = Carre(4)
+    c2 = Cercle(3)
+
+    print(c1.afficher_info())
+    print(c2.afficher_info())
 
 if __name__ == "__main__":
     main()

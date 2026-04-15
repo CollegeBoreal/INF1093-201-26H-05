@@ -1,16 +1,9 @@
-"""
-Fichier : Carre.py
-Description : Classe Carré héritant de Figure
-Auteur : 300151505
-Date : 2026-04-06
-"""
-
 from figure import Figure
 
 class Carre(Figure):
     def __init__(self, cote):
-        super().__init__("Carré")  # Appel du constructeur de la classe de base
-        self.cote = cote           # Longueur du côté du carré
+        super().__init__("Carré")
+        self.cote = cote
 
     def aire(self):
         return self.cote ** 2

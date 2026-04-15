@@ -60,3 +60,5 @@ Aller directement à l’endroit mémoire correspondant.
 Ramener la valeur "Alice".
 🎉 Résultat :
 Presque instantané, même si le dictionnaire contient 1 million d’éléments.
+
+<img src="images/image_hashing_1.PNG" alt="Mon image" width="300"/>

@@ -22,8 +22,10 @@ Le programme :
 3. calcule la moyenne
 4. écrit les étudiants ayant une note >= 60
 5. enregistre la moyenne dans `resultats.txt`
-
+![diagramme](images/ph.png)
+   
 ## Exécution
+![execution](images/io.png)
 ```bash
 python IO.py
 ```

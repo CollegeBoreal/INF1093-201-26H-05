@@ -39,7 +39,7 @@ ID/
 
 ### 🔹 1️⃣ Tri par Insertion
 
-![Résultat Insertion](images/1.png)
+![Résultat Insertion](images/insertion_result.png)
 
 Résultat attendu :
 
@@ -50,7 +50,7 @@ Résultat attendu :
 
 ### 🔹 2️⃣ Tri de Shell
 
-![Résultat Shell](images/3.png)
+![Résultat Shell](images/shell_result.png)
 
 Résultat attendu :
 
@@ -61,7 +61,7 @@ Résultat attendu :
 
 ### 🔹 3️⃣ Tri Rapide (Quick Sort)
 
-![Résultat Quick](images/2.png)
+![Résultat Quick](images/quick_result.png)
 
 Résultat attendu :
 
