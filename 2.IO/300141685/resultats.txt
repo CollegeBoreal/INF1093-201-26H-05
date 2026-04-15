@@ -1,7 +1,8 @@
-Étudiants ayant ≥ 60 :
-  ﻿Mamadou : 85.0
-  Aissatou : 72.0
-  Fatoumata : 91.0
-  Mariama : 83.0
+=== Etudiants ayant reussi (note >= 60) ===
+﻿Mamadou: 85
+Aissatou: 72
+Fatoumata: 91
+Mariama: 83
 
-Moyenne du groupe : 72.33
+=== Moyenne du groupe ===
+Moyenne: 72.33
