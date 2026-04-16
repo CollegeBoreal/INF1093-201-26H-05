@@ -86,8 +86,9 @@ Les figures sont tracées avec :
 
 - `matplotlib`
 - `numpy`
-
 ---
+
+<img src="images/pooimg.png" width="400">
 
 # ▶️ Exécution du projet  
 
@@ -125,5 +126,3 @@ afficher_prisme_losange(c7)
 afficher_prisme_parallelogramme(c8)
 afficher_sphere(c9)
 afficher_cone(c10)
-
-<img src="images/pooimg.png" width="400">
