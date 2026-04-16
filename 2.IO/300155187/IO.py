@@ -48,4 +48,5 @@ def traiter_notes(fichier_entree, fichier_sortie):
 
 if __name__ == "__main__":
     traiter_notes("etudiants.txt", "resultats.txt")
+    print("Mon projet IO");    
 
