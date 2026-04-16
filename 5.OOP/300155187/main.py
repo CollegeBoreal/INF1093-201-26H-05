@@ -66,19 +66,20 @@ def main():
     c10 = cone(0.33, 2)
 
     # Création d'un  Triangle
-     f1 = Triangle(6, 4)
-
+    f1 = Triangle(6, 4)
+    
     # Création d'un Rectangle
-     f2 = Rectangle(5, 10)
+    f2 = Rectangle(5, 10)
 
     # Création d'un Trapeze
-     f3 = Trapeze(10, 6, 4)
+    f3 = Trapeze(10, 6, 4)
 
     # Création d'un Ellipse
-     f4 = Ellipse(7, 3)
+    f4 = Ellipse(7, 3)
 
     # Création d'un  Hexagone
     f5 = Hexagone(5)
+
 
 
     # Affichage des informations des deux figures
