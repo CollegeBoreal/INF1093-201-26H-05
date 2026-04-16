@@ -43,7 +43,7 @@ Le projet doit respecter cette structure
 ├── ex4.txt
 └── ex5.txt
 ```
-
+<img src="images/imghas.png" width="400">
 ---
 
 # Description des exercices
