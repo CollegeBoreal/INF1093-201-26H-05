@@ -1,22 +1,9 @@
-"""
-Fichier : Carre.py
-Description : Classe Carré héritant de Figure
-Auteur : ahmed.bergui
-Date : 2026-03-25
-"""
-
-from figure import Figure
-
-
-class Carre(Figure):
+class Carre:
     def __init__(self, cote):
-        super().__init__("Carré")
         self.cote = cote
 
     def aire(self):
-        # Calcul de l'aire du carré
         return self.cote ** 2
 
     def afficher_info(self):
-        # Retourne une chaîne contenant le nom, le côté et l'aire
-        return f"{super().afficher_info()}, côté={self.cote}, aire={self.aire()}"
+        return f"Carré de côté {self.cote}"

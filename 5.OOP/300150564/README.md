@@ -26,23 +26,23 @@ Projet Python demontrant la POO et l'heritage avec des figures geometriques.
 ---
 
 ▶️ Execution
+
 ```bash
 python main.py
 ```
 
 ---
 
-📊 Resultats
+📊 Visualisations
 
-| Figure | Dimensions | Aire |
-|--------|------------|------|
-| 🟦 Carre | cote=4 | 16 |
-| ⚪ Cercle | rayon=3 | 28.27 |
-| 🔺 Triangle | base=5, hauteur=2 | 5.0 |
+🟦 Carre
 
----
+![Carre](images/carre.png)
 
-📦 Librairies
+⚪ Cercle
 
-- 📈 matplotlib
-- 🔢 numpy
+![Cercle](images/cercle.png)
+
+🔺 Triangle
+
+![Triangle](images/triangle.png)
