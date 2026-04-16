@@ -126,4 +126,4 @@ afficher_prisme_parallelogramme(c8)
 afficher_sphere(c9)
 afficher_cone(c10)
 
-<img src="images/mon_image.png" width="400">
+<img src="images/pooimg.png" width="400">
