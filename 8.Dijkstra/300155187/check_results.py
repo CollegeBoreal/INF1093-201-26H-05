@@ -23,7 +23,7 @@ expected = [
 ]
 
 if path == expected:
-    print("✅ Correct")
+    print("✅ Bravo, le chemin est correct !")
 else:
     print("❌ Incorrect")
     print("Attendu :", " → ".join(expected))
