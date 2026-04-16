@@ -44,6 +44,11 @@ Le projet doit respecter cette structure
 └── ex5.txt
 ```
 <img src="images/imghas.png" width="400">
+<img src="images/imghas2.png" width="400">
+<img src="images/imghas3.png" width="400">
+<img src="images/imghas4.png" width="400">
+<img src="images/imghas5.png" width="400">
+
 ---
 
 # Description des exercices
