@@ -66,19 +66,19 @@ def main():
     c10 = cone(0.33, 2)
 
     # Création d'un  Triangle
-     c11 = Triangle(6, 4)
+     f1 = Triangle(6, 4)
 
     # Création d'un Rectangle
-     c12 = Rectangle(5, 10)
+     f2 = Rectangle(5, 10)
 
     # Création d'un Trapeze
-     c13 = Trapeze(10, 6, 4)
+     f3 = Trapeze(10, 6, 4)
 
     # Création d'un Ellipse
-     c14 = Ellipse(7, 3)
+     f4 = Ellipse(7, 3)
 
     # Création d'un  Hexagone
-    c15 = Hexagone(5)
+    f5 = Hexagone(5)
 
 
     # Affichage des informations des deux figures
@@ -92,11 +92,11 @@ def main():
     print(c8.afficher_info())
     print(c9.afficher_info())
     print(c10.afficher_info())
-    print(c11.afficher_info())
-    print(c12.afficher_info())
-    print(c13.afficher_info())
-    print(c14.afficher_info())
-    print(c15.afficher_info())
+    print(f1.afficher_info())
+    print(f2.afficher_info())
+    print(f3.afficher_info())
+    print(f4.afficher_info())
+    print(f5.afficher_info())
 
 
 
