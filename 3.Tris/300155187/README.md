@@ -65,6 +65,8 @@ Le programme lit ces valeurs, applique l’algorithme de tri et affiche le table
 ---
 
 ## ▶️ Exemple de résultat
+
+<img src="images/imgtri.png" width="400">
 ```
 Résultat : [1, 2, 3, 4, 5, 10, 20]...
 ```
