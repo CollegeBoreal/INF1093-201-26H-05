@@ -43,6 +43,11 @@ Le projet doit respecter cette structure
 ├── ex4.txt
 └── ex5.txt
 ```
+<img src="images/imghas.png" width="400">
+<img src="images/imghas2.png" width="400">
+<img src="images/imghas3.png" width="400">
+<img src="images/imghas4.png" width="400">
+<img src="images/imghas5.png" width="400">
 
 ---
 
