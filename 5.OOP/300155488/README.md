@@ -163,6 +163,7 @@ Pour lancer le programme :
 ```bash
 python main.py
 ```
+<img src="images/main.py.png" alt="main.py 3D" width="500">
 
 ## Résultats attendus
 
