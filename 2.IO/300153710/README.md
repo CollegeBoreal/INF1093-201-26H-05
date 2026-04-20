@@ -1,17 +1,27 @@
-# Projet – Traitement des notes des étudiants
+# 📊 Traitement des Entrées/Sorties – INF1093
 
-## Description
-Ce projet lit un fichier texte contenant les noms des étudiants et leurs notes.
-Il calcule la moyenne du groupe et génère un fichier de résultats.
-Un diagramme des notes est affiché dans un Jupyter Notebook.
+**Auteur :** Abdelfettah samy 🆔 300153710
+**Date :** 13 mars 2026  
+
+---
+# Devoir Python – Gestion des notes
+
+Ce projet lit un fichier contenant des étudiants et leurs notes,
+calcule la moyenne du groupe et génère un fichier de résultats.
 
 ## Fichiers
-- IO.py : script Python principal
-- etudiants.txt : fichier d’entrée
-- resultats.txt : fichier de sortie
-- RAPPORT.ipynb : graphique des notes
-- images/ : dossier pour images si nécessaire
+- etudiants.txt : données d'entrée
+- IO.py : script Python
+- resultats.txt : résultats
+- RAPPORT.ipynb : analyse et diagramme
+## Diagramme des notes
+
+![Diagramme des notes](images/notes.png)
 
 ## Exécution
 ```bash
 python IO.py
+
+
+
+
