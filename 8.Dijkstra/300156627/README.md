@@ -39,6 +39,10 @@ Les villes et leurs connexions :
 
 ## 🚀 Comment exécuter le projet
 
+<img src="images\image_dijstal.PNG" alt="Mon image" width="300"/>
+
+<img src="images\image_dijstral.PNG" alt="Mon image" width="300"/>
+
 1. Cloner le dépôt :  
 ```bash
 git clone <lien_du_repo>

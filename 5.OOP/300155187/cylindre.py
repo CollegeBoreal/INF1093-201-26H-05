@@ -24,3 +24,5 @@ class cylindre(Figure):
             f"{super().afficher_info()}, "
             f"rayon={self.rayon}, hauteur={self.hauteur}, volume={self.volume():.2f}"
         )
+
+   
