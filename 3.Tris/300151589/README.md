@@ -5,27 +5,13 @@
 - ID : 300151589
 
 ## 📁 Structure du projet
-Ce dossier contient les éléments demandés pour le travail 3 :
-
-- `README.md` → description du projet
-- `images/` → dossier pour les images (si nécessaire)
+- README.md
+- images/
 
 ## 🎯 Objectif
-L'objectif de ce travail est de pratiquer :
-- L'utilisation de GitHub
-- La gestion des fichiers et dossiers
-- La documentation avec README
+Pratiquer GitHub et la structure des dossiers.
 
-## ⚙️ Contenu
-Ce projet respecte la structure demandée :
-- Un dossier avec mon identifiant
-- Un fichier README.md
-- Un dossier images (avec `.gitkeep` si vide)
-
-## 🧪 Vérification
-✔ README présent  
-✔ Structure respectée  
-✔ Dossier images présent  
-
-## 🚀 Remarque
-Le projet est prêt et conforme aux consignes du cours.
+## ✅ Vérification
+- README présent
+- images présent
+- Structure correcte
