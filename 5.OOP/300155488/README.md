@@ -10,8 +10,7 @@ Le programme calcule l’aire de chaque figure, affiche leurs informations et pr
 - affichage 2D du cercle ;
 - affichage 2D du triangle ;
 - affichage 3D des figures ;
-- représentation 4D basée sur l’aire.
-
+- 
 ## Objectifs pédagogiques
 
 Ce projet permet de comprendre :
@@ -110,19 +109,30 @@ Triangle : 5.00
 ## Images du projet
 
 ### Carré en 2D
-![Carré 2D](images/carre.jpg)
-
-
+<img src="images/carre.png" alt="carree 2D" width="500">
 
 ### Cercle en 2D
+<img src="images/cercle.png" alt="Cercle 2D" width="500">
+
+
+### Triangle  en 2D
+<img src="images/triangle.png" alt="triangle 2D" width="500">
+
+### Carré en 3D
+<img src="images/carre_3d.png" alt="carree 3D" width="500">
 
 
 
-### Figures en 3D
+
+### Cercle en 3D
+<img src="images/cercle_3d.jpg" alt="Cercle 2D" width="500">
+
+
+### Triangle  en 3D
+<img src="images/triangle_3d.png" alt="triangle 2D" width="500">
 
 
 
-### Représentation 4D
 
 
 
