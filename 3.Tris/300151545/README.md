@@ -1,15 +1,37 @@
 
 # Projet Tris variés – INF1093
 
-**Nom de l’étudiant :** mohamed mersel 
-**ID étudiant :** 300151545
+**Nom de l’étudiant :** mohamed mersel
+** id : ** 300151545
+# Tris variés 
 
-## Description du projet
-Ce projet consiste à réaliser trois exercices sur les **algorithmes de tri classiques** :  
-- Tri par **Insertion**  
-- Tri de **Shell**  
-- Tri rapide (**Quick Sort**)  
+---
 
-L’objectif est de **lire des données depuis un fichier texte**, appliquer l’algorithme de tri correspondant, et afficher le résultat trié.
+### 🔹 1️⃣ Tri par Insertion
 
-## Structure du projet
+![Résultat Insertion](images/insertion_result.png)
+
+Résultat attendu :
+
+[1, 2, 3, 5, 8, 9]
+
+---
+
+### 🔹 2️⃣ Tri de Shell
+
+![Résultat Shell](images/shell_result.png)
+
+Résultat attendu :
+
+[4, 11, 23, 28, 43, 45, 65, 77, 89, 98]
+
+---
+
+### 🔹 3️⃣ Tri Rapide (Quick Sort)
+
+![Résultat Quick](images/quick_result.png)
+
+Résultat attendu :
+
+[2, 5, 7, 7, 23, 32, 32, 34, 62]
+
