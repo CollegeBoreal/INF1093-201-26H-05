@@ -1,4 +1,3 @@
-
 from dijkstra_tp import shortest, g
 
 target = g.get_vertex('e')
