@@ -1,7 +1,9 @@
 300151545
 Dijkstra
 📌 Objectif
+
 Ce projet a pour but d’implémenter l’algorithme de Dijkstra en Python, puis de vérifier automatiquement le résultat obtenu et de visualiser le graphe utilisé.
+
 
 📂 Fichiers à créer
 On crée trois fichiers Python :
