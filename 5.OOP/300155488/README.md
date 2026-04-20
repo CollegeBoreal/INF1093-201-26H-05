@@ -110,6 +110,7 @@ Triangle : 5.00
 ## Images du projet
 
 ### Carré en 2D
+![Carré 2D](images/carre.jpg)
 
 
 
@@ -158,7 +159,6 @@ python main.py
 Après l’exécution, tu dois obtenir :
 - les informations des figures dans la console ;
 - une fenêtre 2D pour le carré ;
-![Carré 2D](images/carre-2d.jpg)
 - une fenêtre 2D pour le cercle ;
 - une fenêtre 2D pour le triangle ;
 - une fenêtre 3D propre pour chaque figure ;
