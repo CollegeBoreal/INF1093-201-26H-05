@@ -1,6 +1,5 @@
-
-# abdelfettah samy | 300153710
-## Dijkstra 
+# Abdelfettah Samy| 300153710
+## Dijkstra
 
 ## 📌 Objectif
 Ce projet a pour but d’implémenter l’algorithme de **Dijkstra** en Python, puis de vérifier automatiquement le résultat obtenu et de visualiser le graphe utilisé.
