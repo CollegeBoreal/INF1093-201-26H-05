@@ -1,9 +1,10 @@
 """
 Fichier : Cercle.py
-Description : Classe Cercle héritant de Figure
-Auteur : [ID de l'étudiant]
-Date : YYYY-MM-DD
+Description : Classe Carré héritant de Figure
+Auteur : 300155488
+Date : 2026-04-20
 """
+
 
 from figure import Figure
 import math

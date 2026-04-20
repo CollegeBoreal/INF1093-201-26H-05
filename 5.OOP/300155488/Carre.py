@@ -1,8 +1,8 @@
 """
 Fichier : Carre.py
 Description : Classe Carré héritant de Figure
-Auteur : [ID de l'étudiant]
-Date : YYYY-MM-DD
+Auteur : 300155488
+Date : 2026-04-20
 """
 
 from figure import Figure

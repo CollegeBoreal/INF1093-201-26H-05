@@ -1,3 +1,10 @@
+"""
+Fichier : Triangle.py
+Description : Classe Carré héritant de Figure
+Auteur : 300155488
+Date : 2026-04-20
+"""
+
 from figure import Figure
 
 class Triangle(Figure):

@@ -1,8 +1,8 @@
 """
 Fichier : main.py
 Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
-Auteur : [ID de l'étudiant]
-Date : YYYY-MM-DD
+Auteur : 300155488
+Date : 2026-04-20
 """
 
 from Carre import Carre
