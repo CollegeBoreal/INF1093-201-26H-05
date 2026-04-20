@@ -199,12 +199,12 @@ else:
 
 ## 🧩 Principe général
 
-1.  Initialiser toutes les distances à **∞**
-2.  Distance du sommet de départ = **0**
+1.  Initialiser toutes les distances à **∞** :point_left:
+2.  Distance minimale du sommet de départ = **0**     :point_left:
 3.  Répéter :
     *   Choisir le sommet **non visité** avec la **distance minimale**
     *   Marquer le sommet comme **visité**
-    *   Mettre à jour les distances de ses **voisins**
+    *   Mettre à jour les distances de ses **voisins**   :point_left:
 
 ***
 
