@@ -8,7 +8,7 @@
 Ce devoir porte sur l’algorithme de Dijkstra pour trouver le plus court chemin dans un graphe pondéré.
 
 ## 🖼️ Illustration
-![Dijkstra](images/Dijkstra.png)
+![Dijkstra](images/dijkstra.png)
 
 ## 📁 Fichiers du projet
 - README.md
