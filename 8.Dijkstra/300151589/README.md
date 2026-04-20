@@ -9,6 +9,7 @@ Ce devoir porte sur l’algorithme de Dijkstra pour trouver le plus court chemin
 
 ## 🖼️ Illustration
 ![Dijkstra](images/dijkstra.png)
+![Dijkstra](images/Dijkstra2.png)
 
 ## 📁 Fichiers du projet
 - README.md
