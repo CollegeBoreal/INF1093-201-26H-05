@@ -125,11 +125,11 @@ Triangle : 5.00
 
 
 ### Cercle en 3D
-<img src="images/cercle_3d.jpg" alt="Cercle 2D" width="500">
+<img src="images/cercle_3d.png" alt="Cercle 3D" width="500">
 
 
 ### Triangle  en 3D
-<img src="images/triangle_3d.png" alt="triangle 2D" width="500">
+<img src="images/triangle_3d.png" alt="triangle 3D" width="500">
 
 
 
@@ -188,4 +188,4 @@ Après l’exécution, tu dois obtenir :
 
 Ce projet est une bonne introduction à la programmation orientée objet en Python.
 
-Il montre comment construire une architecture simple avec une classe de base et plusieurs classes dérivées, puis comment enrichir le projet avec des visualisations graphiques modernes en 2D, 3D et 4D.
+Il montre comment construire une architecture simple avec une classe de base et plusieurs classes dérivées, puis comment enrichir le projet avec des visualisations graphiques modernes en 2D et 3D.
