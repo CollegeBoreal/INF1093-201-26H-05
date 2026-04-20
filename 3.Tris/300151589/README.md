@@ -4,14 +4,13 @@
 - Nom : Walid Dahmane
 - ID : 300151589
 
-## 📁 Structure du projet
+## 🖼️ Image
+
+![Image du projet](images/photo.png)
+
+## 📁 Structure
 - README.md
 - images/
 
 ## 🎯 Objectif
-Pratiquer GitHub et la structure des dossiers.
-
-## ✅ Vérification
-- README présent
-- images présent
-- Structure correcte
+Pratiquer GitHub.
