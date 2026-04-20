@@ -1,69 +1,79 @@
-# TP Tris - Chouaib Ait Chouaib - 300155045
-# 📘 Algorithmes de tri – Lecture depuis fichiers
+# 📘 Algorithmes de tri – Tris variés (avec fichiers d’entrée)
 
-## 📌 Description du projet
+**Étudiante :** CHOUAIB AIT CHOUAIB
+**ID :** 300155045
+**Cours :** INF1093 – Structures de données et fichiers  
 
-Ce projet implémente trois algorithmes de tri classiques en Python :
+---
 
-- 🔹 Tri par insertion  
-- 🔹 Tri de Shell  
-- 🔹 Tri rapide (Quick Sort)
+## 🎯 Objectif du projet
 
-Les données sont lues depuis des fichiers texte contenant des entiers séparés par des espaces.  
-Cela permet de séparer les données de l’algorithme, comme dans un programme professionnel.
+Ce projet a pour objectif de lire des données à partir de fichiers texte, d’appliquer différents algorithmes de tri et d’afficher les résultats triés.
 
+Les données d’entrée sont séparées des programmes afin de reproduire une approche utilisée dans les projets informatiques professionnels.
 
-## 📂 Structure de répertoires
+---
+
+## 🧠 Algorithmes de tri utilisés
+
+Trois algorithmes de tri classiques ont été implémentés :
+
+- **Tri par insertion** : insère chaque élément à sa position correcte dans la partie déjà triée du tableau.  
+- **Tri de Shell** : amélioration du tri par insertion en comparant des éléments espacés.  
+- **Tri rapide (Quick Sort)** : divise les données autour d’un pivot et trie récursivement les sous-parties.
+
+Ces algorithmes sont généralement appliqués sur des **tableaux**, car ils nécessitent un accès direct aux indices pour être efficaces.
+
+---
+
+## 📂 Structure du projet
 
 ```
-ID/
-│
-├─README.md
-│
-├─RAPPORT.ipynb
+300155187/
 │
 ├─ insertion/
-│   ├─ main.py
-│   └─ entree_insertion.txt
+│ ├─ main.py
+│ └─ entree_insertion.txt
 │
 ├─ shell/
-│   ├─ main.py
-│   └─ entree_shell.txt
+│ ├─ main.py
+│ └─ entree_shell.txt
 │
 └─ quick/
-    ├─ main.py
-    └─ entree_quick.txt
+├─ main.py
+└─ entree_quick.txt
 ```
 
-
-## 📊 Résultats (captures d’écran)
-
-### 🔹 1️⃣ Tri par Insertion
-
-![Résultat Insertion](images/insertion_result.png)
-
-Résultat attendu :
-
-[1, 2, 3, 5, 8, 9]
-
+Chaque dossier contient :
+- un **programme Python** qui implémente l’algorithme
+- un **fichier d’entrée** contenant les nombres à trier
 
 ---
 
-### 🔹 2️⃣ Tri de Shell
+## 📄 Format des fichiers d’entrée
 
-![Résultat Shell](images/shell_result.png)
+Les fichiers contiennent simplement des entiers séparés par des espaces.
 
-Résultat attendu :
+Exemple :
+```
+10 1 11 2 12 3 13 4 14 5 15 6 16 7 17 8 18 9 19 0
+```
 
-[4, 11, 23, 28, 43, 45, 65, 77, 89, 98]
-
+Le programme lit ces valeurs, applique l’algorithme de tri et affiche le tableau trié.
 
 ---
 
-### 🔹 3️⃣ Tri Rapide (Quick Sort)
+## ▶️ Exemple de résultat
 
-![Résultat Quick](images/quick_result.png)
+```
+Résultat :
+```
 
-Résultat attendu :
+<img src="images/imgtri.png" width="400">
 
-[2, 5, 7, 7, 23, 32, 32, 34, 62]
+---
+
+## 📌 Conclusion
+
+Ce projet permet de comprendre le fonctionnement de plusieurs algorithmes de tri et l’utilisation des fichiers d’entrée pour séparer les données du code. Cette approche facilite la réutilisation et l’organisation des programmes.
+
