@@ -1,6 +1,3 @@
-# graph.py
-# Chouaib Ait Chouaib | 300155045
-
 class Vertex:
     def __init__(self, node):
         self.id = node
