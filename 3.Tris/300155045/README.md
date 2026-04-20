@@ -1,6 +1,6 @@
 # 📘 Algorithmes de tri – Tris variés (avec fichiers d'entrée)
 **Étudiant :** Chouaib ait chouuaib  
-**ID :** 300155045 
+**ID :** 300155045                           
 **Cours :** INF1093 – Structures de données et fichiers  
 **Projet :** Implémentation de différents algorithmes de tri en Python
 
