@@ -1,11 +1,8 @@
 # =========================
 # CONFIG
 # =========================
-$LMS_URL = $env:LMS_URL
-$TOKEN   = $env:API_SYNC_TOKEN
-
-$assignmentId = 8
-$userId       = 268
+$DevoirID = 4
+$DEBUG = $false
 
 $EmojiToScore = @{
     ":x:" = 0
@@ -19,8 +16,6 @@ $EmojiToScore = @{
     ":one:" = 25
     ":zero:" = 24
 }
-
-$DEBUG = $false
 
 function Get-ParticipationGrades {
     param (
@@ -127,6 +122,7 @@ function Get-ParticipationGrades {
                     , $imgEmoji, $imgScore
                     , $ioEmoji, $ioScore
                     , $receiptEmoji, $receiptScore
+                    , $etuEmoji, $etuScore
                     , $resEmoji, $resScore
             }
 
@@ -164,8 +160,6 @@ function Send-LMSRubricGrade {
         [Parameter(Mandatory)]
         [array]$Rubric,
 
-        [int]$Grade = 0,
-
         [int]$AttemptNumber = 0,
 
         [string]$WorkflowState = "graded"
@@ -180,27 +174,26 @@ function Send-LMSRubricGrade {
         moodlewsrestformat = "json"
         assignmentid       = $AssignmentId
         userid             = $UserId
-        grade              = $Grade
         attemptnumber      = $AttemptNumber
         workflowstate      = $WorkflowState
     }
-
-            # Write-Output $Rubric
 
     # -------------------------
     # ADD RUBRIC DYNAMICALLY
     # -------------------------
     for ($i = 0; $i -lt $Rubric.Count; $i++) {
+        $entry = $Rubric[$i]
 
-
-        if (-not $Rubric[$i].criterionid -or -not $Rubric[$i].levelid) {
+        if (-not $entry.criterionid -or -not $entry.levelid) {
             throw "Invalid rubric entry at index $i"
         }
 
-        $body["rubric[criteria][$i][criterionid]"] = $Rubric[$i].criterionid
-        $body["rubric[criteria][$i][levelid]"]     = $Rubric[$i].levelid
-        $body["rubric[criteria][$i][remark]"]      = $Rubric[$i].remark
+        $body["rubric[criteria][$i][criterionid]"] = $entry.criterionid
+        $body["rubric[criteria][$i][levelid]"]     = $entry.levelid
+        $body["rubric[criteria][$i][remark]"]      = $entry.remark
     }
+
+    if ($DEBUG) { $body | ConvertTo-Json -Depth 10 }
 
     # -------------------------
     # CALL MOODLE API
