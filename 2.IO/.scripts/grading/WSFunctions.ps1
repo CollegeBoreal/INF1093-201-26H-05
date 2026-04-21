@@ -1,7 +1,7 @@
 # =========================
 # CONFIG
 # =========================
-$DevoirID = 4
+$LMSAssignmentID = 4
 $DEBUG = $false
 
 $EmojiToScore = @{
@@ -141,6 +141,52 @@ function Get-ParticipationGrades {
     }
 
     return $results
+}
+
+function New-LMSRubricFromEntry {
+    param (
+        [Parameter(Mandatory)]
+        [object]$Entry
+    )
+
+    # Validate required fields exist
+    $requiredFields = @(
+         "readme"
+        , "image"
+        , "io"
+        , "rapport"
+        , "signature"
+        , "figure"
+        , "etudiants"
+        , "resultat"
+    )
+
+    foreach ($field in $requiredFields) {
+        if (-not $Entry.PSObject.Properties.Name -contains $field) {
+            throw "Missing field '$field' in entry"
+        }
+    }
+
+    # Build rubric
+    $rubric = @(
+        @{ criterionid = 5;  levelid = $Entry.readme;    remark = "Quantité README.md " }
+        @{ criterionid = 6;  levelid = $Entry.image;     remark = "présence répertoire images " }
+        @{ criterionid = 7;  levelid = $Entry.io;        remark = "Éxécution de IO.py" }
+        @{ criterionid = 8;  levelid = $Entry.rapport;   remark = "Présence Rapport Jupyter Notebook" }
+        @{ criterionid = 9;  levelid = $Entry.signature; remark = "Présence Signature" }
+        @{ criterionid = 10; levelid = $Entry.figure;    remark = "Nombre de Figures dans le rapport" }
+        @{ criterionid = 11; levelid = $Entry.etudiants; remark = "Présence etudiants.txt" }
+        @{ criterionid = 12; levelid = $Entry.resultat;  remark = "Présence resultat.txt" }
+    )
+
+    # Validate level IDs (avoid Moodle crash)
+    foreach ($r in $rubric) {
+        if (-not $r.levelid) {
+            throw "Invalid levelid for criterion $($r.criterionid)"
+        }
+    }
+
+    return $rubric
 }
 
 function Send-LMSRubricGrade {
