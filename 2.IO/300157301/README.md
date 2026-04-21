@@ -16,3 +16,7 @@ Un diagramme des notes est affiché dans un Jupyter Notebook.
 ## Exécution
 ```bash
 python IO.py
+## Exécution
+```
+
+<img src="images/IO.png" width="300" height="200">
