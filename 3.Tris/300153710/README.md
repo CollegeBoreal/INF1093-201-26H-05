@@ -37,7 +37,7 @@ ID/
 
 ### 🔹 1️⃣ Tri par Insertion
 
-![Résultat Insertion](images/1.png)
+![Résultat Insertion](images/samdex.png)
 
 Résultat attendu :
 
