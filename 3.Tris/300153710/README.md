@@ -48,7 +48,7 @@ Résultat attendu :
 
 ### 🔹 2️⃣ Tri de Shell
 
-![Résultat Shell](images/3.png)
+![Résultat Insertion](images/samdex.png)
 
 Résultat attendu :
 
@@ -59,7 +59,7 @@ Résultat attendu :
 
 ### 🔹 3️⃣ Tri Rapide (Quick Sort)
 
-![Résultat Quick](images/2.png)
+![Résultat Insertion](images/samdex.png)
 
 Résultat attendu :
 
