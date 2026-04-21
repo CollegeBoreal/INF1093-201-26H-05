@@ -33,5 +33,6 @@ ID/
     ├─ main.py
     └─ entree_quick.txt
 ```
-
+# resultats des tris 
+<img src="iamges/tri.png" width="500" height="500">
 
