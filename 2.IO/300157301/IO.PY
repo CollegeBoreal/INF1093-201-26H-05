@@ -4,49 +4,56 @@
 # Author: Abdenour Mehani
 # -----------------
 
-import sys
+# IO.py
 
-def traiter_notes(fichier_entree, fichier_sortie):
-    total = 0
-    compteur = 0
-    admis = []
+def etudiantliste(entree):
+    etudiants = []
+    with open(entree, "r", encoding="utf-8") as f:
+        for ligne in f:
+            ligne = ligne.strip()
+            if not ligne:
+                continue
+            try:
+                nom, note = ligne.split()
+                note = float(note)
+                etudiants.append((nom, note))
+            except ValueError:
+        
+                raise ValueError(f" : '{ligne}'")
+    return etudiants
+
+
+def moy(etudiants):
+    if not etudiants:
+        return 0.0
+    total = sum(note for _, note in etudiants)
+    return total / len(etudiants)
+
+
+def resultats(fichiersortie, etudiants, moyenne):
+    with open(fichiersortie, "w", encoding="utf-8") as f:
+        f.write("Etudiants avec note >= 60\n")
+        for nom, note in etudiants:
+            if note >= 60:
+                f.write(f"{nom} {note}\n")
+        f.write("\n")
+        f.write(f"Moyenne du groupe: {moyenne:.2f}\n")
+
+
+def main():
+    fichierentree = "etudiants.txt"
+    fichiersortie = "resultats.txt"
 
     try:
-        with open(fichier_entree, "r") as f:
-            for ligne in f:
-                ligne = ligne.strip()
-                if not ligne:
-                    continue
-
-                try:
-                    nom, note = ligne.split()
-                    note = float(note)
-                except ValueError:
-                    print(f"Format invalide : {ligne}", file=sys.stderr)
-                    continue
-
-                total += note
-                compteur += 1
-
-                if note >= 60:
-                    admis.append((nom, note))
-
-        if compteur == 0:
-            raise ValueError("Fichier vide")
-
-        moyenne = total / compteur
-
-        with open(fichier_sortie, "w") as f:
-            f.write("Étudiant.e.s admis (>= 60)\n")
-            for nom, note in admis:
-                f.write(f"{nom} {note}\n")
-
-            f.write(f"\nMoyenne du groupe : {moyenne:.2f}\n")
-
+        etudiants = etudiantliste(fichierentree)
+        moyenne = moy(etudiants)
+        resultats(fichiersortie, etudiants, moyenne)
+        print("Traitement termine. Resultats  dans resultats.txt")
     except FileNotFoundError:
-        print("Fichier d'entrée introuvable", file=sys.stderr)
-    except Exception as e:
-        print(f"Erreur : {e}", file=sys.stderr)
+        print(f"Erreur: le fichier {fichierentree} est introuvable.")
+    except ValueError as e:
+        print(f"Erreur de format de donnees: {e}")
+
 
 if __name__ == "__main__":
-    traiter_notes("etudiants.txt", "resultats.txt")
+    main()
