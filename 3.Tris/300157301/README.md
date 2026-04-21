@@ -34,5 +34,6 @@ ID/
     └─ entree_quick.txt
 ```
 # resultats des tris 
-<img src="iamges/tri.png" width="500" height="500">
+
+<img src="images/tri.png" width="500" height="500">
 
