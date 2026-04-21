@@ -1,4 +1,4 @@
-Étudiant.e.s admis (≥ 60)
+�tudiant.e.s admis (>= 60)
 Amine 78.0
 Sarah 93.0
 Lina 66.0

@@ -37,7 +37,7 @@ def traiter_notes(fichier_entree, fichier_sortie):
         moyenne = total / compteur
 
         with open(fichier_sortie, "w") as f:
-            f.write("Étudiant.e.s admis (≥ 60)\n")
+            f.write("Étudiant.e.s admis (>= 60)\n")
             for nom, note in admis:
                 f.write(f"{nom} {note}\n")
 
