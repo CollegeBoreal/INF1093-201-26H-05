@@ -100,7 +100,7 @@ python est simple et python est puissant
 
 ---
 
-<img src="images/hash.png" alt="chat" width="200" height="150">
+<img src="images/hash.png" alt="chat" width="500" height="500">
 
 # 🎯 Conclusion
 
