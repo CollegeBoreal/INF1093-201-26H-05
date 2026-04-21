@@ -9,15 +9,15 @@ $userId       = 268
 
 $EmojiToScore = @{
     ":x:" = 0
-    ":2nd_place_medal:" = 1
-    ":1st_place_medal:" = 2
     ":heavy_check_mark:" = 1
-    ":grey_question:" = 0
-    ":rocket:" = 1
-    ":receipt:" = 1
-    ":writing_hand:" = 1
-    ":one:" = 1
-    ":zero:" = 0
+    ":2nd_place_medal:" = 14
+    ":1st_place_medal:" = 15
+    ":grey_question:" = 18
+    ":rocket:" = 19
+    ":receipt:" = 21
+    ":writing_hand:" = 23
+    ":one:" = 25
+    ":zero:" = 24
 }
 
 $DEBUG = $false
@@ -53,41 +53,73 @@ function Get-ParticipationGrades {
                 continue
             }
 
+            # "levels": { "id": 13, "score": 0 },
+            #           { "id": 14, "score": 1 },
+            #           { "id": 15, "score": 2 } 
             $readEmoji = ($cols[3]).Trim()
-            $readScore = $EmojiToScore[$readEmoji]
+            if ($readEmoji -match ':x:') {
+                $readScore = 13
+            } else {
+                $readScore = $EmojiToScore[$readEmoji]
+            }
 
+            # "levels": { "id": 16, "score": 0 },
+            #           { "id": 17, "score": 1 },
             $imgEmoji = ($cols[4]).Trim()
-            $imgScore = $EmojiToScore[$imgEmoji]
+            if ($imgEmoji -match ':x:') {
+                $imgScore = 16
+            } else {
+                $imgScore = 17
+            }
 
+            # "levels": { "id": 18, "score": 0 },
+            #           { "id": 19, "score": 1 },
             $ioEmoji = ($cols[5]).Trim()
             $ioScore = $EmojiToScore[$ioEmoji]
 
+            # "levels": { "id": 20, "score": 0 },
+            #           { "id": 21, "score": 1 },
             if ($cols[6] -match ':receipt:') {
                 $receiptEmoji = ':receipt:'
+                $receiptScore = $EmojiToScore[$receiptEmoji]            
             } else {
                 $receiptEmoji = ':x:'
+                $receiptScore = 20
             }
-            $receiptScore = $EmojiToScore[$receiptEmoji]            
-
+            
+            # "levels": { "id": 22, "score": 0 },
+            #           { "id": 23, "score": 1 },
             $sgnEmoji = ($cols[7]).Trim()
-            $sgnScore = $EmojiToScore[$sgnEmoji]
+            if ($sgnEmoji -match ':writing_hand:') {
+                $sgnScore = $EmojiToScore[$sgnEmoji]            
+            } else {
+                $sgnScore = 22
+            }
 
+            # "levels": { "id": 24, "score": 0 },
+            #           { "id": 25, "score": 1 },
             $figEmoji = ($cols[8]).Trim()
             $figScore = $EmojiToScore[$figEmoji]
 
+            # "levels": { "id": 26, "score": 0 },
+            #           { "id": 27, "score": 1 },
             if ($cols[9] -match ':heavy_check_mark:') {
                 $etuEmoji = ':heavy_check_mark:'
+                $etuScore = 27
             } else {
                 $etuEmoji = ':x:'
+                $etuScore = 26
             }
-            $etuScore = $EmojiToScore[$etuEmoji]
 
+            # "levels": { "id": 28, "score": 0 },
+            #           { "id": 29, "score": 1 },
             if ($cols[10] -match ':heavy_check_mark:') {
                 $resEmoji = ':heavy_check_mark:'
+                $resScore = 29
             } else {
                 $resEmoji = ':x:'
+                $resScore = 28
             }
-            $resScore = $EmojiToScore[$resEmoji]
 
             if ($DEBUG) {
                 Write-Output $borealId
@@ -95,6 +127,7 @@ function Get-ParticipationGrades {
                     , $imgEmoji, $imgScore
                     , $ioEmoji, $ioScore
                     , $receiptEmoji, $receiptScore
+                    , $resEmoji, $resScore
             }
 
             $results += [PSCustomObject]@{
@@ -152,10 +185,13 @@ function Send-LMSRubricGrade {
         workflowstate      = $WorkflowState
     }
 
+            # Write-Output $Rubric
+
     # -------------------------
     # ADD RUBRIC DYNAMICALLY
     # -------------------------
     for ($i = 0; $i -lt $Rubric.Count; $i++) {
+
 
         if (-not $Rubric[$i].criterionid -or -not $Rubric[$i].levelid) {
             throw "Invalid rubric entry at index $i"

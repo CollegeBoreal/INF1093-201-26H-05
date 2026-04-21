@@ -11,6 +11,8 @@ $LMSStudents = Get-LMSStudentInfo -LMSResponse $responseLMS
 
 $participation = Get-ParticipationGrades -Path ./.scripts/Participation.md
 
+# Write-Output $participation
+
 foreach ($entry in $participation) {
 
     $moodleId = $LMSStudents[$entry.borealId].moodleId
@@ -27,7 +29,9 @@ foreach ($entry in $participation) {
     @{ criterionid = 12; levelid = $entry.resultat;  remark = "Results file OK" }
     )
 
-    if ($moodleId -match 268) {
+    # Write-Output $rubric
+
+    if ($moodleId -match 319) {
     $response = Send-LMSRubricGrade `
         -LMS_URL $env:LMS_URL `
         -TOKEN $env:API_SYNC_TOKEN `
@@ -36,6 +40,8 @@ foreach ($entry in $participation) {
         -Rubric $rubric
 
     $response | ConvertTo-Json -Depth 10
+    Write-Output "--------------------------------------"
+    Write-Output $response
     }
 
 }
