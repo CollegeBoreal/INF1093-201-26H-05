@@ -31,7 +31,7 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
           "copiedfromid": null,
           "timecreated": 1776695382,
           "usercreated": 3,
-          "timemodified": 1776695382,
+          "timemodified": 1776745403,
           "usermodified": 3,
           "timecopied": 0,
           "rubric": {
@@ -91,7 +91,7 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
                   {
                     "id": 18,
                     "score": 0,
-                    "definition": "❌",
+                    "definition": "❔",
                     "definitionformat": 1
                   },
                   {
