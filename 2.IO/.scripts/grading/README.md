@@ -4,11 +4,15 @@
 
 - [ ] courseids[0]=5
 
+```
 https://${LMS_URL}/course/view.php?id=5
+```
 
 ## :one: Assignment ID = 4
 
+```
 https://${LMS_URL}/mod/assign/view.php?id=8
+```
 
 - [ ] "id": 4 :point_left: Take this as the assignment number !!!
 - [ ] "cmid": 8
@@ -19,14 +23,19 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
 -d "wsfunction=mod_assign_get_assignments" \
 -d "moodlewsrestformat=json" \
 -d "courseids[0]=5" | jq '.courses[].assignments[] | {id, cmid, name}'
+```
+```
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  1704    0  1587  100   117   2463    181 --:--:-- --:--:-- --:--:--  2645
+```
+```json
 {
   "id": 4,
   "cmid": 8,
   "name": "2.IO"
 }
+```
 
 ## :two: Rubric Definition CMID = 8
 
