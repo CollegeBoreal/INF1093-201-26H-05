@@ -52,6 +52,8 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
                                  Dload  Upload   Total   Spent    Left  Speed
 100  2397    0  2261  100   136   3849    231 --:--:-- --:--:-- --:--:--  4076
 ```
+<details><summary>📑</summary>
+
 ```json
 {
   "areas": [
@@ -252,3 +254,5 @@ curl -X POST "https://${LMS_URL}/webservice/rest/server.php" \
   "warnings": []
 }
 ```
+
+</details>
