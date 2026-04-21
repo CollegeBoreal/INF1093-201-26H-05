@@ -100,6 +100,8 @@ python est simple et python est puissant
 
 ---
 
+<img src="images/hash.png" alt="chat" width="500" height="500">
+
 # 🎯 Conclusion
 
 Ce projet démontre l’importance des **tables de hachage** dans la gestion efficace des données.
