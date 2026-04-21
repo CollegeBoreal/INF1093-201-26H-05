@@ -60,9 +60,7 @@ Lancer les fichiers dans cet ordre :
 python dijkstra_tp.py
 python check_results.py
 ```
-![1](images/1.png)
-![2](images/2.png)
----
+
 
 ## ✅ Résultat attendu
 
@@ -73,6 +71,8 @@ Le plus court chemin entre `a` et `e` doit être :
 ```
 
 ---
+
+<img src="images/djistra.png" width="500" height="500">
 
 ## 📘 Remarque
 
