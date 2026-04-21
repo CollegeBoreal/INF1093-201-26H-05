@@ -70,9 +70,7 @@ Le plus court chemin entre `a` et `e` doit être :
 ['a', 'c', 'f', 'e']
 ```
 
----
-
-<img src="images/djistra.png" width="500" height="500">
+<img src="images/im1.png" width="500" height="500">
 
 ## 📘 Remarque
 
