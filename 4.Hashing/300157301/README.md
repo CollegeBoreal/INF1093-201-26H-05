@@ -30,4 +30,4 @@ ID/
     ├── ex3.txt
     ├── ex4.txt
     └── ex5.txt
-im.png
+<img src="images/im.png" width="500" height="500">
