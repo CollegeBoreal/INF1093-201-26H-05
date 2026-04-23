@@ -95,3 +95,9 @@ python visualisation.py
 
 - 📈 matplotlib - Visualisation graphique
 - 🔗 networkx - Manipulation de graphes
+
+---
+
+💻 Execution du script
+
+![Execution](images/execution.png)

@@ -3,25 +3,42 @@
 | Nom | Ouassim Ahmed Benamira |
 |-----|------------------------|
 | 🆔  | 300150564              |
+| 📚  | INF1093-201-26H-05     |
 
 ---
 
 📌 Description
 
-Projet Python demontrant la POO et l'heritage avec des figures geometriques.
+Projet Python demontrant la POO et l'heritage avec des figures geometriques 2D.
+Chaque figure herite de la classe de base `Figure`.
+
+---
+
+🧠 Concepts POO utilises
+
+| Concept | Description |
+|---------|-------------|
+| 🏗️ Heritage | Chaque figure herite de `Figure` |
+| 🎭 Polymorphisme | Methode `aire()` differente par figure |
+| 🔧 Encapsulation | Attributs prives par classe |
+| 🧩 Abstraction | Methode `aire()` abstraite dans `Figure` |
 
 ---
 
 📂 Fichiers
 
-| Fichier | Description |
-|---------|-------------|
-| `figure.py` | 🏗️ Classe de base Figure |
-| `Carre.py` | 🟦 Classe Carre |
-| `Cercle.py` | ⚪ Classe Cercle |
-| `Triangle.py` | 🔺 Classe Triangle |
-| `main.py` | 🚀 Point d'entree |
-| `RAPPORT.ipynb` | 📊 Notebook avec visualisations |
+| Fichier | Figure | Aire |
+|---------|--------|------|
+| `figure.py` | 🏗️ Classe de base | - |
+| `Carre.py` | 🟦 Carre | cote² |
+| `Cercle.py` | ⚪ Cercle | π × r² |
+| `Triangle.py` | 🔺 Triangle | base × hauteur / 2 |
+| `Losange.py` | 🔶 Losange | d1 × d2 / 2 |
+| `Rectangle.py` | ▭ Rectangle | largeur × hauteur |
+| `Pentagone.py` | ⬠ Pentagone | cote² × √(25+10√5) / 4 |
+| `Etoile.py` | ⭐ Etoile | 2.5 × √(5+2√5) × r² |
+| `main.py` | 🚀 Point d'entree | - |
+| `RAPPORT.ipynb` | 📊 Notebook | - |
 
 ---
 
@@ -33,16 +50,19 @@ python main.py
 
 ---
 
-📊 Visualisations
+💻 Resultat de l'execution
 
-🟦 Carre
+![Execution](images/main.png)
 
-![Carre](images/carre.png)
+---
 
-⚪ Cercle
+📊 Toutes les figures geometriques
 
-![Cercle](images/cercle.png)
+![Toutes les figures](images/toutes_figures.png)
 
-🔺 Triangle
+---
 
-![Triangle](images/triangle.png)
+📦 Librairies
+
+- 📈 matplotlib==3.9.2
+- 🔢 numpy==2.1.3

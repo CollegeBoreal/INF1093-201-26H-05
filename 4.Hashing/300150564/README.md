@@ -46,3 +46,9 @@ python ex5_wordcount.py
 🔢 Compteur de mots
 
 ![Word Count](images/wordcount.png)
+
+---
+
+💻 Execution des scripts
+
+![Execution](images/execution.png)

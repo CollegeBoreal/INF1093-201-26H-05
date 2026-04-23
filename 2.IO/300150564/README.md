@@ -41,3 +41,9 @@ python IO.py
 📊 Diagramme des notes
 
 ![Diagramme des notes](images/download.png)
+
+---
+
+💻 Execution du script
+
+![Execution](images/execution.png)

@@ -46,3 +46,8 @@ python quick/main.py
 🔹 Tri Rapide
 
 ![Tri Quick](images/tri_quick.png)
+---
+
+💻 Execution des scripts
+
+![Execution](images/execution.png)
