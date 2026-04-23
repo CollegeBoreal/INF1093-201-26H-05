@@ -5,7 +5,7 @@
 # =====================================================================
 
 # LMS assignment ID where participation grades will be submitted
-$LMSAssignmentID = 4
+$LMSAssignmentID = 6
 
 # Enables verbose/debug output when set to $true
 $DEBUG = $false
@@ -13,13 +13,8 @@ $DEBUG = $false
 # Explicit emoji → rubric level mapping for DB execution criterion
 # (Used when the emoji represents more than pass/fail)
 $EmojiToScore = @{
-    ":grey_question:" = 18
-    ":rocket:" = 19
-    ":receipt:" = 21
-    ":writing_hand:" = 23
-    ":zero:" = 24
-    ":one:" = 25
-    ":asterisk:" = 25
+    ":x:"                     = 38
+    ":building_construction:" = 39
 }
 
 # =====================================================================
@@ -54,7 +49,7 @@ function Get-ParticipationGrades {
             # Column index reference (0 is empty due to leading pipe):
             # 1 = Row index
             # 2 = Boréal ID link
-            # 5 = abacus emoji
+            # 3-4 = others
 
             if ($DEBUG) { Write-Output $cols. }
 
@@ -70,7 +65,7 @@ function Get-ParticipationGrades {
             # README.md quantity (fail/silver/gold)
             # ---------------------------------
             $readEmoji = ($cols[3]).Trim()
-            $levels = @(13, 14, 15)  # fail, silver, gold
+            $levels = @(33, 34, 35)  # fail, silver, gold
             $readScore = Get-RubricLevelIdFromReadmeEmoji `
                 -Emoji $readEmoji `
                 -Levels $levels
@@ -81,86 +76,27 @@ function Get-ParticipationGrades {
             $imgEmoji = ($cols[4]).Trim()
             $imgScore = Get-RubricLevelIdFromEmoji `
                 -Emoji $imgEmoji `
-                -FailLevelId 16 `
-                -PassLevelId 17
+                -FailLevelId 36 `
+                -PassLevelId 37
 
             # If README.md exceeds expectations,
             # images folder is implicitly considered present
-            if ($readScore -gt 15) {
-                $imgScore = 17
+            if ($readScore -gt 35) {
+                $imgScore = 37
             }
 
             # ---------------------------------
-            # IO.py execution
+            # Structure presence
             # ---------------------------------
-            $ioEmoji = ($cols[5]).Trim()
-            $ioScore = $EmojiToScore[$ioEmoji]
-
-            # ---------------------------------
-            # RAPPORT presence
-            # ---------------------------------
-            if ($cols[6] -match ':receipt:') {
-                $receiptEmoji = ':receipt:'
-                $receiptScore = $EmojiToScore[$receiptEmoji]            
-            } else {
-                $receiptEmoji = ':x:'
-                receiptScore = 20
-            }
-            
-            # ---------------------------------
-            # Signature presence
-            # ---------------------------------
-            $sgnEmoji = ($cols[7]).Trim()
-            if ($sgnEmoji -match ':writing_hand:') {
-                $sgnScore = $EmojiToScore[$sgnEmoji]            
-            } else {
-                $sgnScore = 22
-            }
-
-            # ---------------------------------
-            # Figure presence
-            # ---------------------------------
-            $figEmoji = ($cols[8]).Trim()
-            if ($figEmoji -notmatch ':zero:|:one:') {
-                $figEmoji = ':asterisk:'
-            }
-            $figScore = $EmojiToScore[$figEmoji]
-
-            # ---------------------------------
-            # etudiants.txt presence
-            # ---------------------------------
-            if ($cols[9] -match ':heavy_check_mark:') {
-                $etuEmoji = ':heavy_check_mark:'
-            } else {
-                $etuEmoji = ':x:'
-            }
-            $etuScore = Get-RubricLevelIdFromEmoji `
-                -Emoji $etuEmoji `
-                -FailLevelId 26 `
-                -PassLevelId 27
-
-            # ---------------------------------
-            # resultats.txt presence
-            # ---------------------------------
-            if ($cols[10] -match ':heavy_check_mark:') {
-                $resEmoji = ':heavy_check_mark:'
-            } else {
-                $resEmoji = ':x:'
-            }
-            $resScore = Get-RubricLevelIdFromEmoji `
-                -Emoji $resEmoji `
-                -FailLevelId 28 `
-                -PassLevelId 29
+            $structEmoji = ($cols[5]).Trim()
+            $structScore = $EmojiToScore[$structEmoji]
 
             # Debug trace for validation / troubleshooting
             if ($DEBUG) {
                 Write-Output $borealId
                     , $readEmoji, $readScore
                     , $imgEmoji, $imgScore
-                    , $ioEmoji, $ioScore
-                    , $receiptEmoji, $receiptScore
-                    , $etuEmoji, $etuScore
-                    , $resEmoji, $resScore
+                    , $structEmoji, $structScore
             }
 
             # Accumulate normalized grading entry
@@ -168,12 +104,7 @@ function Get-ParticipationGrades {
                 borealId  = $borealId
                 readme    = $readScore
                 image     = $imgScore
-                io        = $ioScore
-                rapport   = $receiptScore
-                signature = $sgnScore
-                figure    = $figScore
-                etudiants = $etuScore
-                resultat  = $resScore
+                structure = $structScore
             }
         }
     }
@@ -202,12 +133,7 @@ function New-LMSRubricFromEntry {
     $requiredFields = @(
          "readme"
         , "image"
-        , "io"
-        , "rapport"
-        , "signature"
-        , "figure"
-        , "etudiants"
-        , "resultat"
+        , "structure"
     )
 
     # Validate entry completeness
@@ -219,14 +145,9 @@ function New-LMSRubricFromEntry {
 
     # Construct rubric payload in LMS criterion order
     $rubric = @(
-        @{ criterionid = 5;  levelid = $Entry.readme;    remark = "Quantité README.md " }
-        @{ criterionid = 6;  levelid = $Entry.image;     remark = "présence répertoire images " }
-        @{ criterionid = 7;  levelid = $Entry.io;        remark = "Éxécution de IO.py" }
-        @{ criterionid = 8;  levelid = $Entry.rapport;   remark = "Présence Rapport Jupyter Notebook" }
-        @{ criterionid = 9;  levelid = $Entry.signature; remark = "Présence Signature" }
-        @{ criterionid = 10; levelid = $Entry.figure;    remark = "Nombre de Figures dans le rapport" }
-        @{ criterionid = 11; levelid = $Entry.etudiants; remark = "Présence etudiants.txt" }
-        @{ criterionid = 12; levelid = $Entry.resultat;  remark = "Présence resultat.txt" }
+        @{ criterionid = 14;  levelid = $Entry.readme;    remark = "Quantité README.md " }
+        @{ criterionid = 15;  levelid = $Entry.image;     remark = "Présence répertoire images " }
+        @{ criterionid = 16;  levelid = $Entry.structure; remark = "Présence de la structure" }
     )
 
     # Safety check: ensure all level IDs exist
