@@ -1,21 +1,73 @@
-# 🧮 Projet POO Python
+# Projet Python — Formes Géométriques
 
-👤 Nom : Djelloul Msili  
-🎓 ID : 300155606  
+**Étudiant :** djelloul msili
+**Répertoire :** `5.OOP/300155606`
 
-## 📌 Description
-Ce projet démontre la programmation orientée objet en Python.
+## Structure du projet
 
-Nous utilisons :
-- Classe Figure (base)
-- Classe Carré
-- Classe Cercle
+```text
+300158185/
+├── README.md
+├── images/
+│   └── .gitkeep
+├── main.py
+├── figure.py
+├── Carre.py
+├── Cercle.py
+├── Triangle.py
+├── requirements.txt
+└── RAPPORT.ipynb
+```
 
-## 🧠 Concepts utilisés
-- Héritage
-- Encapsulation
-- Polymorphisme
+## Description
 
-## ▶️ Exécution
+Ce projet démontre les bases de la programmation orientée objet en Python à l’aide de figures géométriques :
+
+- `Figure` : classe de base
+- `Carre` : classe dérivée
+- `Cercle` : classe dérivée
+- `Triangle` : extension demandée dans l’exercice
+
+Le fichier `main.py` crée plusieurs formes, affiche leurs informations et montre un exemple simple de polymorphisme.
+
+## Exécution
+
 ```bash
-python main.py
+python3 main.py
+```
+
+## Dépendances graphiques
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+## Jupyter
+
+Pour ouvrir le notebook :
+
+```bash
+jupyter lab
+```
+
+Puis ouvrir `RAPPORT.ipynb`.
+
+## Git / GitHub
+
+Depuis le dossier parent de votre identifiant :
+
+```bash
+git add djelloul msili
+git commit -m "ajout du cube"
+git push
+```
+
+## Note technique
+
+Sous Linux, les noms de fichiers sont sensibles à la casse. Les imports utilisent donc :
+
+```python
+from Carre import Carre
+from Cercle import Cercle
+from Triangle import Triangle
+```

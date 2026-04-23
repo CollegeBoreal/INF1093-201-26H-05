@@ -15,6 +15,11 @@ from prisme_losange import prisme_losange
 from prisme_parallelogramme import prisme_parallelogramme
 from sphere import sphere
 from cone import cone
+from triangle import Triangle
+from rectangle import Rectangle
+from trapeze import Trapeze
+from ellipse import Ellipse
+from hexagone import Hexagone
 
 
 
@@ -60,6 +65,23 @@ def main():
      # Création d'un cone
     c10 = cone(0.33, 2)
 
+    # Création d'un  Triangle
+    f1 = Triangle(6, 4)
+    
+    # Création d'un Rectangle
+    f2 = Rectangle(5, 10)
+
+    # Création d'un Trapeze
+    f3 = Trapeze(10, 6, 4)
+
+    # Création d'un Ellipse
+    f4 = Ellipse(7, 3)
+
+    # Création d'un  Hexagone
+    f5 = Hexagone(5)
+
+
+
     # Affichage des informations des deux figures
     print(c1.afficher_info())
     print(c2.afficher_info())
@@ -71,6 +93,12 @@ def main():
     print(c8.afficher_info())
     print(c9.afficher_info())
     print(c10.afficher_info())
+    print(f1.afficher_info())
+    print(f2.afficher_info())
+    print(f3.afficher_info())
+    print(f4.afficher_info())
+    print(f5.afficher_info())
+
 
 
 

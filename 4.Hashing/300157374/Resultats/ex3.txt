@@ -1,4 +1,3 @@
-
-alice:22
-bob:74
+alice:25
+bob:30
 zoe:None

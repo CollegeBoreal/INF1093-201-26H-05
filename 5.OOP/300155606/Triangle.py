@@ -1,11 +1,12 @@
 """
 Fichier : Triangle.py
 Description : Classe Triangle héritant de Figure
-Auteur : 300155606
-Date : 2026-04-13
+Auteur : djelloul.msili
+Date : 2026-03-25
 """
 
 from figure import Figure
+
 
 class Triangle(Figure):
     def __init__(self, base, hauteur):
@@ -14,11 +15,12 @@ class Triangle(Figure):
         self.hauteur = hauteur
 
     def aire(self):
-        # Aire d'un triangl : (base * hauteur) / 2
+        # Calcul de l'aire du triangle
         return (self.base * self.hauteur) / 2
 
     def afficher_info(self):
+        # Retourne une chaîne contenant le nom, les dimensions et l'aire
         return (
-            f"{super().afficher_info()}, "
-            f"base={self.base}, hauteur={self.hauteur}, aire={self.aire()}"
+            f"{super().afficher_info()}, base={self.base}, hauteur={self.hauteur}, "
+            f"aire={self.aire()}"
         )

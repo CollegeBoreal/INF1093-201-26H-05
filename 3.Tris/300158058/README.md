@@ -35,3 +35,5 @@ python insertion/main.py
 python shell/main.py
 python quick/main.py
 ```
+
+![prooof](images/tri.png)

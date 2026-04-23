@@ -1,33 +1,29 @@
 """
 Fichier : main.py
-Description : Point d'entrée du programme. Crée un carré, un cercle et un triangle
-             puis affiche leurs informations.
-Auteur : [300155606]
-Date : 2026-04-13
+Description : Point d'entrée du programme. Crée plusieurs figures et affiche leurs informations.
+Auteur :djelloul.msili
+Date : 2026-03-25
 """
 
 from Carre import Carre
 from Cercle import Cercle
-from Triangle import Triangle   # <-- nouvelle figure ajoutée
+from Triangle import Triangle
+from Cube import Cube
+
 
 def main():
     """
-    Fonction principale : créer plusieurs figures géométriques
-    et afficher leurs informations via le polymorphisme.
+    Fonction principale du programme.
+    Crée des figures, puis affiche leurs informations.
     """
+    formes = [Carre(4), Cercle(3), Triangle(5, 2), Cube(3)]
 
-    # Création des figures
-    carre = Carre(4)           # Carré de côté 4
-    cercle = Cercle(3)         # Cercle de rayon 3
-    triangle = Triangle(5, 2)  # Triangle base=5 et hauteur=2
+    for forme in formes:
+        print(forme.afficher_info())
+        print(f"Aire: {forme.aire()} 📏")
+        if hasattr(forme, "volume"):
+            print(f"Volume: {forme.volume()} 🧊")
 
-    # Liste polymorphique
-    figures = [carre, cercle, triangle]
 
-    # Affichage automatique selon le type de figure
-    for f in figures:
-        print(f.afficher_info())
-
-# Point d'entrée du programme
 if __name__ == "__main__":
     main()

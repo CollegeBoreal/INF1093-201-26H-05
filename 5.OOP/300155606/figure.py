@@ -1,14 +1,13 @@
-
 """
 Fichier : figure.py
 Description : Classe de base pour toutes les figures géométriques
-Auteur : [300155606]
-Date : 2026-04-13
+Auteur : djelloul.msili
+Date : 2026-03-25
 """
 
 class Figure:
     def __init__(self, nom):
-        # Nom de la figure (ex: Carré, Cercle)
+        # Nom de la figure (ex: Carré, Cercle, Triangle)
         self.nom = nom
 
     def afficher_info(self):
@@ -17,4 +16,6 @@ class Figure:
 
     def aire(self):
         # Méthode à implémenter par les sous-classes
-        raise NotImplementedError("Cette méthode doit être implémentée par les sous-classes.")
+        raise NotImplementedError(
+            "Cette méthode doit être implémentée par les sous-classes."
+        )

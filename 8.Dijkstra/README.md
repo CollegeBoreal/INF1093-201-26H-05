@@ -179,3 +179,83 @@ else:
 ```
 
 ---
+
+# 🧠 Synthèse Cheat Sheet — Algorithme de Dijkstra
+
+## 🎯 Objectif
+
+*   Calculer le **plus court chemin** entre un sommet de départ et les autres sommets
+*   Utilisé dans un **graphe pondéré** (poids ≥ 0)
+
+***
+
+## ✅ Conditions d’utilisation
+
+*   ✔️ Graphe **pondéré**
+*   ❌ **Aucun poids négatif** (sinon résultats faux)
+*   Fonctionne sur graphes **orientés ou non orientés**
+
+***
+
+## 🧩 Principe général
+
+1.  Initialiser toutes les distances à **∞** :point_left:
+2.  Distance minimale du sommet de départ = **0**     :point_left:
+3.  Répéter :
+    *   Choisir le sommet **non visité** avec la **distance minimale**
+    *   Marquer le sommet comme **visité**
+    *   Mettre à jour les distances de ses **voisins**   :point_left:
+
+***
+
+## 🏗️ Rôle des attributs (`Vertex`)
+
+*   `distance` : plus courte distance connue depuis le départ
+*   `visited` : indique si le sommet est traité définitivement
+*   `previous` : mémorise le sommet précédent pour reconstruire le chemin
+
+***
+
+## 🔁 Mise à jour des distances
+
+Pour chaque voisin :
+
+    nouvelle_distance = distance_courante + poids_arête
+
+*   Si `nouvelle_distance < distance_voisin` → mise à jour ✅
+*   Sinon → aucune modification ❌
+
+***
+
+## 🧭 Reconstruction du chemin
+
+*   Partir du **sommet cible**
+*   Remonter via `previous`
+*   Inverser la liste obtenue
+
+***
+
+## 📊 Application au TP étudié
+
+*   Chemin le plus court trouvé :
+
+<!---->
+
+    a → c → f → e
+
+*   Justification : **somme des poids minimale** par rapport aux autres chemins possibles
+
+***
+
+## ⚠️ À savoir / Pièges fréquents
+
+*   Dijkstra ≠ Bellman‑Ford (ce dernier gère les poids négatifs)
+*   Un sommet « visité » → distance **définitive**
+*   La structure de données (liste, tas) influence les **performances**
+
+***
+
+✅ **À retenir absolument**
+
+> Dijkstra = exploration progressive + distances minimales + reconstruction du chemin
+

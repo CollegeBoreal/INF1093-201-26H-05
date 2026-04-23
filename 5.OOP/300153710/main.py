@@ -1,83 +1,86 @@
-"""
-Fichier : main.py
-Description : Point d'entrée du programme. Crée un carré et un cercle et affiche leurs informations.
-Auteur : [300153710]
+Abdelfettah Samy 300153710
+from Carre import Carre
+from Rectangle import Rectangle
+from Triangle import Triangle
+from Cercle import Cercle
+from Losange import Losange
+from Trapeze import Trapeze
+from Parallelogramme import Parallelogramme
+from Pentagone import Pentagone
+from Hexagone import Hexagone
+from Octogone import Octogone
+from Ovale import Ovale
+from Anneau import Anneau
 
-"""
-
-from carre import Carre
-from cercle import Cercle
-from losange import losange
-from parallelogramme import parallelogramme
-from cylindre import cylindre
-from prisme_carre import prisme_carre
-from prisme_losange import prisme_losange
-from prisme_parallelogramme import prisme_parallelogramme
-from sphere import sphere
-from cone import cone
+from Cube import Cube
+from Sphere import Sphere
+from Cylindre import Cylindre
+from Cone import Cone
+from Pyramide import Pyramide
+from Prisme import Prisme
+from Tore import Tore
+from Hemisphere import Hemisphere
 
 
+def afficher_infos(forme):
+    print("=" * 50)
+    print(f"Forme : {forme.__class__.__name__}")
 
+    if hasattr(forme, "afficher_infos"):
+        try:
+            forme.afficher_infos()
+        except:
+            pass
 
+    if hasattr(forme, "aire"):
+        try:
+            print("Aire :", forme.aire())
+        except:
+            pass
 
+    if hasattr(forme, "surface"):
+        try:
+            print("Surface :", forme.surface())
+        except:
+            pass
 
+    if hasattr(forme, "volume"):
+        try:
+            print("Volume :", forme.volume())
+        except:
+            pass
 
 
 def main():
-    """
-    Fonction principale du programme.
-    Crée un carré et un cercle, puis affiche leurs informations.
-    """
-    # Création d'un carré de côté 4
-    c1 = Carre(4)
+    formes = [
+        Carre(4),
+        Rectangle(6, 3),
+        Triangle(5, 4),
+        Cercle(3),
+        Losange(6, 4),
+        Trapeze(7, 5, 4),
+        Parallelogramme(6, 3),
+        Pentagone(4, 2.75),
+        Hexagone(4, 3.46),
+        Octogone(4, 4.83),
+        Ovale(5, 3),
+        Anneau(5, 2),
 
-    # Création d'un cercle de rayon 3
-    c2 = Cercle(3)
+        Cube(3),
+        Sphere(3),
+        Cylindre(3, 5),
+        Cone(3, 5),
+        Pyramide(4, 6),
+        Prisme(4, 6),
+        Tore(5, 2),
+        Hemisphere(3)
+    ]
 
-     # Création d'un losange de diagonal 10 et 8
-    c3 = losange(10,8)
+    print("\nAFFICHAGE DES 20 FORMES\n")
 
-    # Création d'un parallelograme de diagonal 12 et 7
-    c4 = parallelogramme(12,7)
-
-     # Création d'un cylindre 
-    c5 = cylindre(rayon=10,hauteur=5)
-
-      # Création d'un prisme_carre
-    c6 = prisme_carre(cote=8,hauteur=4)
-
-    
-      # Création d'un prisme_losange
-    c7 = prisme_losange(d1=16,d2=8,hauteur=4)
-
-    
-      # Création d'un prisme_parallelogramme
-    c8 = prisme_parallelogramme(12,6,2)
-
-     # Création d'un sphere
-    c9 = sphere(1.33)
-
-     # Création d'un cone
-    c10 = cone(0.33, 2)
-
-    # Affichage des informations des deux figures
-    print(c1.afficher_info())
-    print(c2.afficher_info())
-    print(c3.afficher_info())
-    print(c4.afficher_info())
-    print(c5.afficher_info())
-    print(c6.afficher_info())
-    print(c7.afficher_info())
-    print(c8.afficher_info())
-    print(c9.afficher_info())
-    print(c10.afficher_info())
+    for forme in formes:
+        afficher_infos(forme)
 
 
-
-
-
-
-
-# Point d'entrée du programme
 if __name__ == "__main__":
     main()

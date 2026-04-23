@@ -35,3 +35,6 @@ $STUDENTS = @(
    "300158486|lyes158|232938643"
    "300159189|fateh98|232939045"
 )
+
+# https://${env:LMS_URL}/course/view.php?id=5
+$LMS_COURSE=5
